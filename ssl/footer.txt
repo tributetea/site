@@ -1,0 +1,9 @@
+    <tr>
+    <td class="tdFooter" valign="bottom" align="center"><%If iBrandActive Then%><a target="bottom" href="http://www.storefront.net/default.asp?REFERER=<%= sAffID %>"><img valign="bottom" border="0" src="images/storefront1.jpg"></a>&nbsp;&nbsp;&nbsp;<% End If %><a href="<%= C_HomePath %>">Home</a> | <a href="<%= C_HomePath %>search.asp">Search</a> | <a href="<%= C_HomePath %>order.asp">Current Order</a> <% If iSaveCartActive = 1 Then %>| <a href="<%= C_HomePath %>savecart.asp"><%=Application("CartName")%></a><%End If%>
+	<% If iEzeeHelp = 1 Then %>
+		 | <a target="bottom" href="http://www.ezeehelp.com/storefront/<%= sEzeeHelp %>/call.asp?ret=query">Help</a>&nbsp;&nbsp;&nbsp;<a target="bottom" href="http://www.ezeehelp.com/storefront/<%= sEzeeHelp %>/call.asp?ret=query"><img border="0" src="<%= C_BTN15 %>"></a>
+    <% End If %>
+    
+    </td>
+    </tr>
+

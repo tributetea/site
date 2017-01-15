@@ -1,0 +1,18 @@
+    <tr>
+  <td class="tdFooter" valign="bottom" align="center"> 
+  <td height="32" colspan="8" valign="top"> 
+    <p align="center"><a href="matcha.htm"><font face="Arial, Helvetica, sans-serif" size="2"><br>
+      MATCHA</font></a><font size="3" face="Arial, Helvetica, sans-serif"> &nbsp 
+      &nbsp| &nbsp &nbsp</font><font size="2" face="Arial, Helvetica, sans-serif"><a href="tea.htm">LEAF-TEA</a></font><font size="3" face="Arial, Helvetica, sans-serif"> 
+      &nbsp &nbsp| &nbsp &nbsp</font><font size="2" face="Arial, Helvetica, sans-serif"><a href="teaware.htm">TEAWARE</a></font><font size="3" face="Arial, Helvetica, sans-serif"> 
+      &nbsp &nbsp| &nbsp &nbsp</font><font size="2" face="Arial, Helvetica, sans-serif"><a href="wholesale.htm">WHOLESALE</a></font><font size="3" face="Arial, Helvetica, sans-serif"> 
+      &nbsp &nbsp| &nbsp &nbsp</font><font size="2" face="Arial, Helvetica, sans-serif"><a href="about.htm">ABOUT</a></font><font size="3" face="Arial, Helvetica, sans-serif"> 
+      &nbsp &nbsp| &nbsp &nbsp</font><a href="contact.htm"><font face="Arial, Helvetica, sans-serif" size="2">CONTACT</font></a></p>
+        <p align="center"><font face="Arial, Helvetica, sans-serif"><b><font size="3" color="#660099">TRIBUTE</font></b><font size="1" color="#000000">.</font><b><font size="3" color="#660099">TEA</font><font size="2" color="#660099"><br>
+          &copy;<font size="1"> </font>Tribute<font color="#000000" size="1">.</font>Tea<font size="1"> 
+          </font>Company</font></b></font><font size="2" color="#660099"><b><font face="Arial, Helvetica, sans-serif"><br>
+          </font></b><font face="Arial, Helvetica, sans-serif">All rights reserved.</font></font></p>
+        <p align="center"><font color="#000000">In Imperial times, the finest 
+          teas were reserved as TRIBUTE for the Emperor and his court.</font></p>
+    </td>
+    </tr>

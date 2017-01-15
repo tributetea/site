@@ -1,0 +1,90 @@
+<htmll>
+<head>
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="615" align="center">
+  <tr> 
+    <td height="19" valign="top" colspan="8">&nbsp;</td>
+    <td width="1"></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="2" rowspan="4"><a href="index.html" onClick="MM_nbGroup('down','group1','tribute','',1)" onMouseOver="MM_nbGroup('over','tribute','navigation/tribute_tea_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="tribute" src="navigation/tribute_tea.gif" border="0" onLoad="" width="277" height="51"></a></td>
+    <td width="56" valign="top" rowspan="4"><a href="about.html" onClick="MM_nbGroup('down','group1','logo','',1)" onMouseOver="MM_nbGroup('over','logo','navigation/logo_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="logo" src="navigation/logo.gif" border="0" onLoad="" width="56" height="57"></a></td>
+    <td width="69" height="1"></td>
+    <td width="39"></td>
+    <td width="6"></td>
+    <td width="63"></td>
+    <td width="104"></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="27" valign="top"><a href="teas.html" onClick="MM_nbGroup('down','group1','tea','',1)" onMouseOver="MM_nbGroup('over','tea','navigation/teas_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="tea" src="navigation/teas.gif" border="0" onLoad="" width="69" height="27"></a></td>
+    <td valign="top" colspan="3"><a href="teaware.html" onClick="MM_nbGroup('down','group1','teaware','',1)" onMouseOver="MM_nbGroup('over','teaware','navigation/teaware_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="teaware" src="navigation/teaware.gif" border="0" onLoad="" width="108" height="27"></a></td>
+    <td valign="top"><a href="dimsum.html" onClick="MM_nbGroup('down','group1','dimsum','',1)" onMouseOver="MM_nbGroup('over','dimsum','navigation/dim_sum_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="dimsum" src="navigation/dim_sum.gif" border="0" onLoad="" width="104" height="27"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="2" height="23"><a href="incense.html" onClick="MM_nbGroup('down','group1','incense','',1)" onMouseOver="MM_nbGroup('over','incense','navigation/incense_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="incense" src="navigation/incense.gif" border="0" onLoad="" width="108" height="23"></a></td>
+    <td valign="top" colspan="3"><a href="booksmusic.html" onClick="MM_nbGroup('down','group1','booksmusic','',1)" onMouseOver="MM_nbGroup('over','booksmusic','navigation/books_music_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="booksmusic" src="navigation/books_music.gif" border="0" onLoad="" width="173" height="23"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="6"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>

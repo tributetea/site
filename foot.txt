@@ -1,0 +1,12 @@
+<tr>
+<td height="32" colspan="8" valign="top"> 
+      <div align="center"> 
+        <p><a href="index.html">HOME</a> 
+            | <a href="teas.asp">TEAS</a> | <a href="herbs.asp">HERBS</a> | <a href="teaware.asp">TEAWARE</a> 
+            | <a href="incense.asp">INCENSE</a> | <a href="books.asp">BOOKS 
+            & MUSIC</a> | <a href="teagifts.asp">GIFTS</a> | <a href="sale.asp">SPECIALS</a><br>
+            <a href="teaschool.asp">TEA SCHOOL</a> | <a href="news.asp">NEWS</a> 
+            | <a href="about.asp">ABOUT TT</a> | <a href="faq.asp">Q & A</a> 
+            | <a href="wholesale.asp">WHOLESALE</a> | <a href="contact.asp">CONTACT</a></p>
+			</div>
+      </td>

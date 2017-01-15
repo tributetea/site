@@ -1,0 +1,39 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+function getForm(){
+    var con = document.getElementById('contents');
+    var sel = document.getElementById('months');
+    con.src = sel.options[sel.options.selectedIndex].value;
+}
+function getDomain(){
+    var myDomain = document.domain;
+    document.title = "Statistics for " + myDomain;
+}
+</script>
+</head>
+
+<body onload = "getForm();getDomain();">
+<table width = "100%" height = "100%">
+<tr>
+<td width="100%" valign="top">
+<!-- THIS IS THE TABLE FOR THE MENU -->
+<form>
+<b>Reported Period: </b>
+<select id = "months" onchange="getForm();">
+<!--#exec cgi="/cgi-bin/monthdir.pl"-->
+</select>
+</form>
+</td>
+</tr>
+<!-- END MENU TABLE AND CANCEL TD, NEW TD FOR MAIN CONTENT: -->
+<tr>
+<td width="100%" valign="top" height="100%">
+<iframe height="100%" width="100%" scrolling="auto" name="main" frameborder="0" src="" id="contents"></iframe>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>

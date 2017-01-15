@@ -1,0 +1,20 @@
+<tr>
+<td height="32" colspan="8" valign="top"> 
+      <div align="center"> 
+        <p><font color="#FFFFFF" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.tributetea.com/index.html"><font color="#FFFFFF">HOME</font></a><font color="#FFFFFF"> 
+          | </font><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.tributetea.com/teas.asp"><font color="#FFFFFF">TEAS</font></a><font color="#FFFFFF"> 
+          </font></font><font color="#FFFFFF" size="2">| </font><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.tributetea.com/teaware.asp"><font color="#FFFFFF">TEAWARE</font></a><font color="#FFFFFF"> 
+          </font></font><font color="#FFFFFF" size="2">| </font><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.tributetea.com/herbs.asp"><font color="#FFFFFF">HERBS</font></a><font color="#FFFFFF"> </font></font><font color="#FFFFFF" size="2">| 
+          </font><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.tributetea.com/incense.asp"><font color="#FFFFFF">INCENSE</font></a></font><font color="#FFFFFF" size="2"> 
+          | </font><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.tributetea.com/books.asp"><font color="#FFFFFF">BOOKS 
+          & MUSIC</font></a></font><font color="#FFFFFF" size="2"><br>
+          </font><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.tributetea.com/teaschool.asp"><font color="#FFFFFF">TEA 
+          SCHOOL</font></a><font color="#FFFFFF"> | </font><a href="http://www.tributetea.com/news.asp"><font color="#FFFFFF">NEWS</font></a><font color="#FFFFFF"> 
+          | </font><a href="http://www.tributetea.com/about.asp"><font color="#FFFFFF">ABOUT TT</font></a><font color="#FFFFFF"> 
+          | </font><a href="http://www.tributetea.com/faq.asp"><font color="#FFFFFF">Q & A</font></a><font color="#FFFFFF"> 
+          | </font><a href="http://www.tributetea.com/wholesale.asp"><font color="#FFFFFF">WHOLESALE</font></a><font color="#FFFFFF"> 
+          | </font><a href="http://www.tributetea.com/contact.asp"><font color="#FFFFFF">CONTACT</font></a><font color="#FFFFFF"> 
+          | </font><a href="http://www.tributetea.com/search.asp"><font color="#FFFFFF">SEARCH</font></a></font></font></p>
+        
+      </div>
+  </td>

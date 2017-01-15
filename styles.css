@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+.contact-form {
+	width: 260px;
+	margin: auto auto;
+	border: 1px #339900 solid;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1) inset;
+	box-sizing: border-box;
+; clip:   rect(   )
+; height: 122px
+; left: auto; top: auto
+; padding: 6px 10px 0px
+; background-color: #000000
+}
+
+.contact-form form {
+	margin: 0px;
+}
+
+.contact-form h1 {
+	text-align: center;
+	margin-top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+.contact-form h2 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+.control-group {
+; font-family: Arial, Helvetica, sans-serif
+; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto
+; padding-bottom: 10px
+; color: #0000FF
+}
+
+.control-group label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.control-group input[type="text"] {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #339900;
+	outline: none;
+	padding: 0px 0px 0px 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.control-group input[type="submit"] {
+	width: 100%;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	outline: none;
+	text-align: center;
+	font-family: 'Open Sans', 'sans-serif';
+	font-size: 13;
+	font-weight: bold;
+	color: #ffffff;
+	border: 1px solid #339900;
+	background: #339900;
+	background: -moz-linear-gradient(top, #339900 0%, #99bd0d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b8d837), color-stop(100%,#99bd0d));
+	background: -webkit-linear-gradient(top, #339900 0%,#99bd0d 100%);
+	background: -o-linear-gradient(top, #339900 0%,#99bd0d 100%);
+	background: -ms-linear-gradient(top, #339900 0%,#99bd0d 100%);
+	background: linear-gradient(to bottom, #339900 0%,#99bd0d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#339900', endColorstr='#99bd0d',GradientType=0 );
+}
+
+.control-group input[type="submit"]:hover {
+	cursor: pointer;
+	background: #99bd0d;
+	background: -moz-linear-gradient(top, #99bd0d 0%, #339900 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99bd0d), color-stop(100%,#339900));
+	background: -webkit-linear-gradient(top, #99bd0d 0%,#339900 100%);
+	background: -o-linear-gradient(top, #99bd0d 0%,#339900 100%);
+	background: -ms-linear-gradient(top, #99bd0d 0%,#339900 100%);
+	background: linear-gradient(to bottom, #99bd0d 0%,#339900 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99bd0d', endColorstr='#339900',GradientType=0 );
+}
+
+.no-margin {
+	margin: 0px; 
+}
+
+.contact-form label.error{
+	margin-bottom: 0px;
+	background: #CC0000 center center;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;    
+; margin-top: auto; margin-right: auto; margin-left: auto
+; font-size: x-small; font-weight: bold
+; clip:  rect(   )
+; height: auto; width: auto
+; padding-right: 5px; padding-bottom: 2px; padding-left: 5px
+}
+
+div#errors{
+    display:none;
+; height: auto; width: 100%; margin-top: auto; margin-right: auto
+}
+
+.contact-form #msg_submitting{
+    display:none;
+; text-decoration: blink
+}
+
+.contact-form #msg_submitted{
+    display:none;
+; clip:  rect(   )
+}
+.control-group .email {	background: #FFFFFF url(images/mail.png) no-repeat 10px center; ; margin-top: 6px; margin-right: auto; margin-left: auto; height: auto; width: auto; left: auto; top: auto; clip:  rect(auto auto auto auto); font-family: Arial, Helvetica, sans-serif; font-size: small; color: #666666}
+div#errors  { 
+	border: none!important;
+	margin-bottom: auto;
+	background: #CC0000;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;    
+; margin-left: auto ; font-size: x-small; font-weight: bold; padding-bottom: 0px} 

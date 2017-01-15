@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>TRIBUTE TEA - Incense History</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body bgcolor="#FFFFFF" text="#666666" onLoad="MM_preloadImages('../navigation/1teaware_g.gif','../navigation/logo_g.gif','../navigation/tribute_tea_g.gif','../navigation/incense_g.gif','../navigation/1teas_g.gif','../navigation/1herbs_g.gif','../navigation/books_music_g.gif')" link="#666666" vlink="#666666" alink="#666666">
+<div align="center"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="614">
+    <tr> 
+      <td valign="top" width="277" rowspan="2"><a href="../index.html" onClick="MM_nbGroup('down','group1','home','',1)" onMouseOver="MM_nbGroup('over','home','../navigation/tribute_tea_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="home" src="../navigation/tribute_tea.gif" border="0" onLoad="" width="277" height="51"></a></td>
+      <td valign="top" width="56" rowspan="3"><a href="../about.asp" onClick="MM_nbGroup('down','group1','logo','',1)" onMouseOver="MM_nbGroup('over','logo','../navigation/logo_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="logo" src="../navigation/logo.gif" border="0" onLoad="" width="56" height="57"></a></td>
+      <td height="50" width="282" valign="top"><a href="../teas.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image81','','../navigation/1teas_g.gif',1)"><img name="Image81" border="0" src="../navigation/1teas.gif" width="73" height="27"></a><a href="../herbs.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','../navigation/1herbs_g.gif',1)"><img name="Image9" border="0" src="../navigation/1herbs.gif" width="85" height="27"></a><a href="../teaware.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','../navigation/1teaware_g.gif',1)"><img name="Image10" border="0" src="../navigation/1teaware.gif" width="123" height="27"></a><a href="../incense.asp" onClick="MM_nbGroup('down','group1','incense','',1)" onMouseOver="MM_nbGroup('over','incense','../navigation/incense_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="incense" src="../navigation/incense.gif" border="0" onLoad="" width="108" height="23"></a><a href="../books.asp" onClick="MM_nbGroup('down','group1','booksmusic','',1)" onMouseOver="MM_nbGroup('over','booksmusic','../navigation/books_music_g.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="booksmusic" src="../navigation/books_music.gif" border="0" onLoad="" width="173" height="23"></a></td>
+      </tr>
+    <tr>
+      <td height="1"></td>
+    </tr>
+    <tr> 
+      <td height="6"></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<table border="0" cellpadding="0" cellspacing="0" width="614" align="center" height="438">
+  <tr> 
+    <td height="19" valign="top" colspan="3"> 
+      <div align="center"><font size="2">PAGE: <a href="incense1.html">1</a> | 
+        <font color="#000000">2</font> | <a href="incense3.html">3</a> | <a href="incense4.html">4</a> 
+        | <a href="incense5.html">5</a></font></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="18" valign="top" colspan="3"> 
+      <div align="center"><font size="1"><img src="tt_i_history.gif" width="181" height="16"></font></div>
+      </td>
+  </tr>
+  <tr> 
+    <td height="336" width="157" valign="top">&nbsp;</td>
+    <td width="300" valign="top"> 
+      <div align="center"> <font size="-1"><b><font size="1"><br>
+        <img src="buddha.jpg" width="182" height="182"> <br>
+        </font></b></font><font size="1"><br>
+        </font><font color="#000000">Consider the example of Buddhism, which originated 
+        in India and spread first to China and then, like tea drinking, to Japan, 
+        where all three <br>
+        &#150;incense, Buddhism &amp; tea&#150; attained new levels of refinement 
+        &amp; sophistication.<font size="1"><br>
+        <br>
+        </font>By the time of the Tang dynasty in China (618-907) the use of incense 
+        was highly developed, not only in religious and imperial rituals, but 
+        also in homes, cosmetics, clothing, writing paper, and so on.</font><font size="1"><br>
+        <br>
+        <img src="koh.gif" width="130" height="185"><br>
+        <b><i><br>
+        <font size="-1">KOH - Japanese for &quot;Incense&quot;</font></i></b><br>
+        <font color="#000000"><br>
+        </font></font><font color="#000000">At about this time incense began to 
+        take root in Japan, having arrived from China (along with Buddhism and 
+        tea) during the 6th century. Eventually, Japan would develop games, ceremonies 
+        and even schools dedicated to the appreciation of incense.<font size="1"><br>
+        <br>
+        </font>During the Ming dynasty (1368-1644) stick incense was developed 
+        in China and quickly mastered by the Japanese, who have come to be regarded 
+        as the greatest practitioners of the art in the world. </font><font size="1"><br>
+        <br>
+        <font size="-1">(<font color="#999999" face="Arial, Helvetica, sans-serif"><font color="#999999" face="Arial, Helvetica, sans-serif"><a href="incense1.html"><font color="#666666">PREVIOUS</font></a></font></font>) 
+        - (<font color="#999999" face="Arial, Helvetica, sans-serif"><font color="#999999" face="Arial, Helvetica, sans-serif"><a href="incense3.html"><font color="#666666">NEXT</font></a></font></font>)</font></font></div>
+      </td>
+    <td width="157" valign="top">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="109" colspan="3" valign="top"> 
+      <div align="center"><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><font color="#999999" size="2" face="Arial, Helvetica, sans-serif"><a href="../index.html"><font color="#666666"><br>
+        </font></a></font></font></font> 
+        <div align="center"> 
+          <div align="center"> 
+            <div align="center">
+              <p><font face="Arial, Helvetica, sans-serif"><a href="../index.html"><font size="-1">HOME</font></a><font size="-1"> 
+                | <a href="../teas.asp">TEAS</a> | <a href="../herbs.asp">HERBS</a> 
+                | <a href="../teaware.asp">TEAWARE</a> | <a href="../incense.asp">INCENSE</a> 
+                | <a href="../books.asp">BOOKS &amp; MUSIC</a> | <a href="../teagifts.asp">GIFTS</a><br>
+                <a href="../teaschool.asp">TEA SCHOOL</a> | <a href="../news.asp">NEWS</a> 
+                | <a href="../about.asp">ABOUT TT</a> | <a href="../faq.asp">Q 
+                &amp; A</a> | <a href="../wholesale.asp">WHOLESALE</a> | <a href="../contact.asp">CONTACT</a>| 
+                <a href="../search.asp" target="_blank">SEARCH</a></font></font></p>
+              <p><font size="-2"><a href="../privacy_security.asp"><font color="#CC0000">PRIVACY</font></a><font color="#CC0000"> 
+                <font color="#000000"><b>|</b></font> </font></font><font color="#999999" size="-2" face="Arial, Helvetica, sans-serif"><a href="../privacy_security.asp"><font color="#CC0000">SECURITY</font></a></font></p>
+            </div>
+            <font color="#666600" size="-2"><font color="#990000" face="Arial, Helvetica, sans-serif"><b><font color="#CC0000">&copy; 
+            2003 TT. All rights reserved.</font></b></font></font></div>
+          </div>
+      </div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<td valign="top" width="642" height="51">
+  <div align="center"><img src="tt_nav.gif" width="642" height="57" usemap="#Map" border="0"> 
+    <map name="Map"> 
+      <area shape="rect" coords="19,6,291,46" href="/index.html">
+      <area shape="rect" coords="295,-25,347,51" href="/about.asp" alt="About T.T." title="About T.T.">
+      <area shape="rect" coords="526,47,625,57" href="/order.asp">
+      <area shape="rect" coords="623,37,642,56" href="/order.asp">
+      <area shape="rect" coords="350,6,420,27" href="/teas.asp">
+      <area shape="rect" coords="351,26,455,46" href="/incense.asp">
+      <area shape="rect" coords="419,6,506,27" href="/herbs.asp">
+      <area shape="rect" coords="505,6,622,28" href="/teaware.asp">
+      <area shape="rect" coords="454,27,623,47" href="/books.asp">
+    </map>
+  </div>
+</td>

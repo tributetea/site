@@ -1,0 +1,14 @@
+<td valign="top" width="642" height="51">
+  <div align="center"><img src="file:///C|/tribute_tea/ssl/navigation/tt_nav.gif" width="642" height="57" usemap="#Map" border="0"> 
+    <map name="Map"> 
+      <area shape="rect" coords="19,6,291,46" href="http://www.tributetea.com/index.htm">
+      <area shape="rect" coords="295,-25,347,51" href="http://www.tributetea.com/about.asp" alt="About T.T." title="About T.T.">
+      <area shape="rect" coords="350,6,423,27" href="http://www.tributetea.com/teas.asp">
+      <area shape="rect" coords="350,26,468,47" href="http://www.tributetea.com/teaware.asp">
+      <area shape="rect" coords="422,6,511,27" href="http://www.tributetea.com/herbs.asp">
+      <area shape="rect" coords="510,5,623,27" href="http://www.tributetea.com/incense.asp">
+      <area shape="rect" coords="504,25,623,46" href="http://www.tributetea.com/sale.asp">
+      <area shape="rect" coords="467,26,505,47" href="http://www.tributetea.com/teas.asp" alt="Teas" title="Teas">
+    </map>
+  </div>
+</td>

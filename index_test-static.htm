@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>TRIBUTE TEA | Homepage Test</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" onLoad="MM_preloadImages('home/nav/nav-1b.gif','home/nav/nav-2b.gif','home/nav/nav-3b.gif','home/nav/nav-4b.gif')">
+<div align="center">
+  <table width="960" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td width="960" height="43" valign="top"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','home/nav/nav-1b.gif',1)"><img name="Image3" border="0" src="home/nav/nav-1a.gif" width="144" height="43"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','home/nav/nav-2b.gif',1)"><img name="Image4" border="0" src="home/nav/nav-2a.gif" width="113" height="43"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','home/nav/nav-3b.gif',1)"><img name="Image5" border="0" src="home/nav/nav-3a.gif" width="113" height="43"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','home/nav/nav-4b.gif',1)"><img name="Image6" border="0" src="home/nav/nav-4a.gif" width="222" height="43"></a><img src="home/nav/nav-5.gif" width="367" height="43"></td>
+    </tr>
+    <tr> 
+      <td valign="top" height="598"> 
+        <div align="center"><img src="home/slide_test.jpg" width="960" height="598"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td height="9" valign="top"> 
+        <div align="center"><img src="home/imperial_times-foot.gif" width="960" height="9"></div>
+      </td>
+    </tr>
+  </table>
+<div class="contact-form">
+        
+		<form id="contact-form" method="POST" action="form-to-email.php">
+			
+    <div class="control-group"> <label></label><label>Email</label> 
+      <input class="email" type="text" name="email" />
+    </div>
+
+			<div id="errors"></div>
+
+			<div class="control-group no-margin">
+				<input type="submit" name="submit" value="Submit" id="submit" />
+			</div>
+
+		</form>
+        <div id='msg_submitting'><h2>Submitting ...</h2></div>
+        <div id='msg_submitted'><h2>Thank you !<br> The form was submitted Successfully.</h2></div>
+	</div>
+
+
+	<!-- JavaScript Files -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/additional-methods.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- End JavaScript Files -->
+</div>
+</body>
+</html>

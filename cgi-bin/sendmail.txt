@@ -1,0 +1,7 @@
+Put sendmail.asp in your CGI-BIN directory,
+edit the email addresses in the sendmail.asp
+and put this HTML tag in your FORM.
+
+<FORM method="post" action="/cgi-bin/sendmail.asp">
+
+It is this easy!

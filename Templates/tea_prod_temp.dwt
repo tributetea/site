@@ -1,0 +1,72 @@
+<html>
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>Tea Selections - TRIBUTE TEA</title>
+<!-- #EndEditable -->
+<!-- #BeginEditable "description" -->
+<meta name="description" content="Tribute Tea's selection of fine teas, including: green tea, white tea, oolong, black tea, Puerh, scented tea, chai and tea samplers.">
+<!-- #EndEditable -->
+<!-- #BeginEditable "keywords" -->
+<meta name="keywords" content="green tea, white tea, oolong, black tea, Puerh, earl grey, jasmine tea, chai, incense, Beehouse teapots (Bee House teapots), tea accessories, teaware, tea information, tea books, tea music">
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body text="#666666" link="#666666" alink="#666666" vlink="#666666" bgcolor="#FFFFFF">
+<div align="center"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="614">
+    <tr> 
+      <td valign="top" width="642" height="51"><img src="/navigation/tt_nav.gif" width="642" height="57" usemap="#Map" border="0"> 
+        <map name="Map"> 
+          <area shape="rect" coords="19,6,291,46" href="index.html">
+          <area shape="rect" coords="295,-25,347,51" href="about.asp" alt="About T.T." title="About T.T.">
+          <area shape="rect" coords="526,47,625,57" href="order.asp">
+          <area shape="rect" coords="623,37,642,56" href="order.asp">
+          <area shape="rect" coords="350,6,420,27" href="teas.asp">
+          <area shape="rect" coords="350,26,455,49" href="incense.asp">
+          <area shape="rect" coords="419,7,506,27" href="herbs.asp">
+          <area shape="rect" coords="505,7,622,28" href="teaware.asp">
+          <area shape="rect" coords="454,27,623,47" href="booksmusic.asp">
+        </map>
+      </td>
+      <td width="1"></td>
+    </tr>
+  </table>
+</div>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<table border="0" cellpadding="0" cellspacing="0" width="607" align="center" height="438">
+  <tr> 
+    <td height="19" valign="top" colspan="3"><!-- #BeginEditable "links" --> 
+      <div align="center"></div>
+      <!-- #EndEditable --></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="175" rowspan="2"><!-- #BeginEditable "field1" --><font color="#000000"><br>
+      </font> 
+      <div align="right"> 
+        <p><font color="#000000"><b><i>Tea Nam<br>
+          </i></b> Product Info...</font></p>
+      </div>
+      <p align="center"><font color="#000000"><img src="../maps/anhui_map.gif" width="119" height="100" alt="Yunnan"></font></p>
+      <!-- #EndEditable --></td>
+    <td height="257" width="257" valign="top"><!-- #BeginEditable "image" --> 
+      <div align="center"><img src="../teas/puerh/aged_puerh_cake_prod.jpg" width="257" height="257" alt="PlumFlower Puerh Cake"></div>
+      <!-- #EndEditable --></td>
+    <td width="175" rowspan="2" valign="top"><!-- #BeginEditable "field2" --> 
+      <p><font color="#000000"><br>
+        <b><font size="-1">PREPARATION</font></b>:<font size="1"><br>
+        <br>
+        </font>To prepare ...</font></p>
+      <p align="center"><img src="../teas/cup_gr_p.jpg" width="111" height="100" alt="Green Puerh"></p>
+      <!-- #EndEditable --></td>
+  </tr>
+  <tr> 
+    <td height="51" valign="top"><!-- #BeginEditable "cart" --> 
+      <div align="center"><a href="<%= Session("DomainPath") %>order.asp"> </a><a href="<%= Session("DomainPath") %>order.asp"> 
+        </a></div>
+      <!-- #EndEditable --></td>
+  
+  </tr>
+  <!--#include file="/tt_footer.txt"-->
+</table>
+</body>
+</html>

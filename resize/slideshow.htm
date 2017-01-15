@@ -1,0 +1,58 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- optional touchswipe file to enable swipping to navigate slideshow -->
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+
+<style>
+
+#fadeshow4 .gallerylayer img{ /* make all images inside fadeshow4 scale to 100% of slideshow width */
+width: 100%;
+height: auto;
+}
+
+</style>
+
+<script type="text/javascript" src="fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+	dimensions: [1000, 727], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	
+	imagearray: [
+		["slides/org_tea.jpg"],
+		["slides/IMG_4909.jpg"],
+		["slides/IMG_4911.jpg"],
+		["slides/IMG_4920.jpg"],
+		["slides/IMG_4921.jpg"],
+		["slides/IMG_5501.jpg"],
+		["slides/IMG_5506.jpg"],
+		["slides/IMG_5529.jpg"]
+	],
+	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
+	persist: true, //remember last viewed slide and recall within same session?
+	fadeduration: 1000, //transition duration (milliseconds)
+	descreveal: "always",
+	togglerid: ""
+})
+
+
+
+</script>
+
+<body bgcolor="#000000">
+<div align="center"></div>
+<div id="fadeshow1"></div>
+<div align="center"><font color="#FFFFFF"><br />
+  </font></div>
+<div id="fadeshow4"></div>
+<div id="fadeshow4toggler" style="width:50%; text-align:center; margin-top:0px"> 
+</div>

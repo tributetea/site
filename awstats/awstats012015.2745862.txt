@@ -1,0 +1,2603 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 33696               
+POS_DAY 74858               
+POS_DOMAIN 3593                
+POS_LOGIN 3829                
+POS_ROBOT 3984                
+POS_WORMS 5161                
+POS_EMAILSENDER 5292                
+POS_EMAILRECEIVER 5435                
+POS_SESSION 75690               
+POS_SIDER 75903               
+POS_FILETYPES 5570                
+POS_OS 5794                
+POS_BROWSER 5954                
+POS_SCREENSIZE 6764                
+POS_UNKNOWNREFERER 6838                
+POS_UNKNOWNREFERERBROWSER 9599                
+POS_ORIGIN 10545               
+POS_SEREFERRALS 10697               
+POS_PAGEREFS 10919               
+POS_SEARCHWORDS 13582               
+POS_KEYWORDS 15049               
+POS_MISC 2199                
+POS_ERRORS 16406               
+POS_CLUSTER 3685                
+POS_SIDER_404 16576               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150201000217 5 335 60802132007
+FirstTime 20150101015708
+LastTime 20150131232412
+LastUpdate 20150202030145 5 0 0 3 1
+TotalVisits 1148                
+TotalUnique 796                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1187                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 19 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 204 905 5558478 5976 6023 114104221
+1 2570 3500 43083245 6004 6056 87488002
+2 2942 3671 4920425 6638 6721 93642672
+3 3240 3680 8427885 7710 7819 103272183
+4 1592 1954 3365627 4826 4880 78761129
+5 716 821 1579336 5231 5314 79290724
+6 1399 1596 5758680 5282 5319 74450883
+7 2591 2745 17639089 5171 5204 93799764
+8 2774 3080 38858721 5255 5353 97551451
+9 973 1099 2809381 7578 7628 163990037
+10 416 818 5542624 5579 5642 111264485
+11 89 422 1774129 5932 5993 102524402
+12 84 370 2604515 7935 7991 136408629
+13 89 306 1873059 6475 6553 95260239
+14 107 377 2603773 5623 5688 121204055
+15 107 557 3479419 4797 4837 81729355
+16 84 416 2227612 4763 4797 78990153
+17 124 510 9140107 7878 7926 112694163
+18 145 826 4386668 5040 5102 87579246
+19 175 490 3809438 6614 6704 101918451
+20 97 732 39350101 5301 5411 99500451
+21 154 903 31163883 6241 6309 108661459
+22 553 1120 18246793 9891 9973 143612995
+23 82 560 7754871 6296 6348 115971015
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 21307 31458 265957859
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 28
+slurp 112736 1290739517 20150131235950 57
+robot 11102 543949223 20150131134123 99
+mj12bot 6924 339107573 20150131223811 362
+googlebot 5404 158356225 20150131225703 53
+\wbot[\/\-] 3459 56268410 20150131235753 215
+baiduspider 1552 17097537 20150131232740 0
+spider 1224 13179759 20150131173054 131
+yandex 1084 32033221 20150131235055 63
+crawl 1078 11748130 20150130062008 15
+java 508 5237327 20150121084417 0
+exabot 38 195458 20150121073013 17
+ia_archiver 49 449851 20150120171423 11
+mojeekbot 2 11035 20150126213722 1
+yacy 2 1210 20150128031711 2
+seznambot 46 575630 20150129124037 9
+feedfetcher\-google 2 54452 20150113031719 0
+ng\/1\. 1 10449 20150114045213 0
+unknown 96 56563 20150131225315 96
+python 15 101783 20150131114232 5
+heritrix 4 34935 20150117040222 1
+surveybot 4 21503 20150121162125 2
+psbot 5 24132 20150112152956 1
+archive\.org_bot 3 1815 20150117101503 3
+wordpress 49 13308 20150129025007 0
+tarantula 1 10468 20150107182212 0
+monster 315 3295411 20150121023037 2
+cfnetwork 5 28520 20150130061405 0
+nutch 8 44292 20150130174818 4
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+asp 20587 41615700 0 0
+htm 337 1927089 0 0
+txt 3 508 0 0
+swf 72 1742982 0 0
+mpga 6 16384 0 0
+html 374 7996818 0 0
+jpg 2991 200831216 0 0
+js 29 269204 0 0
+gif 7059 11557958 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 173
+winxp 19341
+unix 4
+win2000 15
+winnt 6978
+linuxubuntu 8
+win98 3
+linux 677
+macosx 3570
+win2003 40
+Unknown 649
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 56
+firefox28.0 3
+msie6.0 175
+firefox5.0 1
+firefox20.0 1
+firefox3.6 2
+firefox31.9 1
+firefox26.0 18
+firefox3.6.6 27
+firefox18.0 1
+firefox4.0 28
+curl 1
+firefox34.0 981
+lynx 3
+firefox3.5.3 1
+firefox2.0.0.13 2
+links 2
+firefox31.0 139
+msie8.0 732
+firefox13.0.1 1
+msie7.0 49
+msie8.0.6001.18241 1
+wget 4
+msie9.0 192
+firefox27.0 1
+Unknown 240
+firefox11.0 5
+netscape 8
+firefox32.0 3
+msie5.01 39
+firefox17.0 1
+opera 166
+firefox21.0 16
+firefox29.0 11
+firefox10.0.1 15
+firefox3.5.2 6
+msie5.5 4
+firefox12.0 15
+firefox1.5.0.9 2
+nokia 1
+firefox33.0 101
+firefox25.0 3
+mozilla 19382
+netscape5.0 2
+firefox22.0 5
+firefox14.0.1 14
+firefox3.6.28 2
+firefox5.0.1 4
+msie10.0 24
+netscape4.0 3
+firefox6.0 8
+firefox3.6.3 8
+msie 13
+firefox3.5 1
+firefox15.0.1 280
+firefox35.0 655
+safari 8055
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 43
+Mozilla/5.0_(compatible;_DuckDuckGo-Favicons-Bot/1.0;__http://duckduckgo.com) 20150129235011
+Xenu_Link_Sleuth/1.3.8 20150127200658
+aboutthedomain 20150130174002
+Mozilla/4.0_(compatible;_Synapse) 20150120000227
+ltx71_-_(http://ltx71.com/) 20150128062034
+aQ0O010O 20150105211554
+Mozilla 20150131180114
+Mozilla/4.0_(compatible;_GoogleToolbar_5.0.2124.2070;_Windows_6.0;_MSIE_8.0.6001.18241) 20150116035731
+Wget/1.16.1_(cygwin) 20150115043211
+PHP/5.3.28 20150113154617
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20150128054928
+Mozilla/4.0 20150120103346
+Mozilla/5.0_(compatible;_pmoz.info_ODP_link_checker;__http://pmoz.info/doc/botinfo.htm) 20150118052741
+Mozilla/5.0 20150131193829
+YahooCacheSystem;_YahooWebServiceClient 20150131134937
+Mozilla/5.0_(compatible;_Owler/0.4;__;_) 20150129144046
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150130155723
+ShopWiki/1.0_(__http://www.shopwiki.com/wiki/Help:Bot) 20150130141443
+Camo_Asset_Proxy_2.1.0 20150130201226
+Mozilla/5.0_(compatible;_MSIE_or_Firefox_mutant;_not_on_Windows_server;)_Daumoa/4.0 20150107222752
+Mozilla/5.0_(compatible;_SearchmetricsBot;_http://www.searchmetrics.com/en/searchmetrics-bot/) 20150130104333
+NerdyBot 20150131170734
+Nokia5320di/UCWEB8.0.3.99/28/999 20150120002706
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.1.3442_Mobile_Safari/537.35_ 20150130092327
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20150130191800
+Ruby 20150113145039
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20150114093626
+Firefox 20150119131811
+Mozilla/5.0_(compatible;_MSIE_or_Firefox_mutant;_not_on_Windows_server;___http://tab.search.daum.net/aboutWebSearch.html)_Daumoa/3.0 20150131225316
+- 20150131145446
+Microsoft_Office_Mobile/15.0 20150127024550
+M 20150126235141
+Pinterest/0.2_(_http://www.pinterest.com/) 20150129004639
+Mozilla/3.0_(compatible;_Indy_Library) 20150105205314
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.6680;_U;_en)_Presto/2.8.119_Version/11.10 20150121211304
+RestSharp_104.3.3.0 20150117091422
+Mozilla/5.0_(compatible;_Abonti/0.92_-_http://www.abonti.com) 20150118215331
+Xenu_Link_Sleuth/1.3.9_beta 20150114195110
+Bot.AraTurka.com/0.0.2 20150110191613
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20150116132230
+PycURL/7.19.3_libcurl/7.35.0_GnuTLS/2.12.23_zlib/1.2.8_libidn/1.28_librtmp/2.3 20150101141119
+Mozilla/5.0_(compatible;_MSIE_10.0;_Windows_Phone_8.0;_Trident/6.0;_IEMobile/10.0;_ARM;_Touch;_NOKIA;_Lumia_520) 20150104080909
+Microsoft_URL_Control_-_6.00.8169 20150116010659
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 21
+Ruby 20150113145039
+Firefox 20150119131811
+Xenu_Link_Sleuth/1.3.8 20150127200658
+- 20150131145446
+Microsoft_Office_Mobile/15.0 20150127024550
+M 20150126235141
+aboutthedomain 20150130174002
+Pinterest/0.2_(_http://www.pinterest.com/) 20150129004639
+ltx71_-_(http://ltx71.com/) 20150128062034
+aQ0O010O 20150105211554
+PHP/5.3.28 20150113154617
+RestSharp_104.3.3.0 20150117091422
+Xenu_Link_Sleuth/1.3.9_beta 20150114195110
+YahooCacheSystem;_YahooWebServiceClient 20150131134937
+Bot.AraTurka.com/0.0.2 20150110191613
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150130155723
+ShopWiki/1.0_(__http://www.shopwiki.com/wiki/Help:Bot) 20150130141443
+Camo_Asset_Proxy_2.1.0 20150130201226
+Dalvik/1.6.0_(Linux;_U;_Android_4.4.4;_C6603_Build/10.5.1.A.0.283) 20150112095630
+NerdyBot 20150131170734
+Microsoft_URL_Control_-_6.00.8169 20150116010659
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1923 2125
+From1 1 1
+From2 168 342
+From3 128 214
+From4 19087 28776
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+dmoz 3 3
+google 106 274
+search 12 15
+aol 2 2
+yandex 25 25
+ask 2 2
+yahoo 18 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 47
+http://semalt.semalt.com/crawler.php 48 48
+http://buttons-for-website.com 32 32
+http://www.teachat.com/viewtopic.php 7 7
+http://www.bing.com/search 6 6
+http://www.webstream.biz 5 5
+https://duckduckgo.com 4 4
+http://www.openurls.net 3 3
+http://cn.bing.com/search 2 2
+http://anticrawler.org 2 2
+http://www.domain2008.com 2 2
+http://www.rachaeledwards.com/focus/jamaican-herbs-and-their-uses.html 0 1
+http://linksservice.com/nishio-a-famous-tea-producing-city-in-aichi-japan/ 0 2
+http://www.mydellmini.com/forum/member.php 1 1
+http://t-clear-sky.com/news/archives/wp-bbu/20150115193444287.html 1 1
+http://greenlevelgroup.com/bushu/20141231092729659.html 1 1
+http://stupakforcongress.com/wp-includes/wp-puma/20150114161251579.html 1 1
+http://lovetolivehealthyliving.com/healthyeating/matcha-madness/ 0 1
+http://translate.googleusercontent.com/translate_c 0 8
+http://searches.globososo.com/search/images 0 1
+http://www.jardineria.pro/foro/viewtopic.php 0 1
+http://lovetolivehealthyliving.com/2012/05/14/ 0 3
+http://musingforamusement.blogspot.ca/2008_07_01_archive.html 0 1
+http://onlinebooksclub.com 1 1
+http://webcache.googleusercontent.com/search 0 6
+http://myemail.constantcontact.com/Welcome-to-2011-from-Tribute-Tea-.html 0 17
+http://musingforamusement.blogspot.fr/2008_07_01_archive.html 0 1
+http://thembekhumalo.com/2014/12/cheapest-nizoral-shampoo/ 1 1
+http://musingforamusement.blogspot.de/2008_07_01_archive.html 0 3
+http://www.liveinternet.ru/users/svetikh/post165165343 0 1
+http://center.home0796.com/space-uid-545444.html 1 1
+http://chowhound.chow.com/topics/284032 1 1
+http://baexpats.org/topic/31904-any-closed-doors-restaurant-recommendations/page__st__20 0 4
+http://bookcoverimgs.com/kyoto-teapot-mint-green/ 0 3
+http://ask.metafilter.com/52397/Help-me-avoid-overbrewing 1 1
+http://visitsoutherntagalog.com/wp-coco/20150107162946115.html 1 1
+http://forum.guns.ru/forum_light_message/89/093431-m1718781.html 0 1
+http://101ak.com/home.php 1 1
+http://www.pu-erh.net/sections.php 1 1
+http://www.tripadvisor.com/ShowTopic-g186338-i17-k395286-The_Great_Teapot_Mystery_teapot_sleuths_here_s_one_for-London_England.html 1 1
+http://baexpats.org/topic/31904-any-closed-doors-restaurant-recommendations/page__st__20__hl__january 0 1
+http://www.2basnob.com/scented-teas.html 1 1
+http://www.bing.com/images/search 0 28
+http://srv.kwzf.net/image/ 0 1
+http://a.xtopoly.com/search.pg 1 1
+http://cn.bing.com/images/search 0 2
+http://www.5118.com/baidu/top100/www.tributetea.com 1 1
+http://xrumertool.wordpress.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 29
+luohanguo 5
+%e6%ad%a6%e8%94%b5%e6%b5%a6%e5%92%8c%e3%83%9e%e3%83%bc%e3%83%ac%e4%b8%8d%e5%80%ab 3
+keemun+black+tea 3
+js-2505+white+peony 2
+oo2 2
+canister+with+scoop 2
+silver+needle+white+tea 2
+peony+white+tea 2
+quality+srilankan+spice+%26+herbs+sandalwood 2
+d1231+yan+cha 2
+silver+tip+black+ceylon+tea 1
+taiwan+oolong+tea 1
+switching+from+black+tea+to+green+tea 1
+tribute+dragon+well+tea 1
+plain+white+tea+cups+wholesale 1
+%e3%83%ad%e3%83%b3%e3%82%a6%e3%83%ab%e3%83%95+%e3%83%ad%e3%82%ac%e3%83%bc+%e6%89%8b%e5%85%a5%e3%82%8c 1
+%e3%82%a8%e3%83%87%e3%83%8b%e3%83%83%e3%82%af+%e3%83%af%e3%83%b3%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%e3%82%b8%e3%82%a7%e3%83%ab 1
+www.tributetee.com 1
+30h3gwsl6l 1
+%e3%82%a2%e3%83%b3%e3%83%86%e3%83%97%e3%83%aa%e3%83%9e+100%ef%bc%85%e6%9c%ac%e7%89%a9 1
+question+of+tea+production. 1
+tea+questions+and+answers 1
+%e3%81%b1%e3%81%84%e3%83%91%e3%83%8b%e3%83%83%e3%82%af+%e3%83%89%e3%83%ad%e3%83%83%e3%83%97%e3%83%96%e3%83%83%e3%82%af%e3%82%b9 1
+%e3%82%af%e3%83%aa%e3%83%8b%e3%83%83%e3%82%af%e5%8f%97%e4%bb%98%e6%b1%82%e4%ba%ba%e6%9d%b1%e4%ba%ac 1
+%e9%96%a2%e8%a5%bf+%e3%82%bd%e3%83%bc%e3%83%97+%e5%a4%96%e4%ba%ba 1
+%e3%82%b8%e3%83%a3%e3%83%8b%e3%83%bc%e3%82%bajr.+%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b5%e3%83%aa%e3%83%bc 1
+tributetea.com 1
+tribute+to+chance+you+tube 2
+resteeping+jasmine+pearl 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 67
+tea 15
+white 7
+black 5
+luohanguo 5
+peony 4
+%e6%ad%a6%e8%94%b5%e6%b5%a6%e5%92%8c%e3%83%9e%e3%83%bc%e3%83%ac%e4%b8%8d%e5%80%ab 3
+tribute 3
+keemun 3
+to 3
+silver 3
+you 2
+%e3%82%a2%e3%83%b3%e3%83%86%e3%83%97%e3%83%aa%e3%83%9e 1
+cha 2
+%26 2
+green 1
+tip 1
+%e3%82%bd%e3%83%bc%e3%83%97 1
+%e3%82%a8%e3%83%87%e3%83%8b%e3%83%83%e3%82%af 1
+%e3%83%ad%e3%82%ac%e3%83%bc 1
+tube 2
+cups 1
+and 1
+with 2
+canister 2
+of 1
+d1231 2
+needle 2
+from 1
+quality 2
+yan 2
+%e3%81%b1%e3%81%84%e3%83%91%e3%83%8b%e3%83%83%e3%82%af 1
+js-2505 2
+tributetea.com 1
+%e3%83%ad%e3%83%b3%e3%82%a6%e3%83%ab%e3%83%95 1
+taiwan 1
+sandalwood 2
+dragon 1
+ceylon 1
+spice 2
+www.tributetee.com 1
+30h3gwsl6l 1
+wholesale 1
+answers 1
+srilankan 2
+%e5%a4%96%e4%ba%ba 1
+%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b5%e3%83%aa%e3%83%bc 1
+questions 1
+switching 1
+%e3%82%b8%e3%83%a3%e3%83%8b%e3%83%bc%e3%82%bajr. 1
+herbs 2
+100%ef%bc%85%e6%9c%ac%e7%89%a9 1
+%e9%96%a2%e8%a5%bf 1
+oo2 2
+%e3%83%af%e3%83%b3%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%e3%82%b8%e3%82%a7%e3%83%ab 1
+%e6%89%8b%e5%85%a5%e3%82%8c 1
+resteeping 1
+plain 1
+oolong 1
+production. 1
+well 1
+question 1
+%e3%82%af%e3%83%aa%e3%83%8b%e3%83%83%e3%82%af%e5%8f%97%e4%bb%98%e6%b1%82%e4%ba%ba%e6%9d%b1%e4%ba%ac 1
+chance 2
+pearl 1
+%e3%83%89%e3%83%ad%e3%83%83%e3%83%97%e3%83%96%e3%83%83%e3%82%af%e3%82%b9 1
+scoop 2
+jasmine 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 6 3803
+501 12 1656
+302 55 20972
+416 5 900
+206 221 6632374
+500 1602 959401
+404 1974 3403321
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 383
+/js/lib/fckeditor/editor/fckeditor.html 1 -
+/tea_drops.asp 1 -
+/administrator/php/editor/fckeditor.html 1 -
+/wordpress/ 1 -
+/library/fckeditor/editor/fckeditor.html 1 -
+/mailing/tools/fckeditor/editor/filemanager/browser/default/connectors/connector.php 2 -
+/board/ 1 -
+/index1.asp</a>acb<a 1 -
+/store/includes/general.js 1 -
+/phpcms/ 1 -
+/shopex/ 1 -
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>cbe<a 1 -
+/typecho/ 1 -
+/fckeditor/fckeditor.js 1 -
+/common/common.js 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/browser.html 1 -
+/tools/FCKeditor/editor/filemanager/upload/php/upload.php 2 -
+/xmlrpc.php 1 -
+/scented_lemon.asp 1 -
+/admin/edit/editor/filemanager/connectors/asp/connector.asp 2 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 2 http://www.tributetea.com/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/member/space/company/info.txt 1 -
+/include/fckeditor/editor/filemanager/upload/php/upload.php 2 -
+/nyet.gif 2 -
+/palm_springs/ 1 -
+/fckeditor1/editor/fckeditor.html 1 -
+/power/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin_manager/fckeditor/editor/filemanager/connectors/asp/upload.asp 2 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/include/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/manage/editor/fckeditor.html 1 -
+/administrator/editors/fckeditor/fckeditor.html 1 -
+/sladmin/FCKEditor/editor/filemanager/upload/php/upload.php 2 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/connector.php 2 -
+/FCKeditor/editor/fckeditor.html 1 -
+/webmaster/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/iwebshop/ 1 -
+/oly/ 1 http://tributetea.com/links/
+/docs.css 1 -
+/apple-touch-icon-152x152-precomposed.png 1 -
+/webadmin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 2 -
+/admin/inc/xml.xslt 1 -
+/inc/rsd.php 1 -
+/wp-login.php 9 -
+/editor/editor/filemanager/upload/php/upload.php 2 -
+/system/fckeditor/editor/fckeditor.html 1 -
+/WebAdmin/FCKeditor/editor/fckeditor.html 1 -
+/shop/ 10 -
+/admin/system/editor/fckeditor/editor/fckeditor.html 1 -
+/Admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/include/js/fckeditor/editor/filemanager/upload/php/upload.php 2 -
+/link/ 1 -
+/admin/fckeditor/editor/fckeditor.html 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 2 -
+/index.htm 19 -
+/admin/editors/fckeditor/editor/fckeditor.html 1 -
+/license.txt 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 2 -
+/2185/ 1 -
+/verycms/ 1 -
+/fckeditor_ap/editor/fckeditor.html 1 -
+/js/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/comments.asp/trackback/ 3 http://www.tributetea.com/comments.asp
+/Power/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/cmseasy/ 1 -
+/history.txt 1 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.tributetea.com/administrator/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/Editor/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>abc<a 1 -
+/fronteiranorte/editor/editor/fckeditor.html 1 -
+/tea_varieties.html 11 -
+/webmail/ 1 -
+/editors/fckeditor/editor/filemanager/upload/php/upload.php 1 http://www.tributetea.com/editors/fckeditor/editor/filemanager/upload/php/upload.php
+/plus/sitemap.html 1 -
+/path/fckeditor/editor/fckeditor.html 1 -
+/manager/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/herbs_sampler.asp 2 -
+/include/FCKeditor/editor/filemanager/upload/php/upload.php 2 -
+/readme.html 1 -
+/fck/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/system/language/zh-cn.xml 1 -
+/includes/general.js 1 -
+/dedecms/ 1 -
+/managment/fckeditor/editor/filemanager/upload/php/upload.php 2 -
+/site/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/Backend/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/system/skins/default/system.login.htm 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/mail/ 1 -
+/public/js/ips.board.js 1 -
+/backend/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/includes/fckeditor/editor/fckeditor.html 1 -
+/Admin/fCKeditor/editor/filemanager/connectors/test.html 1 -
+/archive/archive.css 1 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.php 2 -
+/webadmin/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/editor/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.tributetea.com/editor/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/green_tea_earl.asp 2 -
+/forum/ 9 -
+/html/proudphufah/admin/fckeditor/editor/fckeditor.html 1 -
+/wordpress/wp-login.php 4 -
+/dvbbs/ 1 -
+/zcms/ 1 -
+/oolong_tea_alishan.asp 1 -
+/Content/Scripts/head_main.js 15 -
+/FCKeditor/editor/filemanager/browser/default/connectors/test.html 2 -
+/myadmin/index.php 1 -
+/FCKeditor/editor/filemanager/browser/default/browser.html 8 -
+/scented_pe_gin.asp 1 -
+/include/js/fckeditor/editor/fckeditor.html 1 -
+/assets/includes/fckeditor/editor/fckeditor.html 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 2 -
+/res/ 1 http://tributetea.com/links/
+/green_tea_karigane.asp 1 -
+/template/home.htm 1 -
+/terms.htm 1 -
+/plus/rssmap.html 1 -
+/wspro/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>adb<a 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>aed<a 1 -
+/fckeditor/editor/filemanager/connectors/asp/connector.asp 2 -
+/WebAdmin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 2 -
+/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/contact.html 5 -
+/WebAdmin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/nk_white_plum.asp 1 -
+/includes/editors/fckeditor/editor/fckeditor.html 1 -
+/include/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>fbf<a 1 -
+/WebAdmin/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/manager/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/portal/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/System/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/nk_lavender.asp 2 -
+/docs/ 1 -
+/leadbbs/ 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/frmupload.html 1 -
+/admin/ 2 http://tributetea.com/admin/
+/oa/fckeditor/editor/fckeditor.html 1 -
+/admin/Fckeditor/editor/filemanager/browser/default/connectors/test.html 4 -
+/plugins/HTMLeditor/FCKeditor/editor/fckeditor.html 1 -
+/green_tea_kawa.asp 1 -
+/FCKeditor/editor/filemanager/upload/php/upload.php 2 -
+/<a+href=/ 1 -
+/core/php/fckeditor/editor/fckeditor.html 1 -
+/index3.htm 1 -
+/apple-touch-icon.png 17 -
+/book_chinese_medicine.asp' 3 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/test.html 2 -
+/Include/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/ckeditor/ckeditor.js 1 -
+/fck/editor/filemanager/connectors/asp/connector.asp 2 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>abb<a 1 -
+/blog/ 6 -
+/about.html 6 -
+/wp/ 1 -
+/system/fckeditor/editor/filemanager/connectors/asp/connector.asp 2 -
+/digg.php 1 -
+/green_tea_lemon.asp 1 -
+/puerh_green_tea_cake.asp 1 http://cdn.slidesharecdn.com/cafetaria-101123150236-phpapp01-slide-149.swf
+/apple-touch-icon-precomposed.png 11 -
+/inc/Templates/rss.xslt 1 -
+/6kbb/ 1 -
+/Editors/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/WebMaster/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/teacups_chawan/ 15 -
+/oscommerce/ 1 -
+/admin/fckeditor1/editor/fckeditor.html 1 -
+/extern.php 1 -
+/inc/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/PS-Kiss/ 2 -
+/Admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 2 -
+/tools/rss.aspx 1 -
+/privacy_security.html 8 -
+/fckeditor/editor/js/fckeditorcode_ie.js 2 -
+/teaschool.html 5 -
+/fck/editor/fckeditor.html 1 -
+/FCKeditor/editor/filemanager/browser/default/frmupload.html 1 -
+/phpmyadmin/index.php 1 -
+/index2.htm 3 -
+/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp 2 -
+/stylesheet.css 1 -
+/lasvegas/ 2 -
+/www.tributetea.com/booksmusic.asp 1 -
+/store/docs/ 1 -
+/feed.asp 1 -
+/Content/Scripts/jquery-2.1.1.min.js 15 -
+/drupal/ 1 -
+/login/editors/fckeditor/editor/fckeditor.html 1 -
+/wp-content/plugins/wp-symposium/server/php/index.php 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>cad<a 1 -
+/index1.asp">michael 2 -
+/power/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 2 -
+/admin/FCKeditor/editor/fckeditor.html‎ 1 -
+/store/stylesheet.css 1 -
+/backend/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.tributetea.com/backend/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/FCKeditor/editor/fckeditor.html‎ 1 -
+/magento/ 1 -
+/herbs_rose_bud.asp 20 -
+/Super/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/admin/wp-login.php 4 -
+/sys/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/mailing/tools/fckeditor/editor/fckeditor.html 1 -
+/FCK/fckeditor.js 1 -
+/teacups_bh_bowl.asp/ 1082 http://iqfood.ru/
+/images/1.asp 1 -
+/Manager/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/ckeditor/ckeditor.html 1 -
+/admin/fckeditor_ap/editor/fckeditor.html 1 -
+/joomla/ 1 -
+/index1.asp 62 http://www.tributetea.com/index1.asp
+/gestion/FCKeditor/editor/fckeditor.html 1 -
+/editors/fckeditor/editor/filemanager/upload/asp/upload.asp 1 http://www.tributetea.com/editors/fckeditor/editor/filemanager/upload/asp/upload.asp
+/edit/editor/fckeditor.html 1 -
+/puerh_aged_cake.asp 1 -
+/faq.html 6 -
+/apple-touch-icon-152x152.png 1 -
+/teacups_raku.asp 1 -
+/opencart/ 1 -
+/ecshop/ 1 -
+/admin/FCKeditor/editor/filemanager/upload/php/upload.php 2 -
+/manage/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/fckeditor/editor/fckeditor.html 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 2 -
+/jxcms/ 1 -
+/teasets_large.asp 1 -
+/17-85/ 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>fae<a 1 -
+/wp-login/ 4 -
+/data/admin/ver.txt 1 -
+/Manage/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/wholesale.html 8 -
+/admin/fck/editor/fckeditor.html 1 -
+/wp-admin/admin-ajax.php 14 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 5 -
+/puerh_plum_flower.asp 2 -
+/FCKeditor_2.0 1 -
+/cart/ 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/metinfo/ 1 -
+/admin/FCKeditor/editor/filemanager/upload/test.html 1 -
+/super/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/Inc/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/multicms/packages/fckeditor/editor/fckeditor.html 1 -
+/palliative_aesthetics_Garrison.ppt 1 -
+/store/skin/frontend/default/modern/css/styles.css 1 -
+/kesion/ 1 -
+/mall/ 9 -
+/section/wp-login.php 4 -
+/weblog/ 5 -
+/booksmusic.html 5 -
+/admin/login.asp 1 -
+/Content/Scripts/matchMedia.addListener.js 6 http://www.tributetea.com/cheap_253.asp
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/incense.html 9 -
+/images/index_35.gif 1 http://www.tributetea.com/index3.asp
+/administrator/index.php 7 -
+/shop7z/ 1 -
+/369/ 1 -
+/Editor/editor/filemanager/connectors/test.html 1 -
+/FCKeditor/_samples/default.html 1 -
+/public/js/fckeditor/fckeditor.html 1 -
+/kingcms/ 1 -
+/index1.asp">http:/www.tributetea.com/index1.asp</a>cdd<a 1 -
+/administrator/fckeditor/editor/fckeditor.html 1 -
+/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/empirecms/ 1 -
+/super/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/www.dresses-outlet.co.uk 22 -
+/fckeditor/editor/fckeditor.html 1 -
+/green_tea_peony.asp 1 -
+/book_tea_culture.as 1 -
+/webadmin/FCKeditor/editor/filemanager/browser/default/browser.html 1 -
+/fckeditor.js 1 -
+/wp-cron.php 1 -
+/Fckeditor/editor/filemanager/connectors/test.html 4 -
+/editors/fckeditor/editor/fckeditor.html 1 -
+/fckeditor/license.txt 1 -
+/components/FCKeditor/editor/filemanager/upload/php/upload.php 2 -
+/webadmin/FCKeditor/editor/filemanager/browser/default/frmupload.html 1 -
+/fckeditor/fckconfig.js 1 -
+/FCKEditor/editor/filemanager/connectors/php/connector.php 2 -
+/mods/ckeditor/fckeditor.html 1 -
+/javascripts/fckeditor/editor/fckeditor.html 1 -
+/sys/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/aspcms/ 1 -
+/licence.txt 1 -
+/editor/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/storelocator/sladmin/FCKEditor/editor/filemanager/upload/php/upload.php 2 -
+/changelog.txt 1 -
+/inc/playerKinds.xml 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 2 -
+/nk_cypress.asp 1 -
+/outils/fckeditor/editor/fckeditor.html 1 -
+/fluxbb/ 1 -
+/browserconfig.xml 2 -
+/Editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 -
+/editors/filemanager/connectors/asp/connector.asp 2 -
+/app/webroot/js/fckeditor/editor/fckeditor.html 1 -
+/phpmyadmin/ 1 -
+/teas.html 5 -
+/list.php 1 -
+/blog/wp-admin/admin-ajax.php 4 -
+/webmanager/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/yo/oly4.htm 1 -
+/phpwind/ 1 -
+/fckeditor/_samples/default.html 1 -
+/api/api_user.xml 1 -
+/green_tea_yunnan.asp 1 -
+/scented_rose.asp 1 -
+/editor/fckeditor.html 1 -
+/joomla/Medkorp/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/webyep-system/programm/opt/fckeditor/editor/fckeditor.html 1 -
+/Content/Scripts/picturefill.js 7 http://www.tributetea.com/cheap_253.asp
+/index1.asp">http:/www.tributetea.com/index1.asp</a>aea<a 1 -
+/admin/Fckeditor/editor/filemanager/connectors/test.html 4 -
+/webadmin/FCKeditor/editor/fckeditor.html‎ 1 -
+/lists/ 1 -
+/phpbb/ 1 -
+/artsconnect/newsite/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/portland/ 3 -
+/blog/wp-login.php 5 -
+/palm_spring/ 2 -
+/FCKeditor/editor/filemanager/upload/test.html 2 -
+/sys/FCKeditor/editor/filemanager/upload/php/upload.php 2 -
+/bbsmax/ 1 -
+/ckfinder/ckfinder.html 1 -
+/oecms/ 1 -
+/discuz/ 2 -
+/webmaster/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/site/wp-login.php 4 -
+/manage/fckeditor/editor/fckeditor.html 1 -
+/webadmin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.tributetea.com/webadmin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/rss.php 2 -
+/puerh_square_tea.asp 1 -
+/manage/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/order.asp 16 -
+/scented_mandarin.asp 1 -
+/scented_iced.asp 4 -
+/Sys/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/phpmyadmin/scripts/setup.php 1 -
+/miller/ 5 -
+/maxcms/ 1 -
+/manage/fckeditor/editor/filemanager/connectors/asp/connector.asp 2 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/bbs/ 11 -
+/Portland/ 2 -
+/admin/template/article_more/config.htm 1 -
+/wp/wp-login.php 4 -
+/fck/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/zblog/ 1 -
+/foosun/ 1 -
+/CHANGELOG.txt 1 -
+/erox/ 1 -
+/user/ 2 -
+/puerh_sm_leaf.asp 15 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/connector.php 2 -
+/ipboard/ 1 -
+/puerh_green_sq.asp 1 -
+/lazycms/ 1 -
+/teaware_auto_kettle.asp 3 -
+/js/FCKeditor/editor/filemanager/upload/test.html 1 -
+/include/FCKeditor/editor/filemanager/upload/test.html 1 -
+/oolong_tea_winter_tgy.asp 1 -
+/v1/plugins/editors/fckeditor/editor/fckeditor.html 1 -
+/herbs_luohanguo.asp+target= 2 -
+/help.aspx 1 -
+/WebAdmin/FCKeditor/editor/filemanager/upload/test.html 1 -
+/system/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/plus/heightsearch.php 1 -
+/news.html 9 -
+/cms/ 19 -
+/index.php 6 -
+/itinerary.htm 1 -
+/webmanage/fckeditor/editor/fckeditor.html 1 -
+/system/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/teaware.html 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1187
+198.2.202.177 11259 11259 3479594 20150130084154
+199.15.233.139 6063 6063 1932164 20150116035300
+50.31.96.11 423 423 4148036 20150105224658
+106.186.30.173 300 300 82524 20150129035947
+5.9.13.136 290 290 3648030 20150130104333
+199.15.233.165 186 186 85625 20150104031330
+192.99.149.88 176 176 1868470 20150114034511
+46.161.41.199 89 89 939969 20150121195631
+199.15.233.182 89 89 24841 20150121074125
+50.32.200.195 85 435 4177040 20150109014508
+64.188.174.52 0 1 8046 
+69.58.178.56 10 10 115372 20150114142550
+199.30.17.51 0 38 73065 
+74.202.28.12 9 9 83592 20150120052643
+5.61.35.38 1 1 10468 20150106212413
+54.146.28.34 3 3 39029 20150120053943
+217.69.133.169 1 1 10449 20150109161008
+54.198.206.169 2 2 23648 20150120061105
+46.242.91.101 1 8 42724 20150107184859
+93.171.43.148 1 1 2048 20150115201536
+72.197.169.23 2 4 55407 20150115043211
+54.175.109.11 1 1 14473 20150120102400
+204.124.183.98 1 1 10886 20150101212142
+130.211.155.97 1 1 10473 20150116170915
+94.242.246.24 1 1 57741 20150115230044
+174.139.238.250 1 38 54109 20150115070808
+123.30.175.240 1 1 10468 20150114093626
+92.24.41.67 12 122 335367 20150117172512
+79.171.53.97 0 1 11555 
+183.207.228.115 1 1 8843 20150120134635
+198.50.202.33 0 2 22126 
+70.53.246.86 0 5 51835 
+24.19.180.201 3 16 91145 20150105050529
+115.132.255.196 0 1 7394 
+185.10.126.224 0 1 11491 
+54.175.39.127 1 1 8104 20150118105511
+66.87.102.130 0 1 11555 
+108.219.138.65 2 25 116521 20150116043626
+112.205.94.246 1 7 59789 20150106010125
+54.196.129.205 1 1 11023 20150109030330
+192.241.181.235 1 1 57445 20150111195307
+65.55.210.43 0 34 69938 
+36.81.20.249 0 2 100268 
+173.85.22.211 0 1 10275 
+101.222.182.176 1 7 59609 20150119142307
+81.82.197.45 0 1 1670 
+189.124.220.210 1 38 54102 20150108163006
+173.95.181.141 0 1 20172 
+173.24.164.71 0 1 60297 
+31.13.97.115 0 1 1653 
+104.131.180.182 9 9 94041 20150131095902
+187.13.25.146 1 38 54102 20150107023929
+54.176.242.243 19 19 235160 20150104192941
+123.30.175.245 1 1 10608 20150104125806
+46.73.207.52 1 1 10539 20150131164925
+98.139.190.57 0 1 0 
+61.165.253.123 39 214 1215966 20150116012745
+114.109.51.122 0 2 12287 
+117.197.252.51 2 2 21475 20150105200116
+54.84.173.246 1 1 11180 20150117204414
+72.46.136.178 4 4 41935 20150130092022
+112.64.235.245 1 1 10468 20150120103346
+46.242.1.245 3 3 31627 20150117101618
+66.249.88.180 1 1 10449 20150117164546
+54.173.216.8 1 1 26739 20150120102400
+85.132.169.196 1 10 774708 20150105102235
+42.120.145.96 0 1 716 
+172.56.38.4 1 7 59609 20150131183235
+54.145.12.193 5 5 62677 20150127024426
+173.252.102.115 0 1 891 
+198.237.49.206 1 1 2048 20150128231936
+99.183.221.164 0 1 10489 
+87.245.204.45 7 7 73421 20150126165301
+220.181.132.220 3 3 31404 20150130091238
+178.184.222.154 1 1 18534 20150118145016
+199.30.80.120 1 1 10588 20150104081914
+162.226.73.233 2 2 0 20150103015308
+31.205.42.51 1 8 39162 20150110214351
+110.54.113.65 1 1 0 20150113025422
+171.33.197.194 0 1 11491 
+202.46.50.124 1 1 10468 20150107225143
+42.120.161.116 1 1 10449 20150126143907
+24.131.0.69 17 77 353293 20150115221055
+65.55.210.33 0 3 5879 
+67.246.69.185 9 9 115164 20150129224904
+23.251.146.41 1 1 10473 20150114170927
+27.38.0.105 2 2 20936 20150128173502
+54.191.244.153 1 1 26739 20150126003344
+54.173.45.24 1 1 10587 20150104061657
+104.154.56.59 1 1 10473 20150128170638
+37.110.32.46 1 39 84255 20150107022311
+199.30.25.131 0 1 29412 
+175.156.157.224 0 1 0 
+146.148.48.11 1 1 10612 20150104170829
+112.111.184.219 1 1 254 20150130061139
+54.164.17.198 1 1 13699 20150119095015
+203.115.113.74 1 7 59609 20150112115033
+54.174.194.40 1 1 10588 20150103075209
+199.30.24.76 0 3 30988 
+46.229.170.193 1 1 10449 20150131151800
+37.130.226.90 1 1 10620 20150101075536
+173.252.102.119 0 1 1653 
+91.229.229.80 1 1 10449 20150127215709
+66.45.255.91 1 1 10473 20150109114055
+122.248.119.21 0 1 7394 
+198.245.51.49 1 38 54102 20150114043027
+195.154.189.155 2 2 53516 20150107070156
+109.128.252.224 0 1 50134 
+107.23.45.196 5 5 52422 20150129235011
+96.54.186.90 0 1 11555 
+172.56.23.125 1 8 39603 20150101033835
+130.88.45.188 0 1 11555 
+209.128.92.220 6 6 63128 20150102071901
+104.131.221.224 1 1 57445 20150111195331
+96.224.200.33 3 11 66924 20150106012645
+220.181.51.81 0 2 2410 
+191.249.55.191 1 38 54102 20150128115949
+151.26.36.36 1 11 14713 20150112192043
+82.12.178.71 1 1 245 20150121161526
+60.1.71.131 63 63 746704 20150112113231
+54.208.249.42 1 1 10487 20150120174654
+126.204.27.158 1 1 52124 20150120124317
+76.183.94.189 1 1 245 20150113045654
+81.129.192.148 1 7 59609 20150129222114
+54.208.129.112 1 1 17099 20150120174702
+63.250.204.24 0 1 60297 
+130.211.166.234 1 1 10473 20150108170926
+188.32.139.230 1 8 37517 20150107184903
+54.166.160.154 1 1 10449 20150112003128
+90.173.157.92 0 1 10470 
+104.236.225.20 1 1 10468 20150131231045
+74.77.68.194 0 1 7394 
+139.216.15.230 0 1 7394 
+68.235.74.64 1 14 74547 20150110182136
+162.243.35.251 1 1 57741 20150112145117
+178.21.88.36 0 6 23784 
+47.20.120.213 4 72 215665 20150105224106
+96.50.91.71 0 2 12287 
+72.235.172.87 0 1 7394 
+65.55.210.107 0 2 3716 
+104.168.67.25 1 1 438 20150104131751
+23.251.147.86 1 1 10473 20150126170714
+14.100.132.167 0 1 7394 
+73.16.127.45 1 39 83521 20150115022059
+187.120.153.251 0 1 60297 
+142.166.188.184 1 9 45680 20150103030243
+173.209.211.198 0 1 1496 
+59.95.200.185 3 41 153675 20150116065713
+110.11.253.233 0 1 10489 
+91.105.26.210 0 1 10240 
+177.154.30.2 1 38 54102 20150131005733
+54.85.40.134 46 46 482816 20150131232412
+199.30.25.58 0 3 5879 
+42.120.145.8 0 4 7456 
+162.234.88.140 0 1 8991 
+172.56.31.38 0 2 16257 
+177.204.117.19 1 38 54102 20150120164846
+163.47.13.128 1 7 59609 20150106164005
+36.99.31.135 1 1 10449 20150109092502
+98.126.25.66 2 76 108218 20150118100350
+54.199.253.22 1 1 57969 20150106214037
+199.30.25.79 0 38 73065 
+208.123.153.146 0 2 14788 
+187.134.198.209 1 19 33369 20150110151347
+217.33.245.66 0 1 11491 
+92.222.129.152 1 1 10765 20150110003429
+104.131.220.168 1 1 57445 20150111195307
+90.193.132.147 0 1 11491 
+73.206.21.46 2 10 79157 20150103041452
+208.95.51.163 3 18 91914 20150108152148
+176.10.99.206 1 1 57741 20150112165824
+5.199.142.195 1 1 57741 20150112181857
+37.221.192.69 1 1 57741 20150112185756
+173.70.45.202 0 2 12220 
+81.82.245.118 0 1 12975 
+188.112.71.186 4 64 255940 20150118011529
+108.208.234.239 3 49 123020 20150129045512
+189.11.129.78 1 38 54102 20150106131816
+110.159.168.82 0 1 26431 
+106.39.252.14 1 1 2048 20150120134619
+153.183.63.24 4 4 36356 20150130123246
+75.109.74.32 0 1 12891 
+117.26.194.142 4 4 1016 20150113015354
+146.148.59.223 1 1 10473 20150109170822
+23.30.94.217 0 1 7394 
+199.30.80.115 1 1 11278 20150110071828
+36.99.30.98 1 1 10624 20150102132438
+54.84.219.171 1 1 11506 20150119095015
+74.110.124.81 6 69 197270 20150102002717
+180.153.182.120 1 1 8796 20150116034744
+49.204.17.82 0 1 2048 
+42.120.160.116 1 1 10449 20150126143905
+46.161.41.31 9 9 92968 20150113030449
+174.16.14.252 0 1 60297 
+182.253.176.38 2 9 50353 20150112060203
+183.207.224.50 1 1 8843 20150120134621
+98.221.106.108 0 1 20172 
+70.83.155.37 0 1 7394 
+185.17.184.228 1 1 57741 20150112162413
+198.2.214.138 2 3 489519 20150129080137
+99.243.50.118 1 11 48985 20150129035708
+54.163.2.216 5 5 62677 20150127023700
+73.25.34.119 3 17 81679 20150101214847
+192.241.254.102 1 1 57445 20150111195746
+87.98.159.231 1 1 57765 20150116035731
+181.47.144.103 1 1 245 20150109131212
+84.240.9.6 1 1 18534 20150111105142
+199.30.21.202 0 1 20172 
+72.39.153.119 0 1 11386 
+82.16.154.142 1 7 59609 20150118175759
+1.189.204.177 19 19 236366 20150112194644
+38.98.237.60 0 1 11555 
+104.154.36.70 1 1 10473 20150113170912
+36.99.30.205 1 1 10449 20150119101456
+67.9.176.234 0 1 17026 
+201.86.215.181 1 38 54102 20150113221705
+174.114.136.241 0 1 11555 
+75.172.3.176 81 742 103892906 20150129171936
+84.190.162.110 1 9 142181 20150118185225
+173.70.73.217 6 26 174112 20150118173025
+66.249.93.149 1 1 10588 20150104114425
+183.207.228.11 1 1 6144 20150120134716
+107.2.247.205 1 1 0 20150130230325
+54.86.203.211 5 5 59222 20150114180646
+131.109.17.2 4 94 170366 20150119213427
+177.206.2.230 1 38 54102 20150117121016
+192.0.155.183 1 10 44223 20150111030645
+195.154.178.134 8 8 148272 20150110194022
+103.21.158.9 0 1 7394 
+201.143.43.196 1 38 54102 20150112175031
+154.122.71.129 7 64 266659 20150130164027
+70.194.160.39 0 1 60297 
+24.138.73.85 1 6 30428 20150118022741
+107.130.246.83 20 193 37797024 20150129011142
+54.91.32.90 1 1 10449 20150128192202
+130.185.139.213 2 2 21218 20150101142127
+50.19.14.56 1 1 7888 20150129004638
+86.121.4.76 1 38 52907 20150105213058
+80.73.145.181 0 1 11491 
+173.252.102.117 0 2 6004 
+54.81.171.36 1 2 17948 20150110224305
+116.22.100.109 6 6 69803 20150121040951
+68.108.185.75 8 76 281670 20150106005800
+69.251.77.222 0 1 11555 
+38.122.19.154 0 2 11491 
+177.74.249.121 1 38 54328 20150102164031
+54.175.145.24 1 1 11506 20150119095018
+104.168.67.82 1 1 14912 20150126173811
+70.193.132.158 0 1 8789 
+2.39.173.185 1 1 0 20150112192145
+90.53.50.45 0 1 7394 
+78.248.210.16 1 9 41591 20150112163033
+202.46.62.73 1 1 10606 20150103055016
+2.93.24.225 1 9 41762 20150113041124
+212.96.178.162 0 1 7124 
+42.120.145.84 0 4 4110 
+36.9.8.250 8 8 261076 20150110163737
+222.239.162.7 1 1 10449 20150106182959
+76.103.29.161 1 1 2048 20150121072853
+54.90.115.150 1 1 12212 20150108120836
+82.114.178.212 0 1 10519 
+105.210.42.209 0 1 60297 
+208.118.227.31 0 1 7394 
+178.149.32.81 0 1 11491 
+66.43.60.217 1 1 245 20150114022605
+212.149.48.43 12 139 434972 20150106033528
+142.4.218.201 1 1 10449 20150109233541
+182.118.44.107 1 1 10449 20150128172830
+192.126.192.198 2 2 22847 20150105115016
+104.131.29.132 8 8 84012 20150109224136
+66.87.19.175 0 1 11555 
+203.143.110.6 2 2 4096 20150115012820
+80.144.201.156 1 8 39772 20150102125356
+172.56.23.245 0 1 2048 
+190.153.37.101 1 14 17945 20150111123248
+64.233.172.213 1 1 10449 20150115032217
+198.199.66.80 11 11 126878 20150117103924
+195.154.226.90 8 8 73143 20150130171703
+151.63.110.31 0 1 2048 
+54.88.205.71 1 1 10587 20150103074233
+95.220.145.106 1 10 99971 20150121052812
+199.30.24.252 0 7 33784 
+74.192.155.76 0 1 5707 
+174.0.6.208 1 8 35993 20150111161936
+62.210.181.149 2 2 20898 20150131145446
+202.46.48.154 1 1 10468 20150107235500
+187.69.102.38 1 2 6144 20150130133627
+200.75.197.71 0 1 8789 
+221.5.69.52 2 2 20943 20150108110121
+104.168.67.85 1 1 14912 20150129045608
+120.61.214.69 1 38 54102 20150126143835
+36.99.31.213 1 1 0 20150128172809
+122.162.167.2 1 7 59609 20150106121641
+209.180.86.154 0 1 7394 
+115.59.91.187 25 25 261225 20150108203824
+81.172.42.222 1 38 52910 20150104122757
+98.223.77.56 0 1 16966 
+180.153.182.90 1 1 8649 20150121034832
+93.89.159.6 19 19 227234 20150115230752
+119.56.116.253 0 1 7394 
+49.98.157.186 1 1 57766 20150106142824
+98.197.94.107 0 1 11386 
+54.174.214.130 1 1 10589 20150104062021
+54.200.16.157 5 5 65199 20150128191509
+54.145.56.3 1 1 10449 20150127023502
+202.225.15.77 1 1 58729 20150130041240
+208.50.124.65 1 8 42984 20150111220603
+190.48.113.54 0 1 11555 
+174.76.23.218 0 1 7394 
+54.174.188.3 1 1 14069 20150118105511
+174.31.169.37 0 1 10489 
+183.171.172.253 0 1 12065 
+98.199.38.173 0 1 10338 
+116.81.242.144 4 4 36464 20150117093109
+104.148.78.137 71 71 4859053 20150127030834
+46.188.29.153 1 1 12519 20150107064258
+86.61.76.67 0 1 13208 
+151.20.87.34 0 1 11491 
+37.187.129.166 2 2 115482 20150112162413
+64.61.16.42 3 55 160484 20150128222938
+117.121.54.21 1 1 10468 20150111023637
+202.46.49.188 1 1 10449 20150117075157
+85.138.113.213 1 38 54102 20150106154011
+199.30.24.200 0 34 69948 
+36.99.31.170 1 1 10625 20150103225119
+66.249.82.151 0 3 11951 
+5.12.98.251 1 1 10449 20150117014140
+71.60.67.98 0 1 12073 
+157.55.39.125 0 1 1116 
+62.24.252.133 12 12 156209 20150119175123
+173.208.193.86 1 1 18726 20150105163315
+91.207.6.41 1 1 18652 20150102020605
+174.97.193.82 19 261 34959587 20150128084006
+205.157.206.11 0 1 10564 
+79.183.171.205 1 1 245 20150107095202
+93.102.116.45 1 38 54102 20150121144426
+65.55.212.93 1 1 14429 20150114192112
+106.0.203.104 0 1 12058 
+1.115.33.73 2 2 115984 20150109151245
+187.118.8.244 1 38 54102 20150110181343
+209.137.144.158 1 23 54837 20150126213129
+172.7.0.206 0 1 11555 
+104.131.207.70 1 1 57445 20150111195506
+211.25.200.66 0 1 7394 
+70.115.60.253 1 10 47020 20150130002211
+70.193.66.249 1 9 41964 20150114213156
+130.211.130.55 1 1 10473 20150129170655
+111.93.50.75 1 8 59609 20150120055630
+175.126.176.74 1 1 12590 20150107222752
+95.46.238.90 0 1 15556 
+54.82.191.193 2 2 0 20150112003520
+187.113.96.11 1 9 12173 20150116023637
+219.89.238.143 0 1 7394 
+41.107.198.12 1 38 54327 20150104220352
+171.101.82.67 0 1 7394 
+5.165.252.95 2 20 102086 20150113193333
+210.130.221.184 1 1 52237 20150115131659
+220.64.140.103 0 1 10489 
+54.166.210.73 2 2 23648 20150120053949
+173.208.169.18 1 1 26739 20150109170219
+37.59.43.170 2 2 20936 20150127040324
+36.99.31.173 1 1 10449 20150106043557
+66.249.82.133 0 4 16271 
+187.51.28.14 1 38 54326 20150102142143
+190.30.183.175 1 38 54102 20150111062137
+36.99.31.8 1 1 10449 20150131010647
+202.46.48.139 1 1 10468 20150118013839
+184.64.178.70 0 1 7394 
+50.173.61.118 0 1 60297 
+67.4.218.163 0 1 20172 
+187.20.213.111 1 38 54102 20150107110301
+65.55.210.27 0 1 29412 
+61.213.104.150 1 1 9526 20150111054650
+122.248.228.132 1 1 57613 20150110043724
+54.87.66.111 0 1 8789 
+143.177.40.67 0 1 7394 
+68.99.231.83 1 7 59609 20150107195206
+131.253.24.137 1 1 12590 20150111123419
+54.161.70.33 1 1 10449 20150129164857
+66.249.84.184 0 1 20172 
+203.142.210.16 2 2 54542 20150113154617
+180.153.182.91 1 1 8263 20150101034243
+93.92.217.228 11 11 142464 20150117212516
+65.55.210.117 0 1 626 
+50.250.215.247 6 6 63128 20150102215126
+37.205.98.215 0 1 7394 
+117.80.140.111 0 1 0 
+173.209.211.224 1 3 22002 20150121174425
+199.30.25.69 0 2 5211 
+50.18.200.100 0 1 10201 
+179.210.59.69 1 38 54102 20150107012350
+109.225.112.88 0 1 11491 
+72.18.206.125 1 1 10449 20150115022057
+65.55.211.213 0 1 11051 
+62.210.79.180 2 2 20898 20150127151645
+86.97.84.58 1 7 59609 20150110184648
+42.120.145.225 0 4 2990 
+31.202.216.168 2 2 20831 20150115200450
+81.89.96.88 1 1 57741 20150112151138
+42.120.145.40 0 2 1615 
+91.185.194.122 1 1 10449 20150130174002
+193.164.202.172 2 2 114882 20150107020109
+180.153.180.61 1 1 10449 20150114074718
+54.183.153.209 1 1 10449 20150129144046
+46.188.72.74 0 1 11574 
+2.39.15.250 1 38 54102 20150129153510
+173.76.198.229 0 1 7394 
+137.175.40.149 1 1 10449 20150121192622
+162.202.29.151 0 1 10489 
+130.211.161.139 1 1 10473 20150121170854
+54.146.20.207 3 3 38255 20150112003330
+117.192.140.98 1 7 59609 20150128170750
+118.8.110.248 2 2 24886 20150112122341
+86.192.191.233 0 1 11034 
+118.101.66.90 0 1 12065 
+46.118.113.31 1 1 10449 20150126154441
+68.179.39.193 0 1 61845 
+75.71.155.61 1 1 10449 20150108052755
+168.61.152.100 1 1 10589 20150104160314
+192.184.41.189 3 62 105739 20150116123208
+79.111.42.59 0 1 11574 
+65.55.212.68 1 1 12590 20150106135027
+66.249.93.140 0 1 11051 
+54.165.177.116 5 5 64058 20150114180652
+66.249.82.166 1 5 25174 20150119141341
+79.191.114.233 1 39 83514 20150110153657
+220.80.44.175 0 1 2048 
+36.99.31.235 1 1 10449 20150114044251
+211.244.83.215 5 5 52420 20150131225316
+82.211.223.3 1 1 57741 20150112164305
+54.81.203.158 1 1 10449 20150120054254
+66.249.82.157 0 8 55627 
+199.30.25.96 0 34 39311 
+54.64.156.38 1 1 57969 20150106142800
+54.82.14.182 1 2 23724 20150109114025
+142.54.160.170 3 3 55602 20150115075212
+188.26.211.117 0 1 50134 
+42.120.160.8 1 1 10449 20150127062019
+54.88.150.180 1 1 9949 20150119095013
+86.191.10.254 0 2 22982 
+131.253.26.253 1 1 14429 20150111091930
+49.212.205.69 2 2 57240 20150106185038
+154.122.41.199 1 1 26739 20150128124513
+178.137.85.199 1 1 10956 20150104054651
+54.88.75.23 1 1 10449 20150109062815
+111.166.28.218 15 15 191387 20150104021744
+107.77.80.57 0 1 10489 
+212.219.136.181 0 1 50134 
+192.99.9.164 1 1 10468 20150118145924
+66.178.20.197 1 28 43322 20150115092805
+108.2.123.133 0 1 15556 
+75.140.152.128 3 15 81667 20150101212011
+24.253.225.123 1 9 47020 20150128011805
+2.50.181.120 0 1 20829 
+108.9.234.21 0 1 12065 
+88.188.3.84 0 1 11555 
+46.118.153.119 1 1 11541 20150115185130
+211.31.23.234 1 1 0 20150104110612
+94.210.122.210 1 7 60033 20150102083600
+187.155.174.160 0 1 50134 
+197.3.226.206 1 38 54102 20150129081433
+180.168.74.54 0 1 12065 
+119.56.115.70 0 1 7394 
+213.61.228.26 2 21 88754 20150115170456
+189.2.57.2 1 38 54102 20150121155540
+175.140.226.38 0 1 7394 
+173.22.0.51 1 30 817565 20150105175555
+54.198.213.101 1 1 10449 20150112003246
+73.170.174.97 4 4 41662 20150127214151
+71.218.62.117 1 10 46780 20150109191825
+54.92.154.198 3 3 27768 20150112003830
+209.48.168.4 0 20 293958 
+83.91.30.62 1 8 36781 20150129012733
+23.88.228.62 1 1 10449 20150131160747
+104.154.39.180 1 1 10473 20150127170657
+121.2.194.90 2 2 17100 20150128163235
+151.28.178.146 1 38 52902 20150103231200
+121.15.93.22 20 20 234680 20150112013552
+192.241.182.8 1 1 57445 20150111195307
+104.168.63.11 1 1 438 20150104171335
+131.253.24.135 1 1 14429 20150111061640
+67.170.132.181 3 60 162658 20150114203002
+101.199.112.53 1 1 10449 20150109180747
+73.197.199.170 0 1 12073 
+54.90.97.31 1 1 11838 20150108215133
+1.178.253.79 0 1 12288 
+101.191.83.76 2 39 55461 20150112095630
+195.3.157.140 0 1 10489 
+190.33.64.10 2 28 63429 20150127045419
+93.171.205.23 17 17 216863 20150114175757
+83.103.182.17 0 1 50134 
+181.210.62.110 0 1 6144 
+64.233.173.154 1 1 26739 20150116132228
+85.255.232.155 0 1 12891 
+66.249.89.51 0 1 4428 
+177.133.7.134 0 1 11051 
+173.195.187.98 0 1 60297 
+54.87.103.248 0 1 12073 
+94.15.207.109 0 1 5212 
+49.249.52.180 1 7 59609 20150108040443
+66.249.84.178 1 1 10449 20150113110529
+203.126.170.2 0 1 7394 
+65.96.219.79 5 80 299869 20150101230750
+142.105.214.249 1 10 48346 20150104031251
+139.192.44.209 0 1 7394 
+24.245.119.235 1 7 59609 20150118192558
+101.222.174.214 1 6 36977 20150120180610
+189.55.75.31 2 39 64708 20150102004859
+173.252.73.115 0 1 183486 
+23.250.11.122 1 1 10449 20150128232957
+123.30.175.239 1 1 14555 20150104125814
+184.15.0.164 19 92 808661 20150120024404
+75.37.33.155 0 1 10419 
+103.1.70.103 1 4 6144 20150130033652
+50.84.15.51 1 42 85562 20150127222954
+77.247.181.162 1 1 57741 20150112165825
+190.195.83.207 0 1 11555 
+175.159.21.10 0 1 11555 
+154.122.185.22 1 7 59609 20150128050046
+162.243.249.187 1 1 57445 20150111200554
+50.198.216.22 1 8 12502 20150105190404
+54.175.207.76 4 4 38177 20150119095015
+173.209.211.193 0 1 891 
+121.205.207.172 19 19 231849 20150105154632
+108.44.55.149 1 40 84162 20150129200201
+68.174.191.6 2 18 103219 20150121061448
+50.135.232.247 2 10 55955 20150127024550
+108.5.113.80 0 1 8789 
+113.210.2.6 0 1 7394 
+173.209.211.149 0 1 4320 
+107.183.1.64 1 1 10449 20150107121145
+81.136.230.135 1 9 47020 20150113142500
+36.68.105.158 0 1 7394 
+153.121.46.131 12 12 468358 20150113145039
+36.99.31.82 1 1 10449 20150126230547
+101.226.66.172 2 2 16612 20150114103736
+85.3.36.16 0 8 30344 
+89.200.172.145 4 4 1120 20150127223220
+100.2.165.42 0 1 54981 
+99.165.60.160 0 1 12065 
+54.175.193.145 3 3 32535 20150114180646
+213.55.110.254 1 7 60190 20150101061139
+79.113.190.52 0 1 8086 
+166.137.136.32 1 10 76123 20150104080807
+112.215.66.78 1 1 10449 20150114191335
+85.72.92.156 1 38 54102 20150106182950
+199.30.80.122 2 2 23492 20150117131946
+117.103.95.74 0 2 23361 
+209.162.255.233 0 1 7124 
+1.52.124.241 0 1 11491 
+65.55.210.120 0 1 3023 
+98.115.55.175 1 7 38040 20150108200456
+66.68.214.122 0 1 11491 
+54.196.99.196 2 2 28311 20150105140936
+80.110.247.153 0 1 11491 
+66.191.11.167 0 1 11555 
+80.39.49.51 0 1 4982 
+203.117.64.67 0 1 12073 
+168.144.67.205 3 3 31010 20150109122930
+66.169.142.143 0 1 5212 
+59.178.208.58 0 1 1670 
+80.182.28.65 1 38 54102 20150127214700
+69.120.93.161 3 41 104278 20150127161326
+42.120.145.247 0 2 1468 
+66.249.83.178 1 1 8052 20150105133553
+58.182.9.60 0 1 7394 
+63.153.228.149 7 91 340120 20150104191424
+202.75.86.59 0 1 12065 
+86.188.180.194 1 7 59609 20150106102620
+76.115.130.50 22 203 1484720 20150107105442
+36.76.190.171 1 38 54102 20150128113339
+162.243.72.150 1 1 57445 20150111200209
+192.241.249.23 1 1 57445 20150111195307
+72.234.224.99 0 1 7578 
+86.97.93.182 0 1 11555 
+199.30.25.76 0 38 73065 
+204.108.200.1 0 1 11051 
+66.249.81.203 1 1 11620 20150110071532
+184.168.113.101 1 1 10449 20150111172401
+91.39.122.129 1 1 2048 20150114140222
+121.2.215.251 10 10 482300 20150116110425
+66.151.203.10 0 1 1793 
+54.175.169.97 1 1 8104 20150118105506
+54.162.117.16 2 2 24422 20150112003813
+24.15.138.118 0 1 8789 
+117.215.152.67 0 1 16545 
+176.62.86.66 1 1 6144 20150105191630
+2.101.160.86 2 8 52412 20150119175051
+109.166.142.108 0 1 11491 
+188.188.33.7 0 2 13789 
+199.30.24.184 0 2 30105 
+207.34.170.253 3 12 66986 20150106234041
+80.57.36.17 0 1 17026 
+185.3.84.176 0 1 10489 
+76.208.153.141 1 7 59609 20150106150724
+128.68.30.215 1 8 39210 20150130062159
+110.55.0.251 1 38 52903 20150103040659
+42.83.86.11 1 1 6144 20150127040257
+65.55.212.91 1 1 12590 20150109045336
+62.24.181.135 1 1 26758 20150119170845
+36.82.210.190 0 1 7394 
+162.243.46.120 1 1 57445 20150111200205
+220.181.125.113 0 1 12502 
+50.49.147.204 8 34 148367 20150121020753
+180.191.65.37 1 38 54102 20150118131503
+112.70.212.49 1 1 10146 20150107165419
+54.174.103.179 1 1 17099 20150120174659
+23.251.159.153 1 1 10473 20150112170858
+208.12.64.201 1 1 10449 20150106043335
+65.55.210.34 0 38 73065 
+199.30.24.13 0 1 626 
+128.75.66.11 1 39 84454 20150105203819
+93.183.231.116 1 1 18534 20150117133930
+46.235.12.201 18 18 227331 20150110191613
+171.96.181.221 0 1 8789 
+117.26.192.195 1 1 394 20150104012939
+189.112.67.110 1 38 54102 20150129150333
+199.30.25.172 0 38 73065 
+84.232.211.26 1 1 10449 20150119122852
+101.199.108.118 1 1 10449 20150114141529
+42.156.137.116 1 1 10449 20150126143838
+54.144.52.86 1 1 10449 20150120053759
+54.173.233.200 1 1 10589 20150105041646
+130.211.138.40 1 1 10473 20150130170732
+162.246.19.217 1 1 245 20150127200658
+77.97.45.117 1 7 59609 20150119100349
+144.76.185.173 3 4 53350 20150117210829
+24.87.66.10 0 1 7394 
+80.251.112.205 1 1 18534 20150115062259
+24.244.154.192 1 38 54102 20150127183847
+199.30.25.114 0 1 865 
+173.252.102.118 0 1 12515 
+212.232.29.58 1 1 10588 20150105205314
+66.249.92.49 0 1 15556 
+106.39.252.15 1 1 2048 20150120134619
+182.53.93.151 0 1 2048 
+54.175.239.91 1 1 7316 20150119095016
+105.129.8.141 1 9 62044 20150105182140
+108.222.54.90 1 7 60037 20150104231836
+172.56.41.4 2 13 81262 20150104012801
+207.172.186.71 2 2 490 20150118052741
+190.150.25.224 1 38 54102 20150113032118
+188.16.49.15 1 1 18534 20150131081244
+113.68.159.201 8 8 90295 20150121040952
+144.76.163.48 2 2 26587 20150118061020
+85.119.199.7 1 7 59609 20150128094416
+36.99.31.140 1 1 10449 20150118045039
+66.102.6.175 0 1 7394 
+89.212.33.66 23 152 986733 20150112131317
+220.181.51.80 0 1 1205 
+179.222.134.4 1 38 54102 20150119020548
+186.194.115.192 1 22 40728 20150101155348
+109.153.2.222 2 10 53584 20150116114901
+108.30.185.111 0 1 12073 
+113.146.59.89 3 52 154749 20150121020240
+37.130.227.133 1 1 57741 20150112163950
+95.211.238.122 6 6 68220 20150121192359
+24.7.248.70 1 2 102503 20150112004108
+82.155.61.28 1 38 54102 20150118155706
+117.241.83.153 1 7 59609 20150121153722
+213.133.97.216 3 3 28192 20150130100239
+199.30.26.143 0 38 73065 
+54.166.140.17 1 1 10588 20150105132304
+199.30.25.206 0 5 18541 
+86.144.183.240 0 1 15118 
+193.80.82.85 1 38 54102 20150128145723
+80.95.176.181 1 10 44434 20150126130832
+84.108.18.107 0 1 11555 
+86.23.89.60 1 9 41964 20150108225004
+126.58.237.102 1 1 57935 20150119070159
+37.57.231.112 1 1 10468 20150129164410
+217.12.199.242 0 3 90003 
+54.174.239.168 1 1 26739 20150120102409
+99.119.88.182 1 38 54327 20150106000707
+199.30.22.61 0 2 23939 
+199.30.16.163 0 1 850 
+169.244.34.194 0 1 12398 
+1.79.87.89 1 1 57828 20150119064239
+24.34.255.114 1 8 39162 20150115155058
+121.2.209.95 1 1 10638 20150118181119
+220.181.51.74 0 1 1205 
+93.118.101.202 1 38 54102 20150116211951
+199.30.80.114 1 1 13191 20150114095408
+172.254.37.13 0 1 11555 
+87.116.168.29 1 38 54102 20150108195231
+202.46.48.97 1 1 10468 20150107003714
+176.195.142.182 1 39 84262 20150130062158
+36.99.30.99 1 1 10449 20150116122640
+54.175.46.45 1 1 14069 20150118105513
+123.30.175.242 1 1 10468 20150114093608
+14.102.127.252 1 7 59609 20150118101321
+46.148.237.170 1 9 41762 20150130062159
+166.137.242.62 3 53 117351 20150105181315
+69.12.75.6 2 2 22890 20150106204725
+80.95.216.102 1 38 54102 20150107032153
+54.165.2.20 1 1 10746 20150118105511
+211.244.83.248 5 5 52420 20150121230138
+198.178.124.47 1 1 10449 20150113122448
+74.202.28.13 18 18 178323 20150131052226
+69.249.243.23 0 1 18090 
+66.249.88.176 1 1 8052 20150105193046
+91.200.12.139 2 2 20936 20150115093048
+111.7.129.143 1 1 8843 20150120134629
+98.112.179.76 10 167 676455 20150127022634
+23.16.58.173 0 1 10113 
+216.244.80.82 2 2 28935 20150108103141
+36.99.30.171 1 1 10449 20150107035020
+106.51.141.33 0 1 10489 
+123.30.175.241 2 2 19964 20150102135937
+78.158.11.226 3 3 31708 20150128054928
+38.81.65.42 1 1 10468 20150128232625
+217.201.31.80 1 38 54102 20150115174539
+59.115.207.152 0 1 11491 
+174.4.133.122 0 1 10275 
+23.234.233.84 1 1 254 20150121011519
+62.210.91.75 1 1 10644 20150102093515
+109.149.39.223 0 1 11491 
+180.80.185.205 0 1 10338 
+71.86.93.119 1 9 73973 20150119015559
+66.249.84.190 0 1 10448 
+24.14.32.202 1 39 83514 20150110193710
+120.33.216.248 1 1 26758 20150129081307
+84.109.128.241 0 1 7394 
+173.209.211.205 0 2 12703 
+85.6.157.43 0 1 11555 
+177.36.9.66 1 38 54102 20150114213931
+46.164.180.20 1 1 18534 20150120234946
+98.212.253.8 1 28 40501 20150115023141
+130.211.191.147 1 1 10473 20150115170854
+54.191.56.86 1 1 26877 20150105163303
+108.46.97.93 1 1 0 20150121040011
+67.241.71.239 2 2 28930 20150104134041
+192.34.61.239 11 11 25061 20150102140829
+46.39.231.69 1 2 22694 20150112204156
+83.28.185.203 1 1 10746 20150114085915
+162.243.235.215 1 1 57445 20150111195747
+78.145.61.125 0 17 534480 
+50.112.240.103 3 3 31347 20150128090326
+195.154.181.152 11 11 124676 20150112045906
+79.188.184.58 0 1 6110 
+211.23.164.1 0 1 12065 
+176.193.120.90 0 1 11574 
+24.176.180.99 1 2 2048 20150109065108
+64.174.11.41 1 8 39634 20150102195643
+124.101.155.199 1 1 57330 20150109081338
+54.89.122.16 1 1 10587 20150105132455
+189.221.60.152 1 38 54102 20150127003633
+65.55.210.102 0 1 689 
+184.18.133.220 0 1 20172 
+71.191.175.15 0 1 10275 
+203.174.13.18 0 1 7394 
+50.148.90.59 1 8 59609 20150108210047
+201.69.58.51 1 38 54102 20150121172754
+73.4.59.71 1 7 10449 20150110020553
+54.165.35.194 1 1 10588 20150105041219
+75.139.97.101 0 1 8789 
+198.252.44.14 1 1 10473 20150128162233
+70.78.222.127 0 1 3300 
+98.139.142.219 0 1 10551 
+166.137.242.89 2 6 43764 20150105212323
+37.160.50.117 0 1 17026 
+31.13.97.119 1 1 10606 20150117101503
+37.187.7.74 1 1 57741 20150112160749
+46.189.251.16 0 1 54981 
+24.63.187.149 0 1 11491 
+146.148.46.87 1 1 10612 20150105170846
+42.120.145.83 0 4 3016 
+166.137.136.56 0 1 12891 
+75.139.129.27 1 15 83971 20150131032301
+151.33.198.94 1 7 59609 20150130145236
+116.31.54.175 1 1 10449 20150128044307
+14.139.98.4 1 38 54102 20150113074711
+178.140.120.175 2 13 98945 20150131164925
+91.207.7.38 2 2 37030 20150127103309
+50.128.138.44 24 192 4900803 20150113073402
+95.90.218.215 0 2 22102 
+76.174.161.8 0 1 11555 
+88.1.40.122 1 1 10449 20150118200155
+180.255.248.35 0 1 7394 
+216.53.168.57 0 1 11491 
+202.46.54.171 1 1 10607 20150106022340
+205.172.134.23 1 39 83305 20150127185138
+186.223.9.21 1 39 83514 20150121210705
+199.30.24.142 0 1 693 
+49.98.133.43 1 1 7246 20150128152933
+50.250.215.250 9 9 93432 20150128063238
+112.198.79.216 0 1 11051 
+94.197.121.232 0 1 10489 
+128.189.180.150 13 78 431036 20150111004603
+99.135.137.240 2 53 136504 20150102205207
+113.210.4.9 1 4 35175 20150105152711
+54.82.161.150 1 1 11031 20150116083008
+23.101.66.96 1 1 10449 20150117091422
+213.108.211.195 2 2 21629 20150117152427
+2.30.142.51 0 1 17026 
+173.24.120.247 0 1 17688 
+199.30.24.251 0 2 1559 
+148.251.75.46 8 8 93225 20150121175541
+62.31.227.229 8 83 347421 20150128213545
+36.99.30.174 1 1 10449 20150121231950
+65.55.219.144 0 1 6991 
+54.149.233.50 5 5 65199 20150110211533
+74.141.41.235 6 69 231108 20150111005839
+86.198.8.66 0 1 0 
+212.129.39.182 3 3 31010 20150128211237
+192.74.240.113 61 61 16688 20150121095917
+117.206.189.235 1 8 39162 20150118100605
+176.14.32.117 1 8 39470 20150121052809
+54.174.142.72 1 1 13004 20150119180645
+189.171.17.131 1 12 15396 20150114111152
+68.54.93.210 0 1 11491 
+166.137.242.79 0 1 12073 
+194.81.199.105 0 1 60297 
+92.236.180.134 1 5 20594 20150119175508
+98.112.76.143 0 1 12414 
+84.197.148.144 1 7 59609 20150120143541
+189.94.34.32 1 38 54102 20150114230458
+188.138.1.229 2 2 115482 20150112182405
+108.253.6.219 0 1 7394 
+70.208.228.127 3 19 90213 20150102051321
+81.223.254.34 18 18 227331 20150108031627
+209.147.118.149 1 2 19158 20150103192733
+5.79.68.161 1 1 57741 20150112164032
+54.144.67.108 4 4 25618 20150109010334
+95.220.168.75 1 1 10801 20150107064248
+103.17.117.46 1 1 10449 20150126151132
+188.129.212.42 1 38 54102 20150130192243
+106.39.252.13 1 1 2048 20150120134619
+199.30.24.103 0 2 2356 
+199.30.80.116 1 1 12348 20150114153525
+74.200.89.177 2 2 20898 20150118144901
+182.250.245.7 3 3 70579 20150111200057
+71.127.137.234 0 1 11555 
+75.157.2.106 0 2 86999 
+54.175.209.0 1 1 11180 20150117204419
+93.204.215.132 1 1 10449 20150114195110
+193.239.56.21 1 1 10449 20150109154614
+95.90.81.244 0 1 11051 
+27.121.209.215 2 2 20831 20150131120908
+68.6.161.233 0 1 7394 
+107.155.70.249 2 2 10694 20150119131811
+106.208.50.205 1 7 59609 20150107170636
+37.57.231.221 21 21 284813 20150131090120
+107.170.151.97 1 1 57445 20150111195726
+71.93.40.100 0 1 15576 
+5.151.2.197 0 1 10489 
+183.90.75.60 0 1 7394 
+222.77.197.111 1 1 10449 20150107021447
+65.55.210.24 0 9 41752 
+24.228.249.240 1 13 72729 20150116012711
+92.36.172.32 1 38 54102 20150111220802
+184.100.110.70 0 1 10470 
+62.210.83.201 2 2 21079 20150105194508
+104.156.253.122 1 1 10473 20150106182734
+188.63.27.205 1 39 83521 20150120215438
+94.121.162.5 1 7 59609 20150120105607
+192.218.2.5 1 1 57471 20150107060557
+74.130.208.39 0 1 12414 
+220.136.111.122 0 1 1670 
+59.189.109.159 0 1 7394 
+199.30.80.118 1 1 11838 20150112210838
+201.4.48.227 1 38 54102 20150130101549
+213.14.161.162 1 1 245 20150117012357
+64.79.89.130 1 1 10449 20150108041814
+54.175.196.96 1 1 10879 20150128062034
+201.157.47.27 0 1 10489 
+157.7.75.111 0 1 47104 
+24.36.79.159 0 1 3301 
+108.214.126.215 0 1 18090 
+46.188.2.156 1 1 10606 20150107064252
+23.228.176.246 6 19 117777 20150130001902
+187.134.204.175 0 19 20733 
+177.184.103.226 1 38 54102 20150120132737
+83.92.127.26 0 1 5707 
+90.203.148.99 0 1 60297 
+27.159.207.47 1 1 10240 20150120132907
+66.249.84.193 1 1 10449 20150131182530
+54.166.227.198 2 2 28312 20150105132519
+199.101.204.250 0 1 7394 
+223.235.177.82 2 8 86281 20150121124944
+189.105.23.10 1 38 52903 20150101130454
+68.149.172.104 1 5 20594 20150130044239
+91.200.12.52 1 1 10449 20150114062152
+98.82.23.109 5 79 193647 20150131025518
+66.249.82.175 2 11 76344 20150119141344
+31.181.160.66 0 1 17026 
+110.249.245.37 12 12 159691 20150106073905
+107.77.87.108 0 1 11491 
+2.60.88.155 0 1 30001 
+76.230.143.2 0 1 6110 
+162.198.31.51 1 8 42704 20150106015910
+104.131.246.17 1 1 57445 20150111195307
+94.180.153.8 1 2 39906 20150131164855
+188.244.33.101 1 9 41762 20150121052808
+54.164.10.246 2 2 20218 20150119014334
+166.137.8.112 1 32 48645 20150106211240
+194.250.98.228 1 7 59609 20150119181754
+113.68.158.212 2 2 20898 20150129040520
+5.102.222.89 1 1 245 20150106192054
+36.99.30.84 1 1 10449 20150120094900
+84.168.134.246 9 39 1282583 20150114094541
+177.95.88.90 1 38 54102 20150130021111
+108.54.113.163 0 1 10489 
+111.223.73.114 0 1 12398 
+202.46.49.42 1 1 1829 20150103061123
+24.191.34.130 1 7 59609 20150128232905
+106.6.183.223 36 36 233186 20150117080920
+199.30.24.171 0 3 33100 
+64.203.120.226 8 8 62485 20150119190955
+31.128.94.6 1 1 18534 20150120024112
+113.68.153.24 4 4 42131 20150127061503
+66.249.82.142 0 3 11951 
+139.195.25.157 0 1 4096 
+91.121.228.161 1 38 54102 20150107113220
+71.200.94.235 0 1 11555 
+107.170.92.10 1 1 57445 20150111200052
+200.225.102.170 1 38 54102 20150121021505
+37.59.162.229 11 11 233783 20150127093815
+88.12.51.136 1 1 383 20150105225433
+166.137.136.21 0 1 10275 
+31.184.238.97 1 1 10468 20150118130839
+67.40.46.142 1 10 58734 20150118203620
+63.68.134.233 0 1 16545 
+149.6.147.62 1 7 59609 20150107113423
+130.211.184.41 1 1 10473 20150131170734
+203.106.151.174 0 1 7394 
+117.239.75.154 0 1 10489 
+202.46.58.178 1 1 1829 20150102185835
+182.69.58.103 1 7 59609 20150116083009
+36.99.31.230 1 1 10449 20150111215113
+183.60.244.30 3 3 31102 20150129083419
+146.185.28.59 0 1 54981 
+36.99.31.83 1 1 10449 20150116015323
+54.175.177.12 1 1 10746 20150118105507
+202.46.50.46 1 1 10468 20150111035239
+92.246.111.3 1 9 13046 20150130134321
+188.155.225.196 0 1 11555 
+176.28.48.165 26 26 261920 20150131120804
+192.34.62.233 11 11 126878 20150109195716
+72.233.16.215 0 1 11491 
+54.175.200.189 6 6 65699 20150114180646
+199.30.16.167 0 1 6653 
+209.190.1.131 1 1 10449 20150126235141
+194.29.185.165 1 1 10468 20150116182853
+78.230.84.21 0 1 11555 
+176.250.228.222 0 2 23110 
+37.110.159.234 1 1 11726 20150131164913
+104.131.218.114 1 1 57445 20150111195308
+195.211.154.168 2 2 37068 20150120130024
+213.163.74.41 1 1 57741 20150112185741
+207.126.92.54 1 1 57313 20150107045114
+189.68.241.245 1 38 54102 20150107014814
+148.251.124.42 5 5 59060 20150131211604
+199.30.24.169 0 38 73065 
+62.75.181.134 1 1 8123 20150118235401
+49.97.17.31 1 1 58078 20150107122610
+187.78.106.199 1 38 54102 20150108105243
+82.114.92.33 2 2 20905 20150108045601
+173.255.116.171 1 1 10614 20150102170835
+108.59.82.86 1 1 10473 20150110170840
+24.93.24.149 0 1 7124 
+36.246.19.102 1 1 8192 20150120112129
+144.76.201.69 1 1 13672 20150118061020
+130.211.161.142 1 1 10473 20150118170741
+71.195.58.46 2 23 29084 20150114115032
+209.147.144.20 1 7 59742 20150128223349
+59.178.184.111 1 7 59609 20150107132557
+151.56.228.77 1 22 37478 20150116185025
+97.118.51.14 5 34 226586 20150107180906
+71.185.220.249 1 12 61190 20150119002125
+210.150.176.187 10 10 530266 20150129091941
+14.216.225.217 3 3 20831 20150110092025
+85.68.35.56 0 1 7394 
+31.170.166.7 0 2 60002 
+2.39.148.80 1 38 54102 20150128195039
+24.49.217.185 1 38 54102 20150113201518
+105.144.198.95 0 1 17026 
+24.125.114.166 0 1 55296 
+146.148.64.43 1 1 10612 20150103170832
+176.57.141.193 1 1 11413 20150111232250
+95.42.61.64 1 1 269 20150116000845
+77.68.227.217 21 21 198786 20150118215331
+46.229.167.149 4 4 41936 20150128033152
+31.221.68.162 0 1 7394 
+173.252.102.116 0 1 6740 
+158.132.151.254 1 1 10449 20150120053605
+66.60.234.87 2 8 86281 20150126184535
+130.211.142.208 1 1 10473 20150117170811
+192.171.232.73 1 1 10449 20150120003510
+157.181.201.191 0 1 11491 
+179.252.61.43 1 38 54327 20150101204022
+79.170.54.24 1 38 54102 20150120002603
+67.213.90.28 18 18 227331 20150121195911
+182.53.79.167 0 1 10448 
+103.11.49.13 0 1 7394 
+85.155.156.79 0 1 55824 
+54.82.159.136 3 3 39029 20150120054209
+36.3.211.59 1 1 10449 20150130131105
+89.188.39.2 0 1 8086 
+117.26.192.23 3 3 762 20150118012611
+54.175.117.191 7 7 100935 20150114180647
+36.99.30.206 1 1 10625 20150105014014
+178.18.141.110 8 8 169030 20150127093704
+65.55.210.84 0 30 60552 
+87.98.161.163 4 4 10449 20150112051042
+184.56.161.46 0 2 13771 
+66.249.85.215 0 1 11555 
+107.77.83.23 0 1 10275 
+202.28.248.44 0 1 0 
+104.232.32.13 1 1 10468 20150110094448
+81.158.70.156 1 8 46491 20150101135259
+84.30.130.216 0 1 11555 
+54.172.82.218 1 1 14473 20150120102409
+24.6.132.197 0 1 7394 
+24.77.0.231 0 1 6005 
+90.229.150.228 0 1 11555 
+36.99.31.172 1 1 10449 20150110094610
+54.166.120.67 1 1 10449 20150127025830
+117.176.29.164 1 1 10449 20150129112655
+50.199.252.161 3 57 167276 20150128213951
+108.80.253.134 6 78 299252 20150107220518
+54.154.38.133 2 2 20898 20150110215138
+199.30.25.45 0 3 5879 
+54.153.38.207 5 5 65199 20150130191800
+222.77.196.239 18 18 225984 20150115210509
+202.46.50.130 1 1 10468 20150111193204
+199.30.24.35 0 4 33095 
+181.175.9.10 0 1 11555 
+124.82.99.126 0 1 7394 
+114.76.81.241 0 1 8789 
+65.55.218.62 1 1 12728 20150102054119
+116.22.100.254 10 10 117967 20150127061512
+189.24.228.179 1 38 54328 20150102005329
+91.122.156.207 1 1 10449 20150109153139
+70.178.228.253 4 42 133112 20150113034229
+113.173.130.84 0 1 20172 
+104.130.192.107 1 1 10449 20150112182753
+58.105.214.238 2 10 47020 20150118015340
+2.96.190.127 0 1 7187 
+50.0.62.29 0 1 5707 
+66.249.88.213 1 1 10449 20150119134248
+23.114.14.122 0 1 6991 
+82.80.249.167 1 1 2048 20150105191340
+54.149.242.242 5 5 65199 20150110211547
+80.6.228.98 0 1 10489 
+95.68.12.117 0 1 8086 
+98.113.206.95 1 39 83653 20150103050415
+130.211.125.114 1 1 10473 20150106170847
+70.45.213.189 0 1 11555 
+110.159.247.156 0 2 7394 
+82.170.22.223 0 1 11491 
+202.46.48.149 1 1 10449 20150110185832
+71.59.116.35 2 2 20912 20150110021235
+37.115.185.13 1 1 18534 20150110213532
+2.101.160.66 2 19 88366 20150117153122
+5.135.177.107 10 10 131544 20150106153526
+199.30.24.199 0 1 29412 
+193.176.147.181 1 1 386 20150101141119
+189.5.100.196 1 38 54102 20150107233922
+36.99.31.81 1 1 10449 20150108040258
+77.97.119.92 0 5 51978 
+36.99.31.165 1 1 10449 20150113115438
+54.188.129.85 1 1 10449 20150117033316
+23.95.92.60 2 2 21238 20150113225629
+75.253.44.72 0 1 54981 
+146.148.92.221 1 1 10613 20150101170813
+107.129.169.26 0 1 10489 
+199.30.25.105 0 3 9767 
+54.174.24.200 1 1 10879 20150106151058
+54.154.149.4 2 2 12497 20150110204321
+198.252.44.7 2 2 21084 20150107211946
+50.174.177.17 3 16 91451 20150111182512
+199.30.25.113 0 1 891 
+198.50.144.58 1 1 10885 20150105060018
+172.56.14.234 0 1 7394 
+66.87.132.109 0 1 12891 
+119.108.91.166 1 1 10449 20150118000722
+70.113.108.134 0 1 4982 
+199.30.25.21 0 5 121721 
+70.59.48.62 0 1 3300 
+46.246.45.227 1 1 10765 20150107080005
+93.88.62.197 1 1 2048 20150109105855
+130.211.130.135 1 1 10473 20150120170826
+23.80.142.179 2 12 37277 20150126143858
+72.83.188.127 0 1 20172 
+165.228.7.50 0 1 11491 
+23.91.25.52 1 1 10449 20150127171031
+54.208.104.61 1 1 10487 20150120174653
+211.244.83.232 1 1 10449 20150126234038
+24.243.114.117 0 1 11555 
+202.46.48.100 1 1 10579 20150109005828
+216.163.188.236 1 1 14429 20150130023355
+220.181.51.79 0 2 2410 
+75.101.60.150 2 16 97345 20150110025216
+171.7.94.33 0 1 10275 
+54.187.157.213 1 1 10449 20150128090149
+131.100.55.155 1 38 54102 20150128153336
+88.11.115.20 0 1 5811 
+95.84.182.49 2 40 93896 20150116183026
+101.16.238.252 4 4 31213 20150114092227
+54.166.227.43 1 1 10449 20150112170600
+50.46.167.18 0 1 20172 
+50.4.62.55 11 103 456493 20150118200548
+70.192.195.226 1 1 0 20150112200204
+12.49.80.75 0 1 0 
+36.99.30.86 1 1 10624 20150101221240
+173.171.218.115 1 39 83514 20150115013954
+189.143.207.238 1 39 83514 20150128151732
+161.69.135.20 1 1 10588 20150105073709
+54.254.47.141 1 1 57024 20150109151918
+119.231.62.217 1 1 57445 20150111134851
+116.58.166.20 2 2 6144 20150120062932
+41.133.75.58 0 1 12414 
+129.125.149.61 0 1 11491 
+82.145.211.108 1 8 59609 20150121211304
+177.193.183.142 1 38 54102 20150115014510
+1.39.25.172 1 7 59609 20150113090516
+69.165.164.158 0 1 7394 
+140.237.38.10 1 1 57445 20150113021058
+66.43.51.126 1 1 383 20150104022754
+199.111.173.219 0 1 10470 
+24.113.81.131 0 1 11491 
+199.73.63.130 1 38 54327 20150106003430
+104.131.217.251 1 1 57445 20150111195453
+76.168.199.59 1 8 39762 20150103234330
+146.148.51.77 1 1 10473 20150111170801
+199.30.24.85 0 1 6653 
+91.200.12.146 2 2 20936 20150118234845
+67.193.243.159 0 1 7394 
+98.243.231.41 0 1 11555 
+180.153.182.184 1 1 14630 20150102033854
+94.242.221.68 2 2 37996 20150120000227
+73.166.116.199 13 92 361825 20150111181032
+42.120.145.69 0 3 2154 
+192.200.112.37 7 53 150292 20150129030756
+198.2.217.153 21 21 235863 20150105211554
+73.19.102.184 0 1 36188 
+36.99.31.68 1 1 10449 20150130001116
+86.139.69.113 1 38 54102 20150115211410
+50.140.95.178 0 1 7394 
+112.210.21.243 0 1 15556 
+205.197.242.149 0 1 6110 
+195.154.211.26 8 8 108456 20150129234225
+73.188.251.53 0 1 16760 
+123.126.51.81 2 2 20898 20150120002706
+50.56.58.47 1 1 10610 20150105160643
+54.197.18.75 1 1 9688 20150109013350
+202.46.63.154 1 1 10607 20150106024442
+219.92.60.97 0 1 11491 
+50.174.4.19 1 9 44591 20150109024255
+64.81.53.128 9 167 449089 20150105180908
+95.24.63.241 1 1 1900 20150131164930
+205.154.185.8 0 1 60297 
+177.155.184.67 1 38 54102 20150131170812
+202.46.62.61 1 1 10606 20150102181408
+203.176.181.51 0 1 20172 
+110.85.124.241 3 3 196400 20150131040204
+184.153.19.3 4 18 928245 20150112154423
+118.167.84.74 0 1 11491 
+49.143.199.77 1 1 10588 20150101120937
+83.6.247.88 1 1 10746 20150118111227
+148.251.69.136 2 3 34948 20150117155611
+95.211.162.27 1 1 10449 20150131193829
+95.84.182.237 3 76 148754 20150120110512
+220.181.132.196 1 1 10449 20150130092020
+187.216.79.242 0 1 7578 
+95.25.129.112 1 8 39210 20150107184903
+107.170.130.205 1 1 57445 20150111195843
+82.114.178.175 0 1 20172 
+199.30.25.178 0 1 29412 
+62.210.82.94 2 2 20905 20150109013516
+62.194.213.58 0 1 7394 
+146.148.41.175 1 1 10473 20150107170815
+88.198.56.239 2 2 20802 20150110115211
+38.100.21.61 10 10 126464 20150116043201
+107.130.103.48 1 8 42395 20150117040955
+2.103.50.168 1 7 59609 20150119170741
+96.48.109.107 0 1 7394 
+5.228.43.101 1 9 41762 20150113221750
+144.76.42.76 9 9 111370 20150103133714
+54.175.206.66 6 6 84299 20150114180705
+99.155.195.216 2 25 116420 20150106034451
+54.84.65.191 1 1 13699 20150119095017
+171.101.160.63 0 1 12891 
+91.200.12.55 1 1 10449 20150119144006
+114.125.190.124 0 1 12891 
+198.2.218.198 4 4 849021 20150129065823
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20150101 44 292 1260188 36
+20150102 66 408 1451404 36
+20150103 78 272 1874913 26
+20150104 860 1118 1970419 37
+20150105 1855 2329 10082103 49
+20150106 2595 3143 3718888 51
+20150107 2336 2928 3745574 50
+20150108 1169 1331 2439033 38
+20150109 1196 1635 6437726 53
+20150110 76 290 1513697 37
+20150111 2157 2562 8299329 55
+20150112 1401 1748 6662125 71
+20150113 694 955 2016553 41
+20150114 870 1259 4556745 52
+20150115 610 1011 2463994 42
+20150116 828 1248 2763365 34
+20150117 151 353 2714640 37
+20150118 84 430 13063420 51
+20150119 638 986 3621589 45
+20150120 1019 1434 3088859 56
+20150121 814 1237 2984065 40
+20150126 22 140 583233 20
+20150127 191 672 8185428 35
+20150128 538 1694 125217552 53
+20150129 367 839 41840117 33
+20150130 612 919 2182326 41
+20150131 36 225 1220574 29
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 43
+5mn-15mn 15
+2mn-5mn 26
+15mn-30mn 16
+30s-2mn 43
+0s-30s 974
+30mn-1h 31
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 462
+/jamin.asp 17331 5414184 46 46
+/default.asp 655 6267237 536 457
+/interface.asp 337 127408 4 4
+/faq.asp 118 3020873 65 72
+/news.asp 103 1049464 51 51
+/zhijie.asp 100 27600 1 1
+/about.asp 97 925680 8 11
+/contact.asp 92 957546 11 17
+/teas.asp 79 1054923 4 11
+/cheap_253.asp 71 4859053 1 1
+/tea_school/incense2.html 4 41850 0 0
+/new-blance-christmas/-935vy.html 3 26049 0 0
+/wp-kan/20150108093355928.html 18 1039362 18 18
+/japan/slideshow_38.htm 1 1820 0 0
+/can_scp_ca.asp 2 20935 1 0
+/japan/slideshow_16.htm 1 1870 0 0
+/white_tea.asp 7 73296 0 0
+/japan/slideshow_39.htm 1 1827 0 0
+/black_tea_lapsang.asp 4 46209 0 0
+/teacups.asp 15 114981 0 3
+/ioanna/ 1 4308 0 0
+/herbs_lemon_grass.asp 3 36463 0 0
+/pr/20150120224920940.html 2 43020 0 0
+/japan/slideshow_13.htm 1 1824 0 0
+/pr/20150120222636876.html 1 21474 0 0
+/css/nikelunarelitetrailmid/ 1 17065 1 0
+/san_antonio/index.htm 7 27300 1 0
+/wp-ioc/20150108171901753.html 1 56882 1 0
+/tea_school/incense5.html 4 45422 0 0
+/green_tea_mint.asp 4 47171 0 0
+/tea_news/circulation.htm 3 16586 1 0
+/japan/slideshow_46.htm 1 1798 0 0
+/teapot_my1.asp 6 69379 0 0
+/teatour/index.htm 59 825535 8 13
+/black_tea_yunnan_sup.asp 5 46475 1 0
+/tea_news/caffeine.htm 3 23249 0 0
+/teachest.asp 9 94385 1 1
+/tea_school/tea_history1.html 5 46333 0 2
+/black_tea_yunnan_gold.asp 4 47537 0 0
+/black_tea_kv_dj.asp 1 11648 1 1
+/cary/index.htm 2 3066 0 0
+/wp-cin/20150107093735-568.html 1 58729 1 1
+/green_tea_ceremony.asp 19 259964 11 11
+/wo-blog/20150108123300-321.html 1 57024 1 1
+/teacups_chawan.asp 12 135563 1 2
+/japan/slideshow_50.htm 1 1807 0 0
+/new-blance-christmas/--kl574nsy--7700011lg.html 1 9153 0 0
+/new-blance-christmas/new-balance-m576668bj.html 1 8450 0 0
+/teacups_taste_set.asp 13 148179 8 8
+/teaschool.asp 70 942485 6 8
+/tea_school/tea_prep2.html 3 29627 0 0
+/japan/slideshow_41.htm 1 1799 0 0
+/images/oakleysunglassesjuniorxsmallswimsuitsforeverybody/ 1 18281 0 0
+/images/zhijie.asp 50 13800 0 0
+/japan/slideshow_8.htm 1 1813 0 0
+/japan/slideshow_6.htm 1 1859 0 0
+/tea_school/varieties.html 4 42526 0 0
+/teas/oolong/4ss_hm.htm 3 2123 0 0
+/yixing_collection_17.asp 1 9143 0 1
+/japan/slideshow_53.htm 1 1813 0 0
+/advancedsearch.asp 2 129110 0 0
+/747/index.htm 1 507 0 0
+/new-blance-christmas/new-balance-576-usa470il.html 2 18300 0 0
+/tea_news/research.htm 4 47750 1 1
+/new-blance-christmas/nb-576487bg.html 2 17088 0 0
+/fire/zhijie.asp 50 13524 0 0
+/new-blance-christmas/1300-537lp.html 4 35448 0 0
+/store/ 1 10271 0 1
+/maui/index3.htm 1 2219 0 1
+/teapot_herb.asp 6 80512 1 1
+/new-blance-christmas/burgundy--432sl.html 1 8985 0 0
+/wp-jui/20150106152118-009.html 4 233860 1 1
+/dimsum.html 2 20654 0 0
+/arlington/index.htm 2 1950 0 0
+/black_tea.asp 10 123513 2 2
+/can_sm.asp 5 56606 0 0
+/japan/slideshow_7.htm 1 1859 0 0
+/tea_school/tea_store1.html 3 27911 0 0
+/lubbock/index.htm 2 2548 0 0
+/accessories_matcha.asp 13 132268 0 0
+/wp-jui/20150106145209-185.html 1 58617 1 1
+/portland_kiss/index.htm 1 1463 1 1
+/japan/slideshow_34.htm 1 1803 0 0
+/search.asp 6 35497 0 0
+/doctors/index.htm 1 6959 0 0
+/mt_rain/index.htm 2 2184 0 0
+/2/jt4d58u-20141220222438-20aj.html 3 27531 0 0
+/new-blance-christmas/new-balance662ch.html 3 26109 0 0
+/vancouver/index.htm 1 1492 0 0
+/teatour/reservations.htm 4 18754 0 0
+/teacups_cup.asp 6 65589 0 1
+/herbs_good_fortune.asp 4 47271 0 1
+/hinoki_spa.asp 2 15034 2 1
+/puerh_mini.asp 5 58779 0 0
+/acupuncture/index.htm 1 1301 0 0
+/wp-nbv/20150111221216-200.html 1 52541 1 0
+/pr/20150120230705648.html 2 41618 0 0
+/japan/slideshow_55.htm 1 1793 0 0
+/new-blance-christmas/--ml574pnv297fo.html 1 8701 0 0
+/teas/black/about_black.html 1 2994 0 0
+/snow/index.htm 1 519 0 0
+/new-blance-christmas/new-balance-m1300-cl314er.html 1 8391 0 1
+/2302/index.htm 3 6249 0 1
+/wp-hi/20150106160423845.html 1 57411 1 0
+/tea_news/skin.htm 3 11474 0 0
+/spa_scent_bag.asp 7 56261 7 7
+/japan/slideshow_59.htm 1 1824 0 0
+/japan/slideshow_57.htm 1 1816 0 0
+/scented_earl_grey.asp 4 45853 0 0
+/index2.asp 1 16384 1 0
+/pr/20150120225855062.html 1 20744 0 1
+/wp-goa/20150107110435-738.html 1 58330 1 1
+/wp-inp/20150106112631-170.html 1 57330 1 1
+/accessories_sifter.asp 26 275703 12 10
+/tea_news/vitamin.htm 3 534 0 1
+/japan/slideshow_48.htm 1 1798 0 0
+/can_med.asp 6 67687 0 1
+/wp-incli/20150111163438686.html 2 54542 1 1
+/teapot_med.asp 7 106540 1 2
+/puerh_sampler.asp 6 64303 1 1
+/teas/scented/about_scented.html 1 3628 0 0
+/chai.asp 5 57367 0 1
+/japan/slideshow_4.htm 1 1858 0 0
+/japan/slideshow_37.htm 1 1802 0 0
+/book_book_of_tea.asp 3 34242 1 0
+/teapot_my2.asp 7 81168 0 0
+/tea_school/tea_prep1.html 3 29858 0 0
+/olympic/index.htm 1 3783 0 0
+/japan/slideshow_58.htm 1 1824 0 0
+/japan/slideshow_5.htm 1 1859 0 0
+/SG/index.htm 1 1707 0 0
+/white_tea_white_peony.asp 13 137839 7 6
+/new-blance-christmas/--598ox.html 1 8835 0 0
+/green_tea_yun_wu.asp 10 115100 2 4
+/japan/slideshow_49.htm 1 1799 0 0
+/green_tea_gyokuro.asp 7 92572 2 1
+/wp-inp/20150106112911-136.html 2 114942 1 2
+/accessories_coaster.asp 10 111087 2 5
+/wp-nm/20150112185539000.html 4 210264 1 1
+/anteprima/20150128114929535.html 1 7246 1 1
+/wp-ico/20150114230831952.html 1 52124 1 1
+/david/index.htm 1 3389 0 0
+/wp-tui/20150105193230-431.html 3 70579 1 1
+/green_tea.asp 17 218594 0 1
+/can_scp_bb.asp 1 10480 0 0
+/charcoal.htm 1 721 1 0
+/zmzm/201412110131435ha.html 1 9526 1 1
+/seattle/index.htm 3 4968 0 1
+/wp-ioc/20150108162645721.html 1 56990 0 0
+/teacups_tea_cup.asp 8 70571 2 1
+/pr/20150120231913775.html 2 42176 0 0
+/pr/20150120224327874.html 1 21366 0 0
+/pr/20150120224500973.html 1 21124 0 0
+/japan/slideshow_60.htm 2 3901 0 0
+/timothy/index.htm 1 4261 0 0
+/yixing_collection_19.asp 2 15998 2 2
+/bi_hinoki.asp 10 112766 3 2
+/photos/contact_1.htm 2 10424 0 0
+/black_tea_ceylon_silver.asp 5 58700 1 1
+/teapot_retro.asp 2 26175 2 1
+/teas/oolong/slx_hm.htm 3 2102 0 0
+/new-blance-christmas/kv654478ag.html 1 8653 1 0
+/tea_school/tea_health.html 5 15858 0 1
+/church/index.htm 3 4866 0 0
+/pr/20150120224444927.html 1 21065 0 0
+/wp-ioc/20150108165901885.html 2 112048 0 0
+/oolong_tea_phoenix.asp 6 69887 0 1
+/accessories_whisk.asp 6 60743 1 1
+/new-blance-christmas/new-balance-635kn.html 1 8658 0 0
+/new-blance-christmas/nb-1700912yu.html 1 8670 0 0
+/spa_soap.asp 2 15815 1 2
+/qqq.asp 3 1288222 0 2
+/photo/landscape.htm 1 1323 0 0
+/scented_jas_pearls.asp 7 80571 3 3
+/post/index.htm 2 1242 0 1
+/tea_school/tea_history2.html 5 58473 1 2
+/japan/slideshow_47.htm 1 1798 0 0
+/herbs.asp 51 624429 3 2
+/wp-ipo/20150106174841-057.html 2 115746 1 1
+/tea_school/tea2.html 4 40138 0 0
+/spa_incense.asp 7 83237 1 2
+/pr/20150120222753216.html 2 43166 1 0
+/bi_green_tea.asp 4 38588 1 1
+/BC/index.htm 2 2186 0 0
+/accessories_tray.asp 8 87347 2 2
+/new-blance-christmas/2014--670gc.html 1 8860 0 0
+/new-blance-christmas/new-balance-993830dh.html 2 17934 0 0
+/2/yc5h67l-20141220230150-19cr.html 1 8649 1 1
+/search_results.asp 1 5647 1 1
+/new-blance-christmas/new-balance-m996gy358zg.html 1 8276 0 0
+/black_tea_darjeeling.asp 10 116575 5 5
+/santa_barbara/index.htm 1 1658 0 0
+/tea_school/tea_prep3.html 2 18550 0 0
+/yixing_teapots_29.asp 1 7484 1 1
+/puerh_aged_lg_leaf.asp 5 47423 1 1
+/book_mao_quotations.asp 1 11527 1 1
+/japan/slideshow_10.htm 1 1779 0 0
+/japan/slideshow_18.htm 1 1829 0 0
+/puerh_tea.asp 7 85721 0 0
+/wp-noi/20150106195837-207.html 1 0 1 0
+/wocao/20141211173658937.html 4 36464 2 2
+/tea_news/oral_health.htm 3 12773 0 0
+/japan/index.htm 6 11447 1 0
+/japan/slideshow_43.htm 1 1799 0 0
+/new-blance-christmas/996-457nn.html 1 8570 0 0
+/1.txt 3 508 0 0
+/wp-tui/20150105192804-315.html 2 57240 1 1
+/japan/slideshow_31.htm 1 1803 0 0
+/new-blance-christmas/new-balance-m670751vl.html 2 16194 0 0
+/japan/slideshow_21.htm 1 1820 0 0
+/zmzm/201412110130465dl.html 1 10146 1 1
+/wp-ioc/20150108164241535.html 1 57714 1 1
+/wp-ico/20150114233307571.html 4 209068 1 1
+/wp-ico/20150115004612430.html 1 52317 1 1
+/cd_east_wind.asp 1 14850 0 1
+/alamo/index.htm 2 4998 0 0
+/japan/slideshow_9.htm 1 1808 0 0
+/bi_silk_road.asp 5 59699 1 1
+/new-blance-christmas/new-balance--232dg.html 1 8708 0 0
+/c/20141230174654825.html 1 57313 1 1
+/images/tea/zhijie.asp 50 13800 0 0
+/flash/tiffanyjewelrywikipedia7habits/ 1 14972 1 0
+/tea_school/tea_history4.html 2 19748 0 0
+/cast/zhijie.asp 50 13800 0 0
+/maui/index2.htm 1 4723 0 0
+/zo/index.htm 1 1286 0 0
+/wp-tui/20150105194635-737.html 1 57766 1 1
+/black_tea_afternoon.asp 6 59205 1 2
+/japan/slideshow_24.htm 1 1807 0 0
+/puerh_sup_gold_bud.asp 5 52762 1 1
+/tea_school/incense3.html 4 43586 0 0
+/teas/white/about_white.html 1 3305 0 0
+/japan/slideshow_40.htm 1 1813 0 0
+/yo/oly2.htm 1 1254 0 1
+/teapot_sm.asp 8 109524 1 2
+/ 70 732167 10 20
+/wp-inp/20150106112638-045.html 1 57948 1 1
+/wp-incl/20150104172124-819.html 1 57310 1 1
+/teaware.asp 63 701534 2 4
+/green_tea_hoji.asp 4 47067 0 0
+/yixing_teapots_13.asp 1 8323 1 0
+/pr/20150120224207902.html 1 21499 0 0
+/japan/slideshow_3.htm 1 1859 0 0
+/wp-coco/20150107162939180.html 1 57828 1 1
+/herbs_hibiscus.asp 4 48663 0 0
+/everglades/index.htm 2 26486 1 1
+/yixing_collection_18.asp 1 9512 1 1
+/oolong_sampler.asp 5 53115 2 2
+/sale.asp 46 770129 3 7
+/new-blance-christmas/993-282hm.html 3 26271 0 0
+/2/gd6a75w-20141220222607-61xo.html 3 27525 3 0
+/scented_grn_apple.asp 4 45464 1 1
+/bi_good_fortune.asp 4 44293 0 0
+/japan/slideshow_15.htm 1 1824 0 0
+/japan/slideshow_30.htm 1 1803 0 0
+/wp-goa/20150107110508-098.html 1 10240 1 1
+/new-blance-christmas/576-926ve.html 1 9050 0 0
+/tomozo/index.htm 1 1777 0 0
+/teas/puerh/about_puerh.html 1 3134 0 0
+/japan/slideshow_12.htm 1 1818 0 0
+/new-blance-christmas/new-balance-703100to.html 3 25995 0 1
+/beehouse/index.htm 1 7137 0 0
+/japan/slideshow_28.htm 1 1816 0 0
+/oolong_tea_taiwan_samp.asp 8 85052 2 2
+/tea_school/incense1.html 4 41826 0 0
+/index3.asp 1 149296 0 0
+/tea_school/incense4.html 4 40938 0 0
+/teapot_kyoto.asp 8 101680 3 4
+/herbs_long_life.asp 5 46381 0 0
+/teatour/kotoin.htm 4 6570 0 1
+/beehouse.htm 1 10704 0 0
+/pr/20150120224156708.html 1 21086 0 1
+/teatour/terms.htm 4 37338 0 0
+/index1.asp 2 32620 1 2
+/teapot_sq.asp 4 51704 1 1
+/scented_o_s.asp 3 34222 0 0
+/maui/index.htm 3 12674 0 0
+/tea_school/tea_history3.html 2 19774 0 0
+/favorites.htm 1 5402 0 0
+/new-blance-christmas/new-balance-m1500716uz.html 2 17726 0 0
+/green_tea_extract.asp 5 61354 1 1
+/tea_news/symposium.htm 4 64154 1 1
+/books.asp 46 455675 5 3
+/japan/slideshow_17.htm 1 1829 0 0
+/oolong_tea_bai_hao.asp 8 86883 1 0
+/las_vegas/index.htm 2 6059 0 0
+/corpus/index.htm 2 1814 0 0
+/herbs_rose_petal.asp 3 34008 0 0
+/teas/oolong/about_oolong.html 2 5906 0 0
+/black_tea_keemun.asp 7 82170 3 3
+/new-blance-christmas/1400-222za.html 3 26196 1 0
+/wocao/20141211172958737.html 3 31914 3 3
+/teapot_oval.asp 4 51821 0 1
+/accessories.asp 10 98607 0 2
+/fed_way/index.htm 2 1828 0 0
+/japan/slideshow_33.htm 1 1803 0 0
+/white_tea_silver_needle.asp 10 125360 2 3
+/new-blance-christmas/576-new-balance268up.html 2 16902 0 1
+/japan/slideshow_14.htm 1 1823 0 0
+/japan/slideshow_35.htm 1 1803 0 0
+/oolong_tea_dong_ding.asp 6 68052 1 1
+/wp-goo/20150114111739092.html 1 52237 1 1
+/tea_news/white.htm 4 28070 1 1
+/japan/slideshow_56.htm 1 1965 0 0
+/food/index.htm 1 1123 0 0
+/book_tea_culture.asp 6 68137 2 4
+/teapots.asp 71 772480 13 24
+/japan/slideshow_44.htm 1 1798 0 0
+/yixing_collection_10.asp 1 8999 1 0
+/accessories_pitcher.asp 4 44821 0 0
+/green_tea_chanoyu.asp 4 50749 0 0
+/yo/oly3.htm 2 2574 1 1
+/SF/index.htm 3 7026 0 0
+/herbs_luohanguo.asp 17 199687 11 10
+/wp-hlk/20150109111151251.html 1 57081 1 1
+/teas/oolong/bh.htm 3 1376 0 1
+/wp-noi/20150106210016-193.html 1 57982 0 0
+/vegas/index.htm 2 6954 0 0
+/yo/oly1.htm 1 1253 0 0
+/japan/slideshow_45.htm 1 1799 0 0
+/PSkiss/index.htm 1 992 0 0
+/new-blance-christmas/ 4 28540 0 0
+/oolong_tea_yan_cha.asp 8 86809 4 3
+/teapot_jumbo.asp 8 99949 4 3
+/photo/index.htm 2 15379 0 0
+/japan/slideshow_51.htm 1 1801 0 0
+/everglades/satellite.html 1 6707 0 0
+/japan/slideshow_29.htm 1 1804 0 0
+/pr/20150120224926609.html 1 21652 0 0
+/virginia/index.htm 2 1994 0 0
+/bi_aloe_sandal.asp 6 79535 2 2
+/anteprima/20150128101919309.html 1 9538 0 1
+/comments.asp 35 632743 24 23
+/photos/index.htm 2 10848 0 0
+/japan/slideshow_19.htm 3 5487 2 2
+/japan/slideshow_32.htm 1 1801 0 1
+/baieido.asp 3 40023 0 0
+/japan/slideshow_20.htm 1 1820 0 0
+/accessories_holder.asp 10 110031 0 1
+/posters/index.htm 1 910 0 0
+/new-blance-christmas/new-balance-wr996-679lb.html 1 8665 0 0
+/books_music/SMCD-rem-2.mpga 2 6144 0 0
+/japan/slideshow_25.htm 1 1800 0 0
+/teacups_beehouse.asp 10 111983 3 1
+/wp-gnn/ 1 0 1 1
+/japan/slideshow_54.htm 1 1801 0 0
+/scented_chai.asp 4 45855 0 0
+/daniel/index.htm 1 560 0 0
+/tea_news/germs.htm 3 20075 0 0
+/oolong_tea.asp 9 96073 1 2
+/mc/index.htm 2 1202 2 2
+/japan/slideshow_52.htm 1 1798 0 0
+/japan/slideshow_23.htm 1 1811 0 0
+/pyzm/acy2-f6625-d84f9i.html 1 8796 1 1
+/privacy_security.asp 43 307941 4 14
+/incense.asp 48 679105 3 7
+/wp-hlk/20150109111738606.html 1 57809 0 1
+/herbs_daily_tonic.asp 6 73820 3 1
+/puerh_aged_sm_leaf.asp 4 46687 0 0
+/wp-jui/20150106145418-742.html 4 27216 1 1
+/pr/20150120224015153.html 1 21370 1 0
+/pride/panorama.htm 1 553 0 0
+/new-blance-christmas/nb-993716zn.html 4 35848 0 0
+/wp-goa/20150107110332-011.html 1 8192 1 1
+/new-blance-christmas/nb-1300166lz.html 1 8982 0 0
+/2/bw7e80u-20141220221423-10ll.html 3 27012 0 3
+/snacks/index.htm 1 918 0 0
+/bi_phoenix_dragon.asp 4 46937 0 0
+/japan/slideshow_42.htm 1 1799 0 0
+/OCOM/index.htm 1 2928 0 0
+/tea_school/tea1.html 4 36490 0 0
+/green_tea_sencha.asp 5 62720 0 0
+/wp-goa/20150107114146-236.html 1 57613 1 1
+/accessories_filter.asp 1 9984 1 1
+/teacups_taste_glass.asp 7 82726 1 2
+/wp-gle/20150113112804730.html 1 52153 0 1
+/can_xlg.asp 5 56693 0 0
+/teas/green/about_green.html 2 2780 0 0
+/wp-jopi/20150109143103-542.html 19 1091455 19 19
+/green_tea_long_jing.asp 8 98941 3 3
+/oolong_tea_high_mt.asp 9 119271 3 3
+/pskiss/index.htm 1 992 0 1
+/tea_news/switch.htm 7 104327 4 4
+/green_tea_matcha_reg.asp 4 48847 0 0
+/time/index.htm 1 2443 0 0
+/pr/20150120223244944.html 1 20826 0 0
+/wp-ioc/20150108162653752.html 2 115984 2 2
+/tea_school/tea3.html 4 37405 0 1
+/anteprima/20150128121612242.html 1 7562 1 0
+/green_tea_genmaicha.asp 4 51237 0 1
+/520/mb.html 1 10027 0 1
+/bi_rising_scent.asp 4 45741 0 0
+/nk_bamboo.asp 3 34115 1 0
+/concord/index.htm 3 2298 0 0
+/ima/20150130145227829.html 4 36356 1 1
+/books_music/SMCD-rem-3.mpga 2 4096 0 0
+/teapot_lg.asp 11 131895 2 4
+/tea_news/heart_attack.htm 4 18482 0 0
+/oolong_tea_fall_tgy.asp 7 79325 2 2
+/new-blance-christmas/new-balance-lm576uk349wi.html 1 9255 0 0
+/tea_school/tea_store2.html 3 30677 0 0
+/LA/index.htm 3 2661 0 0
+/cd_reminiscence.asp 3 39389 0 0
+/pyzm/ 1 8263 1 1
+/new-blance-christmas/new-balance--214zo.html 1 8413 1 0
+/can_lg.asp 7 67788 1 1
+/green_tea_matcha.asp 7 62818 1 1
+/green_tea_kuki.asp 5 62441 0 0
+/hinoki.asp 6 58003 0 0
+/new-blance-christmas/--m996bb035ip.html 2 19122 0 0
+/wp-hi/20150106161312353.html 3 173888 3 3
+/scented_jas_oolong.asp 4 44331 0 0
+/new-blance-christmas/nb-574721ek.html 1 8982 0 0
+/new-blance-christmas/m993-012xk.html 2 17264 0 0
+/teas/oolong/hm.htm 3 1406 0 0
+/book_tea_in_china.asp 3 34307 0 0
+/herbs_well_being.asp 9 113815 5 5
+/wp-goa/20150107110302-682.html 1 58078 1 1
+/teapot_gk1.asp 15 168782 6 5
+/hospice/index.htm 1 2767 1 0
+/new-blance-christmas/new-balance--661ss.html 2 18472 0 0
+/books_music/SMCD-rem-1.mpga 2 6144 0 0
+/teacups_gaiwan.asp 11 130376 4 5
+/palmsprings/index.htm 5 11883 0 1
+/DC/index.htm 2 3116 0 0
+/wholesale.asp 44 348917 5 3
+/new-blance-christmas/nb110rz.html 2 16400 0 0
+/canisters.asp 11 106885 4 2
+/herbs_chamomile.asp 5 57042 2 2
+/accessories_c_s.asp 4 43225 1 0
+/wo-blog/20150108120541-627.html 1 0 0 0
+/japan/slideshow_2.htm 2 3687 0 0
+/book_chado.asp 3 35416 0 0
+/pr/20150120230453912.html 1 20627 0 0
+/can_scp_wt.asp 15 165558 5 5
+/wp-bou/20150106095103-698.html 3 172917 0 0
+/teapot_zen.asp 10 132121 4 2
+/river/index.htm 3 7860 0 0
+/scented_creme.asp 4 45101 0 0
+/japan/slideshow_22.htm 1 1810 0 0
+/japan/slideshow_11.htm 1 1777 0 0
+/yixing_collection_14.asp 1 7867 1 1
+/teatour/itinerary.htm 6 74696 2 2
+/herbs_chrysanthemum.asp 4 46993 0 0
+/tea_news/arthritis.htm 4 17454 0 0
+/wp-tui/20150105193640-871.html 1 57935 1 1
+/teagifts.asp 41 527338 0 1
+/yixing_collection_8.asp 1 9133 1 0
+/teatour/contact.htm 4 28018 0 0
+/tea_news/cholesterol.htm 3 20210 0 0
+/spa_bath_tea.asp 5 56089 1 1
+/japan/slideshow_36.htm 1 1803 0 0
+/japan/slideshow_26.htm 1 1800 0 0
+/teapot_sat.asp 6 86421 1 1
+/scented_tea.asp 5 54710 0 0
+/spa_soapdish.asp 3 22975 1 0
+/tea_news/popularity.htm 12 83108 9 9
+/links/index.htm 6 52656 5 0
+/green_tea_bancha.asp 6 69485 0 1
+/places/index.htm 3 8384 1 0
+/japan/slideshow_27.htm 1 1816 0 0
+/new-blance-christmas/new-balance-659ky.html 1 9568 0 0
+END_SIDER

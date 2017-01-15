@@ -1,0 +1,771 @@
+
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Site Logo Script- Click here for a DHTML script that creates a static logo image, positioned in the lower right corner of the browser." />
+<meta name="keywords" content="DHTML, Geocities watermark logo, logo script, static image, DHTML tutorial, free, JavaScript" />
+<title>Dynamic Drive DHTML Scripts- Ultimate Fade-in slideshow (v2.0)</title>
+<link rel="stylesheet" type="text/css" href="../ddincludes/mainstylev2.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- optional touchswipe file to enable swipping to navigate slideshow -->
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+
+<style>
+
+#fadeshow4 .gallerylayer img{
+width: 100%;
+height: auto;
+}
+
+@media screen and (max-width: 800px) {
+
+
+    table#demotable{
+        border-width: 0;
+    }
+    
+     table#demotable th{
+         display: none;
+     }
+    
+    table#demotable td{
+        display: block;
+        width: auto;
+    }
+}
+
+</style>
+
+<script type="text/javascript" src="fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["../dynamicindex4/pool.jpg"],
+		["../dynamicindex4/cave.jpg"],
+		["../dynamicindex4/fruits.jpg"],
+		["../dynamicindex4/dog.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "always",
+	togglerid: ""
+})
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+	dimensions: [960, 598], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	
+	imagearray: [
+		["home/slides/cook1.jpg"],
+		["home/slides/cook2.jpg"],
+		["home/slides/cook3.jpg"],
+		["home/slides/cook4.jpg"],
+		["home/slides/cook5.jpg"],
+		["home/slides/cook6.jpg"],
+		["home/slides/cook7.jpg"],
+		["home/slides/cook8.jpg"],
+		["home/slides/cook9.jpg"],
+		["home/slides/cook10.jpg"],
+		["home/slides/cook11.jpg"],
+		["home/slides/cook12.jpg"],
+		["home/slides/cook13.jpg"],
+		["home/slides/cook14.jpg"],
+		["home/slides/cook15.jpg"],
+		["home/slides/cook16.jpg"],
+		["home/slides/cook17.jpg"],
+		["home/slides/cook18.jpg"],
+		["home/slides/cook19.jpg"],
+		["home/slides/cook20.jpg"],
+		["home/slides/cook21.jpg"],
+		["home/slides/cook22.jpg"]
+	],
+	displaymode: {type:'auto', pause:3000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "ondemand",
+	togglerid: ""
+})
+
+var mygallery3=new fadeSlideShow({
+	wrapperid: "fadeshow3", //ID of blank DIV on page to house Slideshow
+	dimensions: ['90%', 400], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["shockwave/images/1.jpg", "", "", "There is beauty to be found in nature not just in grand landscapes, but in the petals of an unassuming flower"],
+		["shockwave/images/3.jpg", "", "", "The iconic telephone booths of London now in a very unfamiliar place."],
+		["shockwave/images/7.jpg", "", "", "A piano not played is a piano that's wasting away. "],
+		["shockwave/images/4.jpg", "", "", "Alone and being lonely. It's a state of mind. Which one does this image evoke in you?"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:3000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "peekaboo",
+	togglerid: ""
+})
+
+var mygallery4=new fadeSlideShow({
+	wrapperid: "fadeshow4", //ID of blank DIV on page to house Slideshow
+	dimensions: ['50%', 300], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["shockwave/images/1.jpg", "", "", "There is beauty to be found in nature not just in grand landscapes, but in the petals of an unassuming flower"],
+		["shockwave/images/3.jpg", "", "", "The iconic telephone booths of London now in a very unfamiliar place."],
+		["shockwave/images/7.jpg", "", "", "A piano not played is a piano that's wasting away. "],
+		["shockwave/images/4.jpg", "", "", "Alone and being lonely. It's a state of mind. Which one does this image evoke in you?"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'manual', pause:3000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "always",
+	togglerid: "fadeshow4toggler"
+})
+
+</script>
+
+</head>
+
+<body>
+
+<script src="http://www.dynamicdrive.com/ddincludes/scriptsv21.js"></script>
+
+<div id="topsection">
+
+<div id="topmenu">
+<div id="sitelogo">
+<a href="http://www.dynamicdrive.com/"><img border="0" src="http://www.dynamicdrive.com/ddincludes/ddlogov2.png"></a>
+</div>
+
+<a class="dd-animateddrawer" id="ddsite-mobiletoggle" href="#">
+<span></span>
+</a>
+
+<ul id="ddsite-topmenuul">
+<li><a href="http://www.dynamicdrive.com/new.htm" id="firstmenuitem">New</a></li>
+<li><a href="http://www.dynamicdrive.com/revised.htm">Revised</a></li>
+<li><a href="http://www.dynamicdrive.com/forums/">Forums</a></li>
+<li><a href="http://www.dynamicdrive.com/style/" class="dd-anchorclass" rel="dd-submenu">CSS Codes</a></li>
+<li><a href="http://tools.dynamicdrive.com/" class="dd-anchorclass" rel="dd-submenu2">Tools</a></li>
+<li id="fbfanpage" style="position:absolute;top:-5px" title="Follow us on Twitter!"><a href="https://twitter.com/ddrivegeorge" target="_new"><img src="http://www.dynamicdrive.com/ddincludes/twittercircle.png" style="width:32px" /></a></li>
+
+<li id="search">
+<form id="topform" method="get" action="http://www.dynamicdrive.com/search/search.php">
+<input type="text" name="zoom_query" id="zoom_query" size="20" class="zoom_searchbox topsearchbox" placeholder="search">
+<input id="query_submit" type="image" src="http://www.dynamicdrive.com/ddincludes/magnify.gif" />
+<input name="zoom_per_page" id="zoom_per_page" type="hidden" value="10" />
+<input name="zoom_and" id="zoom_and" type="hidden" value="1" />
+<input type="hidden" name="zoom_sort" value="0" />
+</form>
+</li>
+</ul>
+</div>
+
+<div id="dd-submenu" class="dd-anylinkcsscols">
+
+<div class="column">
+	<b>CSS Codes</b>
+	<ul>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C1/">Horizontal CSS Menus</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C2/">Vertical CSS Menus</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C4/">Image CSS</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C6/">Form CSS</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C5/">DIVs and containers</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C7/">Links &amp; Buttons</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C17/">CSS3 demos</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C8/">Other</a></li>
+	</ul>
+</div>
+
+<div class="column">
+	<b>CSS Layouts</b>
+	<ul>
+	<li><a href="http://www.dynamicdrive.com/style/layouts/" class="title">CSS Layouts</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/layouts/category/C9/">Two Columns</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/layouts/category/C10/">Three Columns</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/layouts/category/C12/">Fixed layouts</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/layouts/category/C13/">Liquid Layouts</a></li>
+	<li><a href="http://www.dynamicdrive.com/style/layouts/category/C11/">CSS Frames</a></li>
+	</ul>
+</div>
+
+</div>
+
+<div id="dd-submenu2" class="dd-anylinkcsscols">
+
+<div class="column">
+	<ul>
+	<li><a href="http://tools.dynamicdrive.com/imageoptimizer/">Image Optimizer</a></li>
+	<li><a href="http://tools.dynamicdrive.com/favicon/">FavIcon Generator</a></li>
+	<li><a href="http://tools.dynamicdrive.com/faviconeditor/">FavIcon Editor</a></li>
+	<li><a href="http://tools.dynamicdrive.com/animatedgif/">Animated Gif</a></li>
+	<li><a href="http://www.dynamicdrive.com/emailriddler/">Email Riddler</a></li>
+  <li><a href="http://tools.dynamicdrive.com/password/">.htaccess Password</a></li>
+	</ul>
+</div>
+
+<div class="column">
+	<ul>
+	<li><a href="http://tools.dynamicdrive.com/userban/">.htaccess Banning</a></li>
+  <li><a href="http://tools.dynamicdrive.com/gradient/">Gradient Image</a></li>
+  <li><a href="http://tools.dynamicdrive.com/button/">Button Maker</a></li>
+	<li><a href="http://tools.dynamicdrive.com/imagetobase64">Image to Base64 String <span style="color:red;margin-left:6px">new</span></a></li>
+	<li><a href="http://tools.dynamicdrive.com/ribbon/">Ribbon Rules</a></li>
+	<li><a href="http://tools.dynamicdrive.com/listscrubber/">List Scrubber Tool</a></li>
+	<li><a href="http://www.ddwhois.com/">DD Whois Service</a></li>
+	</ul>
+</div>
+
+</div>
+
+<div id="topbanner">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script type="text/javascript" src="http://www.dynamicdrive.com/ddincludes/adbannerv2.js?refresh=4"></script>
+</div>
+
+</div>
+
+<p id="pathlinks"><a href="http://www.dynamicdrive.com/">Home</a> <img border="0" src="../ddincludes/arrow2.gif" width="8" height="10" />                                                        
+<a href="http://www.dynamicdrive.com/dynamicindex4/">Image Effects</a> <img border="0" src="../ddincludes/arrow2.gif" width="8" height="10" />                                                        Here</p>
+
+<div id="maincontainer">
+
+<div id="contentwrapper">
+<div id="contentcolumn">
+    
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "40b54cb4-9462-4498-90ff-0b73ceacc87b", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+
+<div id="dd-socialshare">
+
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_delicious_large' displayText='Delicious'></span>
+<span class='st_googleplus_large' displayText='Google +'></span>
+<span class='st_email_large' displayText='Email'></span>
+
+</div>
+
+<div id="hostgatorline" style="padding:4px;background:#eee;border-bottom:2px solid gray;font-weight:bold;margin-bottom:12px">Save BIG on web hosting: <a href="http://www.dynamicdrive.com/hostingcoupons/" style="color:#449805;text-decoration:none">Hostgator  May coupon codes for up to 99% off hosting!</a></div>
+
+<script>
+
+
+if (document.cookie.indexOf('hostgatorline') != -1){
+	document.getElementById('hostgatorline').style.display = 'none'
+}
+document.cookie = 'hostgatorline = yes;'
+
+
+</script>
+
+
+<div id="scriptheader"><span class="compatlist">FF1+ IE6+ Opr9+</span> 
+  <h3>Ultimate Fade-in slideshow (v2.6.1)</h3></div> 
+<div id="scriptheaderFoot"> <b><!--webbot bot="HTMLMarkup" startspan --><form class="navselectform">
+<select name="example" size="1" onChange="pagenavselect_dd(this)">
+<option value="fadeinshow.htm" selected>Script Index Page</option>
+<option value="fadeinslideshow_suppliment.htm">Taking advantage of the oninit() and onslide() event handlers</option>
+<option value="responsiveslideshowguide.htm">Guide to Responsive Ultimate Fade In Slideshow</option>
+</select>
+</form>
+<!--webbot bot="HTMLMarkup" endspan i-checksum="57366" --></b>&nbsp;<b>Author:</b>  
+  <span id="ddauthor">Dynamic Drive</span></div>
+
+    <p align="left">
+      <b>Note:</b> March 7th, 16': Updated to v2.6.1 for
+		<a href="http://www.dynamicdrive.com/forums/showthread.php?79797-Ultimate-Fade-in-slideshow-(v2-4-through-v2-6-1)-loading-image-and-other-fixes">
+		miscellaneous bug fixes</a>.</p>
+<p align="left"><strong>Description: </strong>This is a robust, cross browser 
+fade in slideshow script that incorporates some of your most requested features 
+all rolled into one. Each instance of a fade in slideshow on the page is 
+completely independent of the other, with support for different features 
+selectively enabled for each slideshow. Here's a lowdown on the script's features:</p>
+<ul>
+	<li>Sleek fade in effect that has the current image fading over the previous 
+	one.</li>
+	<li>Ability to display images either as an automatic or manual slideshow. 
+	In manual mode you define your own &quot;prev/next&quot; controls to let the user go 
+	through the slides.</li>
+	<li>In automatic mode, slideshow can be set to stop rotating after x cycles.</li>
+	<li><a href="#dimensions">Responsive design</a>- slideshow dimensions can now be set in percentage 
+	values to scale along with user's browser or mobile device screen size.
+	<font color="#FF0000">New in v2.6</font></li>
+	<li>Each slide can be optionally hyperlinked.</li>
+	<li>Each slide can have an optional description associated with it. 
+	Descriptions can either be set to show on demand (when the mouse rolls over 
+	the slide), or be always visible until explicitly dismissed.</li>
+	<li>Persistence of last viewed slide supported, so when the user reloads the 
+	page, the slideshow resumes from the last slide.</li>
+	<li>Slideshow automatically pauses onMouseover.</li>
+	<li>Supports <a href="#swipe">swipe to navigate</a> in both desktop and touch enabled devices.
+	<font color="#FF0000">New in v2.6</font></li>
+	<li>Supports the &quot;oninit&quot; and &quot;onslide&quot; event handlers to enhance 
+		customization of the slideshow.</li>
+</ul>
+    <p>Rock on with the <i>ultimate</i> fade in slideshow script!</p>
+    <p align="left"><strong>Demos (in touch enabled devices, swipe left/right to 
+	navigate as well):</strong></p>
+<table id="demotable" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="300" valign="top"><!--webbot bot="HTMLMarkup" startspan --><div id="fadeshow1"></div><!--webbot bot="HTMLMarkup" endspan i-checksum="5149" --><p>
+		-Straightforward, auto playing slideshow with no hyperlinking, 
+		descriptions etc.</p>
+		<p>&nbsp;</td>
+		<td width="20" valign="top">&nbsp;</td>
+		<td valign="top"><!--webbot bot="HTMLMarkup" startspan --><div id="fadeshow3"></div><!--webbot bot="HTMLMarkup" endspan i-checksum="5153" --><ul>
+			<li>Auto playing slideshow with descriptions shown automatically 
+			using the &quot;<b>peekaboo</b>&quot; option.</li>
+			<li>Responsive slideshow dimensions:&nbsp; 90% by 400px</li>
+			</ul>
+			</td>
+	</tr>
+	<tr>
+		<td width="300" valign="top"><!--webbot bot="HTMLMarkup" startspan --><div id="fadeshow2"></div><!--webbot bot="HTMLMarkup" endspan i-checksum="5151" --><p>-Auto playing 
+		slideshow with some slides hyperlinked and carrying a description, shown
+		<b>onmouseover</b>.</td>
+		<td width="20" valign="top">&nbsp;</td>
+		<td valign="top"><!--webbot bot="HTMLMarkup" startspan --><div id="fadeshow4"></div>
+
+<div id="fadeshow4toggler" style="width:50%; text-align:center; margin-top:10px">
+<a href="#" class="prev"><img src="left.png" style="border-width:0" /></a>  <span class="status" style="margin:0 50px; font-weight:bold"></span> <a href="#" class="next"><img src="right.png" style="border-width:0" /></a>
+</div>
+<!--webbot bot="HTMLMarkup" endspan i-checksum="63150" --><ul>
+			<li>Manual slideshow with custom buttons, persistent description 
+			panel, and current image index/ total images info shown.</li>
+			<li>Responsive slideshow <b>and</b> image dimensions. Slideshow set 
+			to 50% by 300px. Images set to 100% of container dimension via CSS.</li>
+			</ul>
+			</td>
+	</tr>
+</table>
+    <hr size="1">
+    <p align="left"><strong>Directions </strong>
+	<a target="win2" href="fadeinslideshow_dev.htm"><img src="../dview.gif" width="115" height="19"
+    alt="Developer's View" border="0"></a></p>
+    <p align="left">Simply add the below code inside the &lt;HEAD&gt; section of the 
+	page:</p>
+    <form><div align="left">
+<a class="selectall" href="javascript:highlight(1)">Select All</a><br>
+      <textarea class="codecontainer" rows="8" name="S1" cols="45" wrap="virtual"><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- optional touchswipe file to enable swipping to navigate slideshow -->
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+
+<style>
+
+#fadeshow4 .gallerylayer img{ /* make all images inside fadeshow4 scale to 100% of slideshow width */
+width: 100%;
+height: auto;
+}
+
+</style>
+
+<script type="text/javascript" src="fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["http://www.dynamicdrive.com/dynamicindex4/pool.jpg"],
+		["http://www.dynamicdrive.com/dynamicindex4/cave.jpg"],
+		["http://www.dynamicdrive.com/dynamicindex4/fruits.jpg"],
+		["http://www.dynamicdrive.com/dynamicindex4/dog.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "always",
+	togglerid: ""
+})
+
+
+var mygallery4=new fadeSlideShow({
+	wrapperid: "fadeshow4", //ID of blank DIV on page to house Slideshow
+	dimensions: ['50%', 300], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["http://www.dynamicdrive.com/dynamicindex14/shockwave/images/1.jpg", "", "", "There is beauty to be found in nature not just in grand landscapes, but in the petals of an unassuming flower"],
+		["http://www.dynamicdrive.com/dynamicindex14/shockwave/images/3.jpg", "", "", "The iconic telephone booths of London now in a very unfamiliar place."],
+		["http://www.dynamicdrive.com/dynamicindex14/shockwave/images/7.jpg", "", "", "A piano not played is a piano that's wasting away. "],
+		["http://www.dynamicdrive.com/dynamicindex14/shockwave/images/4.jpg", "", "", "Alone and being lonely. It's a state of mind. Which one does this image evoke in you?"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'manual', pause:3000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "always",
+	togglerid: "fadeshow4toggler"
+})
+
+</script></textarea></div>
+    </form>
+    <p align="left">The above code references 1 external file plus 3 images as 
+	part of its interface. Download them below (right click, and select &quot;Save As&quot;):</p>
+<ul>
+	<li>
+	<a href="fadeslideshow.js">fadeslideshow.js</a></li>
+	<li>
+	<a href="jquery.touchSwipe.min.js">jquery.touchSwipe.min.js</a> (v1.6.6) (<a target="_blank" href="https://github.com/mattbryson/TouchSwipe-Jquery-Plugin">Github</a>) 
+	(Optional file to auto enable swipe navigation).</li>
+	<li>
+	<img border="1" src="x.png" width="15" height="15">
+	<img border="1" src="restore.png" width="15" height="16">
+	<img border="1" src="loading.gif" width="15" height="15"> (check inside 
+	fadeslideshow.js to ensure that the paths to these 3 images are correct)</li>
+</ul>
+    <p align="left"><strong>Step 2: </strong>Then, insert the following sample 
+	HTML for 2 sample Fade In slideshows:</p>
+    <form><p>
+<a class="selectall" href="javascript:highlight(2)">Select All</a><br>
+      <textarea class="codecontainer" rows="8" name="S3" cols="45" wrap="virtual"><div id="fadeshow1"></div>
+
+<br />
+
+<div id="fadeshow4"></div>
+
+<div id="fadeshow4toggler" style="width:50%; text-align:center; margin-top:10px">
+<a href="#" class="prev"><img src="http://www.dynamicdrive.com/dynamicindex14/left.png" style="border-width:0" /></a>  <span class="status" style="margin:0 50px; font-weight:bold"></span> <a href="#" class="next"><img src="http://www.dynamicdrive.com/dynamicindex14/right.png" style="border-width:0" /></a>
+</div></textarea></p>
+    </form>
+    <p>
+    Mark up wise each Slideshow should just be an empty DIV on the page with a 
+	unique ID:<p class="codehighlight" align="left">&lt;div id=&quot;<font color="#FF0000">fadeshow1</font>&quot;&gt;&lt;/div&gt;</p>
+<p align="left">The DIV's ID value should match up with the value set in the 
+option <code>wrapperid</code> in the code of Step 1 above. When the page loads, 
+the script will load the gallery into this DIV.</p>
+<p align="left">That's it for installation! Time to take a look at all the 
+available options at your disposal when initializing each instance of Fade In 
+Slideshow on the page.</p>
+<h4 align="left">
+<img border="0" src="../ddincludes/orangecircle.gif" width="20" height="19"> 
+Available Options for <code>new fadeSlideShow()</code></h4>
+<p align="left">
+Each instance of a Fade In Slideshow is created by calling <code>new 
+fadeSlideShow()</code> in the HEAD section of your page:</p>
+<p class="codehighlight" align="left">var uniquevariable=new 
+fadeSlideShow(options)</p>
+<p align="left">
+Where &quot;<code>uniquevariable</code>&quot; should be an arbitrary but unique variable 
+(for each instance of Fade In Slideshow), and options is an object literal 
+containing the desired options. Here's an explanation of each option:</p>
+  <table border="1" cellpadding="3" cellspacing="0">
+    <tr>
+      <td width="25%" bgcolor="#D8EA99" valign="top"><b>options</b></td>
+      <td width="75%" bgcolor="#D8EA99" valign="top"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code>wrapperid</code><p>
+		<font color="#FF0000"><i>Required</i></font></td>
+      <td width="75%" valign="top">The ID of an empty DIV container on your page 
+		that will show the Fade In Slideshow. Such a DIV on the page may 
+		look like this:<p class="codehighlight">&lt;div id=&quot;fadeshow1&quot;&gt;&lt;/div&gt;</td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code><a name="dimensions"></a>dimensions</code><p>
+		<font color="#FF0000"><i>Required</i></font></td>
+      <td width="75%" valign="top">The dimensions of the slideshow in the format
+		<code>[width_int, height_int]</code> with pixels being the assumed unit. 
+		These two values should be set to the dimensions of the largest image. 
+		Any image within the slideshow with width or height that exceeds the 
+		specified values will be clipped partially.<p>You can also set the 
+		dimensions to percentage values instead (wrap the values in quotations) 
+		to indicate you wish the slideshow to scale relative to its container. 
+		This sets the basis for a responsive slideshow, whereby the slideshow 
+		grows and shrinks based on the user's browser or mobile screen size.</p>
+		<p>The following shows some possible dimension values:</p>
+		<p class="codehighlight">dimensions: [300, 200], // 300px by 200px</p>
+		<p class="codehighlight">dimensions: ['90%', '80%'] // 90% by 80% of 
+		parent container size</p>
+		<p class="codehighlight">dimensions: ['80%', 200] // 80% of parent 
+		container size by 200px </p>
+		<p><b>Also See:</b> <b><a href="responsiveslideshowguide.htm">Guide to Responsive Ultimate 
+		Fade In Slideshow.</a></b></td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code>imagearray</code><p>
+		<font color="#FF0000"><i>Required</i></font></td>
+      <td width="75%" valign="top">An array containing the images you wish to 
+		show. Each array element contains 4 parts:<p class="codehighlight">
+		[&quot;path_to_image&quot;, &quot;optional_url&quot;, &quot;optional_linktarget&quot;, 
+		&quot;optional_description&quot;]</p>
+		<p>Enter a blank string (&quot;&quot;) for the optional parts you do not wish to 
+		define. Here's a complete example:</p>
+		<p class="codehighlight">imagearray: [<br>
+&nbsp;[&quot;pool.jpg&quot;],<br>
+&nbsp;[&quot;http://mysite.com/cave.jpg&quot;, &quot;http://cnn.com&quot;],<br>
+&nbsp;[&quot;fruits.jpg&quot;, &quot;http://cnn.com&quot;, &quot;_new&quot;],<br>
+&nbsp;[&quot;dog.jpg&quot;, &quot;&quot;, &quot;&quot;, &quot;This image has a description but no hyperlink&quot;]
+		<font color="#FF0000">//&lt;--no trailing comma after very last image 
+		element!</font><br>
+		],</p>
+		<p>Notice how there should be no comma trailing the very last element!</td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code><a name="displaymode"></a>displaymode</code><p>
+		<font color="#FF0000"><i>Required</i></font></td>
+      <td width="75%" valign="top">Sets the primary attributes of your 
+		slideshow, from whether this is an automatic or manual slideshow, the 
+		pause between slides, to the number of cycles before the slideshow stops 
+		in automatic mode. The syntax is:<p class="codehighlight">displaymode: 
+		{type:'auto|manual', pause:milliseconds, cycles:0|integer, 
+		wraparound:true|false, randomize:true|false},</p>
+		<p>The &quot;<code>cycles</code>&quot; option when set to 0 will cause the 
+		slideshow to rotate perpetually in automatic mode, while any number 
+		larger than 0 means it will stop after x cycles.</p>
+		<p>The &quot;<code>warparound</code>&quot; option when set to <code>false</code> 
+		will disable the user's ability in manual mode to go past the very first 
+		and last slide when clicking on the navigation links to manually view 
+		the slides.</p>
+		<p>The &quot;<code>randomize</code>&quot; option when set to true will shuffle the 
+		display order of the images, so they appear in a different order each 
+		time the page is loaded.</p>
+		<p>In the following, the slideshow will auto run and stop after 3 
+		complete cycles. Each time the page is reloaded, the order of the images 
+		randomly changes:</p>
+		<p class="codehighlight">displaymode: {type:'auto', pause:3000, 
+		cycles:3, wraparound:true, randomize:true},</p>
+		<p>In the following, the slideshow will be put in manual mode, with the 
+		ability to loop back to the beginning of the slideshow disabled:</p>
+		<p class="codehighlight">displaymode: {type:'manual', pause:2000, 
+		cycles:0, wraparound:false},</p>
+		<p>In manual mode, you must define your own &quot;prev&quot; and &quot;next&quot; controls 
+		to let the user control the slideshow. See &quot;<code>togglerid</code>&quot; 
+		option below for more info.</td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code>persist</code><p><i>Defaults to false</i></td>
+      <td width="75%" valign="top">Boolean variable that decides whether the 
+		slideshow 
+		should remember and recall the last viewed slide within a browser session 
+		when the page is reloaded.</td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code>fadeduration</code><p><i>Defaults to 
+		500</i></td>
+      <td width="75%" valign="top">The duration of the fade effect when 
+		transitioning from one image to the next, in milliseconds.</td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code>descreveal</code><p><i>Defaults to 
+		&quot;ondemand&quot;</i></td>
+      <td width="75%" valign="top"><a name="descreveal"></a>For a slideshow in which at least one image 
+		has a description associated with it, this option dictates the style of 
+		the Description Panel. The four possible values are:<ol>
+		<li>&quot;<code>ondemand</code>&quot;: Reveals the description when the user mouses 
+		over the slideshow, then hides it again when the mouse moves out.</li>
+		<li>&quot;<code>always</code>&quot;: Shows a persistent description panel at the 
+		foot of the slideshow that can be dismissed by clicking on the &quot;x&quot; icon.</li>
+		<li>&quot;<code>peekaboo</code>&quot;: (<font color="#FF0000">v2.4 feature</font>). 
+		Reveals the description for each image automatically by sliding it in 
+		view each time, then hiding it again before the next image is shown. 
+		This setting is similar to &quot;<code>always</code>&quot; above, except the 
+		description isn't always visible, allowing viewers to see each image in 
+		its entirety momentarily.</li>
+		<li>&quot;<code>none</code>&quot;: Explicitly disables the descriptions from 
+		showing. While not defining a description for any of your images inside 
+		the initialization code has a similar effect, this option is useful when 
+		you wish to define descriptions, but just not show them using one of the 
+		methods above, but rather, in combo with the <a href="dd">onslide() 
+		event handler</a> for example.</li>
+		</ol>
+		</td>
+    </tr>
+    <tr>
+      <td width="25%" valign="top"><code>togglerid</code><p><i>Defaults 
+		to &quot;&quot;</i></td>
+      <td width="75%" valign="top">Use this option if you wish to create 
+		navigational controls that allow the user to explicitly move back and 
+		forth between slides, whether the slideshow is in &quot;<code>auto</code>&quot; or 
+		&quot;<code>manual</code>&quot; mode. Set &quot;<code>togglerid</code>&quot; to the ID of another DIV on your page that will house the 
+		navigation controls for the slideshow, ie:<p class="codehighlight">
+		togglerid: &quot;slideshowtoggler&quot;</p>
+		<p>The DIV on the page with the corresponding ID attribute will be 
+		parsed by the script for links carrying a certain CSS class.</td>
+    </tr>
+    </table>
+<h3 align="left"><u>Creating the navigation links for a manual slideshow</u></h3>
+<p align="left">If you wish to create navigational controls that allow the user 
+to explicitly move back and forth between slides, you need to 
+manually define a DIV and create links inside it to act as &quot;Prev&quot; and &quot;Next&quot; 
+buttons. Such a DIV looks like this:</p>
+<p class="codehighlight" align="left">&lt;div id=&quot;<font color="#FF0000">slideshowtoggler</font>&quot;&gt;<br>
+&lt;a href=&quot;#&quot; <font color="#FF0000">class=&quot;prev&quot;</font>&gt;&lt;img src=&quot;left.png&quot; 
+style=&quot;border-width:0&quot; /&gt;&lt;/a&gt; &lt;span <font color="#FF0000">class=&quot;status&quot;</font> 
+style=&quot;margin:0 50px; font-weight:bold&quot;&gt;&lt;/span&gt; &lt;a href=&quot;#&quot;
+<font color="#FF0000">class=&quot;next&quot;</font>&gt;&lt;img src=&quot;right.png&quot; 
+style=&quot;border-width:0&quot; /&gt;&lt;/a&gt;<br>
+&lt;/div&gt;</p>
+<p align="left">The ID attribute of this DIV (ie: &quot;slideshowtoggler&quot;) should 
+correspond to the value set inside the <code>togglerid</code> option of <code>
+fadeSlideShow(options)</code>. Then, inside this DIV, simply create the desired 
+links with one of the following two CSS class names to give it special meaning:</p>
+<ul>
+	<li>
+	<p align="left"><b>prev:</b> A link with this CSS class moves back the shown 
+	content by 1.</p></li>
+	<li>
+	<p align="left"><b>next:</b> A link with this CSS class moves forward the 
+	shown content by 1.</p></li>
+</ul>
+<p align="left">You can also display a status control anywhere inside this DIV 
+showing the current slide being shown relative to the others (ie: 3/5) using a 
+SPAN with the CSS class:</p>
+<ul>
+	<li>
+	<p align="left"><b>status:</b> A SPAN with this CSS class will be emptied 
+	and used by the script to display the current slide's order.</p></li>
+</ul>
+<p align="left">With that in mind, which links to show, how they are arranged, 
+and how they are styled are all up to you.</p>
+<h3 align="left">Notice about doctype and IE</h3>
+<p align="left">Note that the CSS used to style this script assumes that your 
+page contains a
+<a target="_new" href="http://www.javascriptkit.com/howto/doctype.shtml">valid 
+doctype</a> at the very top in order to display properly. This is especially 
+true in IE. HTML 5 advocates the use of the very simple valid doctype:</p>
+<p class="codehighlight">&lt;!DOCTYPE HTML&gt;</p>
+<p align="left">at the top of your page's source.</p>
+<h3 align="left"><a name="swipe"></a>Swiping to navigate the slideshow <font color="#FF0000">(v2.6 
+feature)</font></h3>
+<p align="left">If you want to enable swiping left or right to navigate the 
+slideshow (in both automatic and manual slideshow), you don't need to do 
+anything. That's right. Simply make sure the reference to
+<a href="http://www.dynamicdrive.com/dynamicindex4/jquery.touchSwipe.min.js">
+jquery.touchSwipe.min.js</a> is there in the HEAD section of your page:</p>
+<p class="codehighlight" align="left">&lt;!-- optional touchswipe file to enable 
+swipping to navigate slideshow --&gt;<br>
+&lt;script type=&quot;text/javascript&quot; src=&quot;jquery.touchSwipe.min.js&quot;&gt;&lt;/script&gt;</p>
+<p align="left">And obviously make sure that this file is uploaded to your web 
+server per the path to it specified above.</p>
+<p align="left">If for some reason you don't want swipe-to-navigate enabled, 
+simply remove the above file reference in the HEAD section of your page.</p>
+<h1 class="navselectheader">Table Of Contents</h1>
+<ul class="navselectlist">
+	<li>Script Index Page</li>
+	<li><a href="fadeinslideshow_suppliment.htm">Taking advantage of the oninit() and onslide() event handlers</a></li>
+	<li><a href="responsiveslideshowguide.htm">Guide to Responsive Ultimate Fade In 
+Slideshow</a></li>
+	</ul>
+    
+<div id="cjfooterad" style="border-top:1px dashed gray; padding-top:1em;">
+
+
+
+<div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- DD RA horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7051847089736268"
+     data-ad-slot="6319204235"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+
+</div></div>
+</div>
+
+<div id="rightcolumn">
+
+
+			<ul class="categorylinks">
+				<li id="c7"><a href="http://www.dynamicdrive.com/dynamicindex7/" >Calendars</a></li>
+				<li id="c6"><a href="http://www.dynamicdrive.com/dynamicindex6/">Date &amp; Time</a></li>
+				<li id="c3"><a href="http://www.dynamicdrive.com/dynamicindex3/">Document Effects</a></li>
+				<li id="c17"><a href="http://www.dynamicdrive.com/dynamicindex17/">Dynamic Content</a></li>
+				<li id="c16"><a href="http://www.dynamicdrive.com/dynamicindex16/">Form Effects</a></li>
+				<li id="c12"><a href="http://www.dynamicdrive.com/dynamicindex12/">Games</a></li>
+				<li id="c4"><a href="http://www.dynamicdrive.com/dynamicindex4/">Image Effects</a></li>		
+				<li id="c5"><a href="http://www.dynamicdrive.com/dynamicindex5/">Links &amp; Tooltips</a></li>			
+				<li id="c1"><a href="http://www.dynamicdrive.com/dynamicindex1/">Menus &amp; Navigation</a></li>
+				<li id="c13"><a href="http://www.dynamicdrive.com/dynamicindex13/">Mouse and Cursor</a></li>			
+				<li id="c2"><a href="http://www.dynamicdrive.com/dynamicindex2/">Scrollers</a></li>
+				<li id="c10"><a href="http://www.dynamicdrive.com/dynamicindex10/">Text Animations</a></li>
+				<li id="c9"><a href="http://www.dynamicdrive.com/dynamicindex9/">User/System Preference</a></li>
+				<li id="c8"><a href="http://www.dynamicdrive.com/dynamicindex8/">Window and Frames</a></li>
+				<li id="c11"><a href="http://www.dynamicdrive.com/dynamicindex11/">Other</a></li>
+				<li id="c18"><a href="http://www.dynamicdrive.com/dynamicindex18/">XML and RSS</a></li>
+			</ul>
+
+<div class="sideadbsa">
+
+<!-- BuySellAds Zone Code -->
+<div id="bsap_1303277" class="bsarocks bsap_f1d07212cbe850be7e3db47ab3e68732"></div>
+<!-- End BuySellAds Zone Code -->
+</div>
+
+
+	<div id="rightcolumnad">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- DD 160 x 60 -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:160px;height:600px"
+	     data-ad-client="ca-pub-7051847089736268"
+	     data-ad-slot="3924582631"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
+	</div>
+
+</div>
+
+</div>
+
+<div id="footer" style="position:relative">
+
+<ul>
+<li><a href="http://www.dynamicdrive.com/export.php?type=new">RSS Feeds</a></li>
+<li><a href="http://twitter.com/ddrivegeorge">Twitter</a></li>
+<li><a href="https://www.facebook.com/Dynamic-Drive-135976520082989/timeline/">Facebook</a></li>
+<li><a href="http://www.dynamicdrive.com/faqs.htm">FAQs</a></li>
+<li><a href="http://www.dynamicdrive.com/award/">Awards</a></li>
+<li><a href="http://www.dynamicdrive.com/notice.htm">Usage Terms</a></li>
+<li><a href="http://www.dynamicdrive.com/contact.htm">Contact</a></li>
+</ul>
+
+
+<div id="copyright">Copyright 2016 Dynamic Drive <span style="margin-left:30px; color:white; cursor:pointer" onClick="dd_scrolltotop(); return false">[ Top ]</span></div>
+
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-55377-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+
+</html>

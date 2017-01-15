@@ -1,0 +1,3232 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201205 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2537                
+POS_VISITOR 36891               
+POS_DAY 87532               
+POS_DOMAIN 3517                
+POS_LOGIN 3752                
+POS_ROBOT 3907                
+POS_WORMS 5226                
+POS_EMAILSENDER 5357                
+POS_EMAILRECEIVER 5500                
+POS_SESSION 88463               
+POS_SIDER 88677               
+POS_FILETYPES 5635                
+POS_OS 5939                
+POS_BROWSER 6176                
+POS_SCREENSIZE 7245                
+POS_UNKNOWNREFERER 7319                
+POS_UNKNOWNREFERERBROWSER 10284               
+POS_ORIGIN 11682               
+POS_SEREFERRALS 11833               
+POS_PAGEREFS 12092               
+POS_SEARCHWORDS 18358               
+POS_KEYWORDS 23961               
+POS_MISC 2199                
+POS_ERRORS 26734               
+POS_CLUSTER 3608                
+POS_SIDER_404 26873               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120601001029 5 335 43150891781
+FirstTime 20120501001600
+LastTime 20120531232639
+LastUpdate 20120602032039 5 0 0 3 1
+TotalVisits 1808                
+TotalUnique 1041                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1424                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 181 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 272 1055 15190049 319 362 4020004
+1 285 1146 19242719 426 473 3897781
+2 458 1198 16743297 615 639 5988694
+3 459 1365 16543467 372 401 4051686
+4 378 1142 11003058 258 308 2011359
+5 162 903 11358249 272 326 2101917
+6 140 824 37730183 436 477 3274487
+7 197 878 14610789 304 413 3628241
+8 157 564 11059950 255 297 2780279
+9 181 666 10719939 214 243 1399754
+10 112 315 2557911 259 286 3223043
+11 193 663 4327607 249 313 2172330
+12 104 498 2930290 344 378 2932031
+13 277 598 5158038 295 324 2291246
+14 334 1091 8992243 345 378 2621285
+15 151 878 6850712 402 433 4346997
+16 219 1244 16246548 397 438 3455773
+17 164 637 8296450 440 484 5332630
+18 115 713 17197913 320 374 2698753
+19 460 1532 14251191 281 333 2075764
+20 167 900 11151912 513 542 4529389
+21 113 656 6032287 283 307 2321660
+22 203 677 9300647 333 367 3822382
+23 309 1243 8671047 264 295 2768327
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5610 21386 286166496
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 32
+crawl 1507 17825530 20120531185417 180
+unknown 1262 489594 20120531234600 1262
+\wbot[\/\-] 969 12935781 20120531225908 222
+yandex 684 7255531 20120531225440 82
+googlebot 671 6651008 20120531220028 42
+robot 628 6959055 20120531235518 29
+mj12bot 621 6283131 20120531223546 165
+baiduspider 362 3414253 20120531174206 30
+nutch 267 3276720 20120523170405 16
+turnitinbot 235 2469385 20120528175954 12
+powermarks 4 53979 20120531170211 0
+commons\-httpclient 3 52069 20120528021308 0
+spider 180 838943 20120531142509 39
+seznambot 50 467748 20120530022129 9
+tencenttraveler 2 25238 20120501070303 0
+surveybot 4 26400 20120523101953 2
+cfnetwork 1 7394 20120528062120 0
+msnbot\-media 94 799364 20120531012359 32
+voila 43 350343 20120529044021 14
+bspider 185 2184478 20120531231447 0
+exabot 40 247477 20120531134609 16
+ia_archiver 4 2382 20120511081511 4
+infobot 31 387155 20120530204801 0
+slurp 97 656628 20120529050147 4
+python 1 12749 20120515040334 0
+legs 116 1065400 20120523231225 14
+java 30 364833 20120530195405 0
+archive\.org_bot 2 13219 20120524031756 1
+wordpress 2 544 20120514175526 0
+bbot 46 483949 20120524130657 7
+speedy 25 204493 20120503052743 12
+netcraft 1 12614 20120503170629 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 10 23060 0 0
+asp 4136 50566096 0 0
+pdf 2 307900 0 0
+cgi 46 3653310 0 0
+htm 969 8904093 0 0
+swf 159 3207356 0 0
+mpga 37 13898220 0 0
+html 405 4248083 0 0
+xml 14 572968 0 0
+jpg 6326 181934526 0 0
+js 163 1510892 0 0
+doc 1 34564 0 0
+gif 9118 17305428 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 18
+linuxsuse 1
+linuxredhat 1
+macintosh 1
+winlong 1112
+winxp 5235
+symbian 8
+win2000 42
+win95 3
+wince 1
+win2003 118
+winnt 4634
+linuxubuntu 56
+win98 6
+linux 677
+macosx 6540
+winme 14
+win16 2
+Unknown 2935
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 71
+firefox3.6.24 10
+msie6.0 412
+firefox3.8 2
+firefox3.6 1
+firefox3.0.1 1
+msie4.01 1
+firefox4.0 12
+curl 4
+msie8.0 2322
+firefox2.0.0.14 1
+msie7.0 777
+netscape4.5 1
+firefox3.6.27 1
+firefox9.0.1 419
+firefox2.0.0.2 1
+netscape 22
+firefox1.5.0.7 2
+firefox2.0.0.20 10
+msie5.01 2
+firefox3.0 1
+firefox13.0 77
+netscape4.05 5
+firefox3.5.2 9
+firefox2.0.0.6 1
+firefox7.0.1 59
+firefox12.0 2843
+netscape0.6 1
+firefox3.5.5 1
+mozilla 1359
+netscape4.0 6
+firefox2.0 1
+firefox3.6.3 9
+firefox1.0.6 1
+firefox1.0.3 1
+firefox8.0.1 8
+firefox10.0.2 61
+safari 8015
+firefox3.0.7 1
+bonecho 1
+firefox4.0.1 17
+firefox3.6.6 31
+firefox8.0 9
+firefox2.0.0.12 6
+firefox3.5.3 30
+msie3.02 1
+netscape4.76 3
+firefox6.0.2 45
+firefox0.10.1 1
+msie2.0 3
+msie5.0 11
+netscape4.8 1
+msie9.0 2035
+firefox3.6.10 3
+Unknown 2054
+firefox11.0 221
+firefox3.0.8 1
+firefox3.0.4 12
+chilkat 1
+opera 254
+firefox3.6.16 24
+msie5.5 12
+netscape4.79 2
+nokia 8
+firefox3.0.6 1
+firefox5.0.1 3
+firefox3.6.28 48
+firefox6.0 3
+firefox3.6.18 7
+firefox3.6.12 28
+firefox1.5.0.11 4
+firefox3.6.8 46
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 49
+Mozilla/4.05_[en] 20120531113547
+Pinterest/0.1__http://pinterest.com/ 20120503163214
+Mozilla/5.001_(windows;_U;_NT4.0;_en-us)_Gecko/25250101 20120505073852
+Mozilla/4.0_(compatible;_MSIE_5.5) 20120527231102
+BlackBerry8520/5.0.0.681_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/142 20120509171646
+Xenu_Link_Sleuth/1.3.8 20120518174603
+Mozilla/4.0_(compatible 20120530042631
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9800;_en-US)_AppleWebKit/534.8__(KHTML,_like_Gecko)_Version/6.0.0.600_Mobile_Safari/534.8_ 20120530172401
+Mozilla/4.0_(compatible;_Synapse) 20120518071115
+Mozilla/4.0_(compatible;_Blog_Search;) 20120530222314
+ZTE-F160-Orange/4.0_NetFront/3.5_QTV5.1_Profile/MIDP-2.1_Configuration/CLDC-1.1 20120502065347
+Mozilla 20120513033833
+facebookplatform/1.0_(_http://developers.facebook.com) 20120531054233
+MireoBot 20120508001706
+BlackBerry8530/5.0.0.782_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/394 20120503010832
+Mozilla/4.0 20120521075227
+Windows-Live-Social-Object-Extractor-Engine/1.0 20120509162820
+Mozilla/5.0_(compatible;_pmoz.info_ODP_link_checker;__http://pmoz.info/doc/botinfo.htm) 20120523223254
+Mozilla/5.0_(compatible;_Mail.RU/2.0c) 20120525185703
+YahooCacheSystem 20120530184300
+Mozilla/5.0_(compatible;_Ezooms/1.0;_ezooms.bot@gmail.com) 20120531214713
+Goldfire_Server 20120520224914
+Version/3.0_Mobile/1A477d_Safari/419.3 20120531232914
+ShopWiki/1.0_(__http://www.shopwiki.com/wiki/Help:Bot) 20120531214201
+Chilkat/1.0.0_(_http://www.chilkatsoft.com/ChilkatHttpUA.asp) 20120516021059
+BlackBerry8530/5.0.0.973_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20120528235952
+Mozilla/5.0_(compatible;_news_bot_/2.1) 20120530221448
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/5.1.24009/27.1741;_U;_en)_Presto/2.8.119_Version/11.10 20120517094626
+*missing* 20120518083234
+Mozilla/5.0_(compatible;_Blekkobot;_ScoutJet;__http://blekko.com/about/blekkobot) 20120531194043
+- 20120531044426
+MSIE_5.0 20120510005324
+Mozilla/0.6_Beta_(Windows) 20120528222516
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20120503194424
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20120513204450
+Opera/9.51_Beta_(Microsoft_Windows;_PPC;_Opera_Mobi/1718;_U;_en) 20120522164620
+coccoc 20120525091917
+Mozilla/4.0_(compatible) 20120521174448
+Mozilla/5.0_(compatible;_Mail.RU/2.0) 20120528182321
+GSLFbot 20120529191558
+Microsoft_Office_Protocol_Discovery 20120502124721
+Mozilla/3.01_(compatible;) 20120521040835
+newsme/1.0;_feedback@news.me 20120514235730
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20120527030259
+Cuasar/1.0_(_http://www.cuasar.com) 20120501202911
+Mozilla/4.0_(compatible;) 20120522162608
+Wotbox/2.0_(bot@wotbox.com;_http://www.wotbox.com) 20120526142015
+JoobleBot 20120530175106
+peerindex.com/0.1 20120531184609
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 24
+Pinterest/0.1__http://pinterest.com/ 20120503163214
+*missing* 20120518083234
+BlackBerry8520/5.0.0.681_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/142 20120509171646
+Xenu_Link_Sleuth/1.3.8 20120518174603
+- 20120531044426
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20120503194424
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20120513204450
+coccoc 20120525091917
+GSLFbot 20120529191558
+ZTE-F160-Orange/4.0_NetFront/3.5_QTV5.1_Profile/MIDP-2.1_Configuration/CLDC-1.1 20120502065347
+facebookplatform/1.0_(_http://developers.facebook.com) 20120531054233
+MireoBot 20120508001706
+BlackBerry8530/5.0.0.782_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/394 20120503010832
+Microsoft_Office_Protocol_Discovery 20120502124721
+Windows-Live-Social-Object-Extractor-Engine/1.0 20120509162820
+YahooCacheSystem 20120530184300
+newsme/1.0;_feedback@news.me 20120514235730
+Goldfire_Server 20120520224914
+Cuasar/1.0_(_http://www.cuasar.com) 20120501202911
+ShopWiki/1.0_(__http://www.shopwiki.com/wiki/Help:Bot) 20120531214201
+Wotbox/2.0_(bot@wotbox.com;_http://www.wotbox.com) 20120526142015
+BlackBerry8530/5.0.0.973_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20120528235952
+JoobleBot 20120530175106
+peerindex.com/0.1 20120531184609
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3438 3678
+From1 4 4
+From2 587 702
+From3 263 442
+From4 1318 16560
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 10
+dmoz 3 3
+google 544 647
+search 2 2
+aol 3 3
+ask 6 8
+altavista 1 1
+mywebsearch 2 2
+yandex 2 7
+sogou 0 1
+yahoo 24 28
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 134
+http://hair-news.info 20 20
+http://multfilms.tv 16 16
+http://www.bing.com/search 13 13
+http://www.world-mmo.com 12 12
+http://megalovehouse.info 12 12
+http://www.pitersot.ru 10 10
+http://www.oller.net/retail.htm 8 8
+http://www.artparquet.ru 8 8
+http://www.whorush.com/search/ 8 8
+http://www.bing.com/images/search 7 9
+http://musingforamusement.blogspot.jp/2008_07_01_archive.html 0 1
+http://kaivalyapadam.org/silencers-buy-zed-black-incense-uk/ 0 5
+http://tanchiki.org 4 4
+http://migellik.livejournal.com/208586.html 0 1
+http://con-w.com/2012/04/18/occupy-the-military/ 1 1
+http://www.thefind.com/pets/info-aquarain-gravity-water-filter 1 1
+http://baratro.ru 2 2
+http://www.socioforum.su 4 4
+http://fotobaza.su 2 2
+http://www.outblush.com/women/beauty/bath-body/hinoki-bath-tea/ 3 3
+http://www.designspongeonline.com/2010/01/small-measures-with-ashley-time-for-tea.html 1 1
+http://translate.google.lt/translate_p 1 1
+http://www.thefind.com/kitchen/info-small-teapot 1 1
+http://xxxtacy.us 3 3
+http://con-w.com/2012/04/18/occupy-the-military 1 1
+http://bit.ly/L2MjHz 1 1
+http://www.liveinternet.ru/users/elle_fatale/post165128069/ 0 1
+http://con-w.com/2012/04/28/626/ 2 2
+http://m.bing.com/search/ 1 1
+http://lovetolivehealthyliving.com 0 8
+http://primaryschoolict.com/images.php 0 1
+http://aolbroadband.searcht2.aol.co.uk/aol/imageDetails 1 1
+http://cosmetize.ru 4 4
+http://musingforamusement.blogspot.co.uk/2008_07_01_archive.html 0 3
+http://adobe-player.ru 2 2
+http://video-online.in 2 2
+http://pu-erh.net/sections.php 2 2
+http://www.souzenergostroy.ru 2 2
+http://naterio.mikegeary1.hop.clickbank.net 1 1
+http://www.liveinternet.ru/users/svetikh/post165165343/ 0 2
+http://www.teachat.com/viewtopic.php 5 5
+http://www.extramoneyforpageantmoms.com 1 1
+http://www.hairstylestop.com 4 4
+http://shoesinview.com 2 2
+http://poxe.ru/interesting/1166337526-ya-vlyublyonnyj-v-chaj-zelyonyj.html 0 2
+http://www.semrush.com/uk/info/tributetea.com 1 1
+http://www.thefind.com/kitchen/browse-bee-house-tea-canister 0 4
+http://translate.google.it/translate_p 1 1
+http://www.oakleysunglassescheapshop.net 1 1
+http://us.mc1205.mail.yahoo.com/mc/welcome 1 1
+http://naukasmi.ru 2 2
+http://www.webwiki.com/www.tributetea.com 1 1
+http://UK.cheapuggboots-v.com 1 1
+http://cheesecake.forumcommunity.net 0 13
+http://ublaze.ru 4 4
+http://hospitalmedicine.ucsf.edu/facstaff/brucebjmiller_profile.html 1 1
+http://musingforamusement.blogspot.com.au/2008_07_01_archive.html 0 1
+http://www.orangeask.com 2 2
+http://apkdroidgames.blogspot.com 1 1
+http://forum.guns.ru/forummessage/89/093431-3.html 0 1
+http://mistermigell.ru/post165112472/ 0 3
+http://www.thethingsiwant.com/tag/bath%20%2526%20body/&oPage=1&deep=&CountryID= 0 1
+http://fr.search-results.com/fr 1 1
+http://mensalmanac.com/zerothread 1 1
+http://talks.guns.ru/forummessage/89/093431-3.html 0 1
+http://kuponshop.net 4 4
+http://www.myspace.com/mmarijane 0 2
+http://www.bigfinder.de/en/ 2 2
+http://moonlitwindowsill.xanga.com 0 1
+http://www.nstperfume.com/2006/09/23/home-fragrance-baieido-hinoki-incense-smokeless/ 2 2
+http://www.bloggang.com/viewdiary.php 0 1
+http://www.search-results.com/fr 1 1
+http://flowerpic.co.cc/bee-x26-flower-sandalwood-soap/ 0 1
+http://sovetogorod.ru/cveti_dahlia_dekorativnie.html 2 2
+http://sovetogorod.ru/ovosh_morkov_sorta.html 2 2
+http://www.wellspringacupuncture.com/greylinks.htm 1 1
+http://animetut.ru 2 2
+http://translate.googleusercontent.com/translate_c 1 50
+http://forum.guns.ru/forum_light_message/89/093431-m1718771.html 0 1
+http://www.thefind.com/search 0 1
+http://www.aerosys.ru 2 2
+http://cajnisvet.si/viewtopic.php 0 2
+http://glassesvogue.net 2 2
+http://kliponov.net 2 2
+http://www.lrs.fm 1 1
+http://sovetogorod.ru/cveti_barhatec_virashivanie.html 2 2
+http://hair-tips.net 2 2
+http://gensun.org 0 2
+http://www.teanavigator.com/tea-wares/tea-kettles.html 2 2
+http://www.facebook.com/l.php 1 1
+http://coffeegeek.com/forums/coffee/homeroast/42587 1 1
+http://www.bloggang.com/mainblog.php 0 9
+http://www.semrush.com/de/info/tributetea.com 2 2
+http://CON-W.COM 1 1
+http://images.yandex.ua/yandsearch 0 1
+http://thunderstone.master.com/texis/master/search/ 2 2
+http://bluefluffyclouds.wordpress.com/category/the-poet-in-me/ 0 1
+http://36ohk6dgmcd1n-c.c.yom.mail.yahoo.net/om/api/1.0/openmail.app.invoke/36ohk6dgmcd1n/11/1.0.35/us/en-US/view.html/0 1 1
+http://denisembrowngallery.info/tanks/catholic-incense-burner-for-sale.html 0 2
+http://download-fruitninja.ru 4 4
+http://talks.guns.ru/forum_light_message/89/093431-m1718759.html 0 1
+http://www.thefind.com/kitchen/browse-bee-house-teacup 0 1
+http://www.semrush.com/info/tributetea.com 2 2
+http://talks.guns.ru/forum_light_message/89/093431-m1718771.html 0 2
+http://musingforamusement.blogspot.com/2008_07_01_archive.html 0 20
+http://www.diendanphatphaponline.com/diendan/showthread.php 0 8
+http://lge-peru.com/socks/kawaski-sifter-karts.html 0 1
+http://sovetogorod.ru/cveti_saxifrage_arendca.html 2 2
+http://bluefluffyclouds.wordpress.com/page/3/ 0 1
+http://mistermigell.ru/post165112472 0 3
+http://www.leisure-cat.com/forum/viewtopic.php 0 1
+http://lovetolivehealthyliving.com/2012/05/14/matcha-madness/ 0 6
+http://con-w.com 2 2
+http://www.internetparket.ru 2 2
+http://www.getphpbb.com/phpbb/viewtopic.php 0 4
+http://musingforamusement.blogspot.ca/2008_07_01_archive.html 0 1
+http://bluefluffyclouds.wordpress.com 0 1
+http://cs-wh.ru 2 2
+http://pinterest.com/jcio/apartment-remix/ 1 1
+http://www.beautymaroc.com/vb/showthread.php/9507-%D9%85%D9%81%D8%B9%D9%88%D9%84-%D8%AF%D9%8A%D8%A7%D9%84-Mansaniya 0 1
+http://omega630.ru 1 1
+http://sovetogorod.ru/frukt_mango_virashivanie.html 2 2
+http://glassesvogue.com 2 2
+http://herbalhealthsecrets.com/herbal/index.html 1 1
+http://www.thefind.com/food/info-yunnan-green-tea 0 1
+http://lagrande.ru 2 2
+http://go.mail.ru/search_images 0 3
+http://www.pu-erh.net/sections.php 6 6
+http://www.dmoz.com/Shopping/Food/Beverages/Coffee_and_Tea/Tea/ 2 2
+http://www.2basnob.com/scented-teas.html 2 2
+http://ai-mara.ru 3 3
+http://www.we-globe.net/Weblab/SiteCommonGraveReport/www.tributetea.com/ 1 1
+http://www.bigfinder.de 2 2
+http://www.thefind.com/query.php 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 223
+tribute+tea 18
+bee+house+teapot 14
+beehouse+teapot 12
+egyptian+chamomile 12
+luo+han+guo+tea 11
+tea+questions 11
+sandalwood+soap 7
+tea+cupping+set 7
+thick+tea 7
+beehouse+teapots 5
+actual+teas+questions+and+answers 1
+maccha 2
+tribute+puerh+tea 1
+properties+of+luo+han+guo 1
+how+to+cook+luo+han+chrysanthemum 1
+keemun+tribute+tea 1
+origin+of+incense 1
+tea+pots+small+round+house+japan 1
+popularity+of+tea+rooms 2
+bee+house+teapotz 1
+top+10+questions+about+drinking+tea 1
+b2b+herbs 1
+what+is+organic+cloud+mist+tea 1
+tea+company 1
+matcha 2
+ceylon+gold+tips+tea 1
+what+percentage+of+people+have+more+than+one+heart+attack 1
+gaiwan+tea+cup 1
+bannock+burn+mapdarjeeling 1
+beehouse+sugar+bowl 2
+chamomile 3
+banko+kyusu 2
+are+all+teas+made+from+the+same+plant 1
+hibiscus+rosa+sinensis+tea 3
+luohan+guo 1
+hinoki+soap 3
+teaware+wholesale 4
+baieido+syukohkoku 2
+tea+herbs 1
+healing+properties+of+luohan+guo 2
+how+is+tea+made%3f 1
+tokoname+gyokko+home 1
+chinese+herb+pot+for+sale 2
+tribute+chai 2
+verveine+tea+health+benefits 4
+bee+house+kyoto+teapot 1
+ceylon+silver+tip 1
+lemon+grass+tea+preparation 1
+beehouse+cream+and+sugar 2
+four+seasons+high+mountain+oolong 1
+the+gaiwan+covered+tea+cup 1
+japanese+thick+and+thin+tea 4
+dongding+sijichun+tea 1
+darjeeling+bannockburn 3
+verveine+tea+usage 3
+history+of+burning+incense 1
+japan+tea+tour 1
+zen+teapot 1
+hinoki+cypress+healing+properties 1
+bee+house+48+oz 1
+matricaria+chamomilla 1
+beehouse+kyoto 2
+hinoki+bath+tea 2
+ceylon+silvertip+steeping 1
+little+round+teapot 1
+why+speciality+teas+are+increasing+in+popularity 1
+yunnan+gold+tea+rare 1
+questions+on+tea 1
+how+to+prepare+the+luo+han+guo+tea%3f 2
+wholesale+tea 2
+formosa+bai+hao+oolong 1
+chinese+tea+different+variety+names 1
+puerh+aged+tea+leaves 1
+tea+cups+covered 1
+how+is+tea+flavored 1
+clipper+green+tea+process 1
+egyptian+camomile+vs+camomile 1
+hibiscus+rosa-sinensis+tea 1
+black+tea+processing-+quiz 1
+infusion+habiscus 1
+tea+tribute 1
+does+putting+milk+in+your+tea+kill+the+antioxidants 1
+commercial+tea+names 1
+tea+school 1
+tribute+dragon+well 1
+is+tea+drinkers+more+healthy+than+non+drinkers 1
+what+is+golden+bud+puerh 1
+bee+house+tea+caddy 1
+tea+in+china+questions 1
+questionnaire+for+coming+soon+tea 1
+japanese+tea+ceremony+set 1
+tea+and+herb+wholesalers 1
+bee+house+teapots+wholesale 1
+question+about+tea 2
+uji+ban+cha 1
+organic+cloud+mist 1
+bee+house+teapots 2
+beehouse+teapots+wholesale 1
+white+tea+sun+exposure 1
+beehouse+kyoto+teapot 5
+effect+of+black+tea+on+the+fetus 1
+bee+house+japanese+tea+cups+for+sale 1
+pu+erh+tribute+tea 2
+ding+junhong+teapot 2
+beehouse+tea+pot 1
+tea+leaf+names 1
+bee+house+tea+pots 1
+questionnaire+for+tea+for+customers 1
+tribute+tea+seattle 1
+matcha+green+tea 4
+tea+tasting+sets 1
+tea+flavor+popularity 1
+loh+han+guo+how+to+cook 1
+tea+canister+large 2
+can+oolong+tea+reverse+chd 1
+bath+tea+hinoki 2
+specialty+tea+shops+nyc 1
+matcha+sieve+set 1
+bee+tea+cups 1
+bee+house+canister 1
+tea+loose+wholesale 1
+teapot+beehouse 1
+beehouse+cups 1
+questions+with+the+answer+tea 1
+switching+from+black+to+green+tea 1
+wholesale+herbs+and+tea 1
+beehous+teapot 1
+bannockburn+darjeeling 1
+tribute+teas+llc 1
+questions+about+tea 1
+japanese+spa+hinoki+tosaryu 2
+a+theory+that+affect+drinking+tea 1
+teapot+house 2
+does+adding+milk+to+tea+kill+antioxidants 3
+how+to+cook+luo+han+guo 2
+koicha 2
+beehouse+teapot+wholesale 4
+beehouse+square+teapot 1
+cloud+and+mist+green+tea 1
+what+is+tea+made+from 1
+gyokko+tokoname 1
+what+is+tea+made+of 5
+chinese+tribute+teas 1
+chinese+tribute+tea 1
+boil+chrysanthemum+with+luo+han+guo 2
+chamomile+plant 1
+prevent+tea+from+spoiling 1
+hibiscus+rosa+sinensis 3
+taiwan+high+mountain+tea 1
+teapots+square 1
+luo+han+kuo+with+chrysantemum+drink 1
+ceylon+silver+tips 2
+verveine+tea+benefits 2
+herbs+tea+company+in+deutchland 1
+how+is+tea+made 3
+tribute+tea+company 1
+tea+rooms+popularity 1
+hinoli+tea 1
+http+//www.tributetea.com/contact.asp 1
+wholesale+tea+books 1
+questions+about+chinese+tea 1
+mrs+white+s+tea+room+woodbury+ct 1
+infuser+tea+mug+with+lid 1
+cloud+mist+tea 1
+does+the+name+green+tea+have+a+meaning 1
+tea+infusion+mug 1
+usucha 2
+bee+house+zen+teapot 1
+hibiscus+infusion 4
+infused+tea+mug 1
+tea+tasting+set 2
+questionaries+on+tea+production 1
+how+to+prepare+luo+han+guo 1
+search 1
+matcha+sifter 1
+hinoki+bath 1
+sandalwood 1
+ceylon+silver+tip+tea 1
+tea+tour+hot+spring 1
+luo+han+guo 5
+does+milk+in+tea+kill+antioxidants 1
+chinese+tea+culture 2
+chrysanthemum+luo+han+guo 2
+homepage 1
+plum+flower+green+tea+extract 1
+loose+leaf+tea+wholesale 2
+tea+party+questions+and+answers 1
+tea+popularity 2
+bee+tea+pots 1
+aloeswood+incense 1
+extra+large+beehouse 1
+chinese+culture 5
+how+to+prepare+luo+han+guo+tea 1
+beehouse+teaware+wholesale 1
+hinoki+bath+t+bags 1
+beehouse+saturn 1
+heavy+tea+drinkers 1
+chinese+tea+questions 1
+tea+blending+process 1
+questionnaire+for+tea+manufacture 2
+does+milk+in+tea+destroy+antioxidants 1
+chabako 1
+great+wholesale+loose+leaf+teas 1
+does+adding+tea+to+milk+destroy+milk+properties 1
+good+and+bad+effects+of+drinking+tea+news 1
+chinese+herb+for+long+life 1
+hinoki+closet 1
+different+names+for+tea 1
+benefit+of+luo+han+guo+with+crhsysenthemem 3
+genmaicha+preparation 1
+wholesale+teaware 1
+pourcentage+of+people+drinking+milk+with+tea 1
+lo+han+guo+tea 4
+chanoyu 1
+tribute+teas 2
+how+many+people+drink+tea+in+us 1
+site+tributetea.com+tribute+tea 1
+infusing+mug 1
+manufacture+of+tea+as+question+answer 1
+ceylon+silvertips 1
+color+tea+names 1
+bannockburn+tea 2
+tributetea+rose 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 302
+tea 204
+teapot 46
+beehouse 40
+guo 38
+han 37
+tribute 34
+luo 32
+house 28
+bee 27
+of 20
+many 1
+heavy 1
+infuser 1
+uji 1
+mrs 1
+life 1
+history 1
+what 9
+darjeeling 4
+dongding 1
+matcha 8
+kuo 1
+chamomile 16
+steeping 1
+syukohkoku 2
+seasons 1
+attack 1
+round 2
+all 1
+ct 1
+kyusu 2
+drinking 4
+habiscus 1
+can 1
+health 4
+//www.tributetea.com/contact.asp 1
+tributetea.com 1
+manufacture 3
+extract 1
+leaves 1
+a 2
+speciality 1
+kill 5
+chrysanthemum 5
+woodbury 1
+http 1
+chinese 15
+in 7
+teapotz 1
+shops 1
+flavor 1
+leaf 4
+erh 2
+bannockburn 6
+different 2
+infused 1
+egyptian 13
+zen 2
+healthy 1
+loh 1
+gyokko 2
+chai 2
+pots 3
+quiz 1
+heart 1
+boil 2
+nyc 1
+baieido 2
+teapots 10
+as 1
+seattle 1
+why 1
+caddy 1
+antioxidants 6
+on 3
+bai 1
+popularity 7
+benefit 3
+mapdarjeeling 1
+affect 1
+people 3
+crhsysenthemem 3
+black 3
+top 1
+cups 4
+customers 1
+canister 3
+putting 1
+flavored 1
+bad 1
+good 1
+production 1
+hao 1
+variety 1
+silver 4
+little 1
+china 1
+hot 1
+ceremony 1
+sandalwood 8
+cloud 4
+healing 3
+flower 1
+about 5
+drink 2
+t 1
+wholesale 20
+tosaryu 2
+how 14
+questionaries 1
+wholesalers 1
+questions 20
+reverse 1
+herbs 4
+infusion 6
+tasting 3
+sale 3
+silvertips 1
+gold 2
+mountain 2
+sugar 4
+incense 3
+oolong 3
+sets 1
+names 5
+ban 1
+pu 2
+question 3
+adding 4
+pourcentage 1
+increasing 1
+teaware 6
+lemon 1
+saturn 1
+maccha 2
+cha 1
+preparation 2
+closet 1
+rose 1
+extra 1
+chrysantemum 1
+name 1
+percentage 1
+properties 5
+camomile 2
+sun 1
+your 1
+and 12
+small 1
+is 14
+bath 6
+rosa-sinensis 1
+formosa 1
+junhong 2
+color 1
+have 2
+hinoli 1
+cook 4
+deutchland 1
+actual 1
+prevent 1
+golden 1
+tips 3
+japan 2
+matricaria 1
+taiwan 1
+oz 1
+rare 1
+clipper 1
+bud 1
+square 2
+rosa 6
+plum 1
+b2b 1
+teas 8
+infusing 1
+pot 3
+culture 7
+commercial 1
+sifter 1
+s 1
+chd 1
+burn 1
+switching 1
+tokoname 2
+tributetea 1
+thick 11
+sijichun 1
+mug 4
+four 1
+same 1
+cream 2
+plant 2
+us 1
+company 3
+answer 2
+bags 1
+chamomilla 1
+tea%3f 2
+well 1
+hibiscus 11
+coming 1
+news 1
+burning 1
+sieve 1
+spoiling 1
+specialty 1
+loose 4
+that 1
+puerh 3
+milk 9
+tip 2
+green 9
+lo 4
+verveine 9
+hinoki 13
+banko 2
+koicha 2
+silvertip 1
+grass 1
+cupping 7
+luohan 3
+sinensis 6
+one 1
+exposure 1
+covered 2
+tour 2
+10 1
+with 9
+beehous 1
+fetus 1
+books 1
+meaning 1
+48 1
+rooms 3
+to 13
+from 4
+mist 4
+school 1
+home 1
+set 11
+prepare 4
+herb 4
+effect 1
+party 1
+keemun 1
+large 3
+usucha 2
+site 1
+japanese 8
+drinkers 3
+non 1
+blending 1
+gaiwan 2
+more 2
+the 8
+made 10
+search 1
+ding 2
+aged 1
+dragon 1
+ceylon 7
+spring 1
+bowl 2
+white 2
+soon 1
+does 8
+kyoto 8
+organic 2
+llc 1
+genmaicha 1
+made%3f 1
+answers 2
+bannock 1
+cup 2
+cypress 1
+for 10
+processing- 1
+origin 1
+process 2
+questionnaire 4
+homepage 1
+theory 1
+yunnan 1
+aloeswood 1
+benefits 6
+soap 10
+are 2
+room 1
+chabako 1
+high 2
+long 1
+great 1
+destroy 2
+usage 3
+effects 1
+thin 4
+than 2
+lid 1
+chanoyu 1
+spa 2
+vs 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 3 1150
+501 1 157
+302 51 25166
+206 27 250298
+404 942 1651654
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 274
+/_admin/scripts/setup.php 1 -
+/39/ 1 -
+/wbsadmin/html/scripts/setup.php 1 -
+/phpmya/scripts/setup.php 1 -
+/phpmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+/35_f2/ 1 -
+/language/IMG_2419.jpg 6 http://tributetea.com/language/
+/language/IMG_2417.jpg 6 http://tributetea.com/language/
+/~/admin/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+/_myadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/php-my-admin/scripts/setup.php 1 -
+/scented_lemon.asp 2 -
+/phpmyadmin1/scripts/setup.php 1 -
+/tools/pma/scripts/setup.php 1 -
+/phpMyAdmin2/scripts/setup.php 1 -
+/language/IMG_2381.jpg 3 http://tributetea.com/language/
+/vhcs2/tools/pma/scripts/setup.php 1 -
+/tea_news/white.htm+ 3 -
+/phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/phpMyAdmin-2.11.4/scripts/setup.php 1 -
+/language/IMG_2421.jpg 6 http://tributetea.com/language/
+/phpMyAdmin-2.8.1/scripts/setup.php 1 -
+/ac/index_files/image004.png 1 http://tributetea.com/ac/
+/phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+/mysql-admin/scripts/setup.php 1 -
+/roundcube/scripts/setup.php 1 -
+/green_tea_biluochun.asp 1 -
+/wp-login.php 4 -
+/phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1/scripts/setup.php 1 -
+/comments.aspindex.php 2 http://www.tributetea.com/comments.aspindex.php
+/books_tea_culture.asp 1 -
+/wholwww/ 1 -
+/phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-rc1config/scripts/setup.php 1 -
+/ac/index_files/image002.png 1 http://tributetea.com/ac/
+/language/IMG_2373.jpg 3 http://tributetea.com/language/
+/databaseadmin/scripts/setup.php 1 -
+/green_tea_huang_shan.asp 2 -
+/cpanelsql/scripts/setup.php 1 -
+/book_tea_book.asp 1 -
+/phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+/~/myadmin/scripts/setup.php 1 -
+/ac/index_files/image001.jpg 1 http://tributetea.com/ac/
+/scented_apple.asp 1 -
+/phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+/bbs/data/scripts/setup.php 1 -
+/cpanelmysql/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6/scripts/setup.php 1 -
+/tea_varieties.html 8 -
+/herbs_sampler.asp 5 -
+/phpMyAdmin-2/scripts/setup.php 1 -
+/test/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+/boulde/ 1 -
+/ea.asp 1 -
+/phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+/web/scripts/setup.php 1 -
+/books_chinese_herbs.asp 1 -
+/teagifts.asp"+class="resultLink/admin/sqlpatch.php/password_forgotten.php 16 -
+/administrator/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/admin/phpmyadmin/scripts/setup.php 1 -
+/sqlweb/scripts/setup.php 1 -
+/admin/sqlpatch.php/password_forgotten.php 16 -
+/phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/green_tea_earl.asp 7 -
+/3rdparty/phpMyAdmin/scripts/setup.php 1 -
+/Lacquer+Tea+Holder/ 1 -
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+/cpanelphpmyadmin/scripts/setup.php 1 -
+/oolong_tea_alishan.asp 5 -
+/phpmyadmin_old/scripts/setup.php 1 -
+/sg/DSC02717.jpg 1 http://tributetea.com/sg/
+/phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+/webadmin/scripts/setup.php 1 -
+/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+/PMA2005/scripts/setup.php 1 -
+/green_tea_puerh.asp 90 -
+/scented_pe_gin.asp 1 -
+/green_tea_karigane.asp 2 -
+/admin/spaw/spacer.gif 1 -
+/dim_sum/tt_dimsum.gif 1 -
+/phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+/2af16db257cf20B500001&m=1321583423&w=ad11d4a14dc2c5885a475284332a08e4ac3535fe&k=2af16db257cf20&d=www.tributetea.com 1 http://www.tributetea.com/8g5ebd473521114&n=l
+/phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+/contact.html 23 -
+/bazapma/scripts/setup.php 1 -
+/nk_white_plum.asp 2 -
+/phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/nk_lavender.asp 5 -
+/spaw/spacer.gif 1 -
+/phpadmin/phpMyAdmin-2.11.4/scripts/setup.php 1 -
+/green_tea_kawa.asp 2 -
+/webdb/scripts/setup.php 1 -
+/MyAdmin9/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3/scripts/setup.php 1 -
+/puerh_old_tree_lg_leaf.asp 3 -
+/~/phpmanager/scripts/setup.php 1 -
+/dbadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+/admm/scripts/setup.php 1 -
+/spaw2/spacer.gif 1 -
+/about.html 22 -
+/SlurpConfirm404/db_recover/LinearHat.htm 1 -
+/language/IMG_2413.jpg 3 http://tributetea.com/language/
+/Admin/scripts/setup.php 1 -
+/puerh_green_tea_cake.asp 8 -
+/green_tea_lemon.asp 3 -
+/web/phpMyAdmin/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/phpMyAdmin-2.2.3/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+/sqladmin/scripts/setup.php 1 -
+/phpMyAdmin-2.2.6/scripts/setup.php 1 -
+/teacups_chawan/ 13 -
+/phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+/phpmyadmino-ld/scripts/setup.php 1 -
+/cpdbadmin/scripts/setup.php 1 -
+/my/phpmyadmin/scripts/setup.php 1 -
+/pma/scripts/setup.php 1 -
+/cp/tools/pma/scripts/setup.php 1 -
+/admn/scripts/setup.php 1 -
+/Cocups_cup.asp 1 -
+/phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/privacy_security.html 20 -
+/teaschool.html 20 -
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/mysqlmanager/scripts/setup.php 1 -
+/oolong_tea.dong_ding.asp 1 -
+/mysqladminconfig/scripts/setup.php 1 -
+/tools/_phpmyadmin/scripts/setup.php 1 -
+/php-myadmin/scripts/setup.php 1 -
+/phpmyadmin2/scripts/setup.php 1 -
+/cpadmin/scripts/setup.php 1 -
+/rh/ 2 -
+/admin/cp/tools/pma/scripts/setup.php 1 -
+/gui/tools/pma/scripts/setup.php 1 -
+/phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/fiat/ 1 -
+/ppstylesheets/profile_main.css 1 http://tributetea.com/yo/
+/herbs_rose_bud.asp 26 -
+/my/scripts/setup.php 1 -
+/~/phpmyadmin/scripts/setup.php 1 -
+/pmy/scripts/setup.php 1 -
+/tea_news/index.html 1 -
+/' 2 -
+/phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/phpadmin/scripts/setup.php 1 -
+/language/IMG_2420.jpg 6 http://tributetea.com/language/
+/nk_sampler.asp 1 -
+/puerh_aged_cake.asp 3 -
+/faq.html 19 -
+/tools/_pma/scripts/setup.php 1 -
+/oolong_tea_bao_zhong.asp 3 -
+/language/IMG_2412.jpg 3 http://tributetea.com/language/
+/~/phpadmin/scripts/setup.php 1 -
+/butt/ 1 -
+/robert/ 1 -
+/phpMyAdmin/scripts/setup.php 1 -
+/sl2/data/scripts/setup.php 1 -
+/cpadmindb/scripts/setup.php 1 -
+/es/ 1 -
+/ppgraphics/blank.gif 1 http://tributetea.com/yo/
+/dim_sum/soon.jpg 1 -
+/SSLMySQLAdmin/scripts/setup.php 1 -
+/rabbithole/ 1 -
+/phpMyAdmin-2.6.2-rc1/scripts/setup.php 1 -
+/mysql/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/_scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/wholesale.html 31 -
+/phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/puerh_plum_flower.asp 22 -
+/websql/scripts/setup.php 1 -
+/admin/scripts/setup.php 1 -
+/crossdomain.xml 4 -
+/scented_mango.asp 3 -
+/published/wbsadmin/html/scripts/setup.php 1 -
+/_admin/pma/scripts/setup.php 1 -
+/booksmusic.html 33 -
+/phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+/incense.html 34 -
+/sfcheckerrors.asp 2 -
+/phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/~/PMA/scripts/setup.php 1 -
+/book_incense_book.asp 1 -
+/green_tea_peony.asp 1 -
+/teacups_corner_cup.asp 6 -
+/oolong_tea_spring_olg.asp 1 -
+/phpMyAdmin-2.5.7/scripts/setup.php 1 -
+/SQL/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+/SlurpConfirm404/gkbooks/merch/OpenCA.htm 1 -
+/scented_lemon_drop.asp 3 -
+/language/IMG_2415.jpg 6 http://tributetea.com/language/
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/admin/record_company.php/password_forgotten.php 8 -
+/pMA/scripts/setup.php 1 -
+/admin/pma/scripts/setup.php 1 -
+/scented_ap_cin.asp 1 -
+/language/IMG_2378.jpg 3 http://tributetea.com/language/
+/sqlmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/sg/DSC02722.jpg 1 http://tributetea.com/sg/
+/puerh_silver_bud_cake.asp 3 -
+/pma2005/scripts/setup.php 1 -
+/nk_cypress.asp 2 -
+/phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/filosophia/ 1 -
+/teagifts.asp/admin/sqlpatch.php/password_forgotten.php 16 -
+/phpmy-admin/scripts/setup.php 1 -
+/teas.html 22 -
+/language/IMG_2400.jpg 3 http://tributetea.com/language/
+/green_tea_yunnan.asp 5 -
+/scented_rose.asp 3 -
+/teagifts.asp/admin/record_company.php/password_forgotten.php 8 -
+/phpMyAdmin-2.7.0/scripts/setup.php 1 -
+/language/IMG_2355.jpg 3 http://tributetea.com/language/
+/myadmin/scripts/setup.php 1 -
+/PMA/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+/puerh_square_tea.asp 4 -
+/xampp/phpmyadmin/scripts/setup.php 1 -
+/mysqladmin/scripts/setup.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+/order.asp 21 -
+/scented_mandarin.asp 1 -
+/scented_lem_gin.asp 3 -
+/scented_iced.asp 5 -
+/images/violet.jpg 1 http://tributetea.com/escalante/
+/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/typo3/phpmyadmin/scripts/setup.php 1 -
+/language/IMG_2430.jpg 6 http://tributetea.com/language/
+/PHPMYADMIN/scripts/setup.php 1 -
+/puerh_special_reserve_cake.asp 3 -
+/image/ 1 -
+/puerh_gold_melon.asp 2 -
+/puerh_sm_leaf.asp 11 -
+/puerh_green_sq.asp 3 -
+/teaware_auto_kettle.asp 1 -
+/p/m/a/scripts/setup.php 1 -
+/language/IMG_2375.jpg 3 http://tributetea.com/language/
+/phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+/oolong_tea_winter_tgy.asp 2 -
+/failure.htm 4 -
+/language/IMG_2406.jpg 3 http://tributetea.com/language/
+/phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/teagifts.asp"+class="resultLink/admin/record_company.php/password_forgotten.php 8 -
+. 1 -
+/success.htm 4 -
+/cpphpmyadmin/scripts/setup.php 1 -
+/herbs_luohanguo.asp+target= 6 -
+/sg/DSC02715.jpg 1 http://tributetea.com/sg/
+/language/IMG_2388.jpg 3 http://tributetea.com/language/
+/news.html 21 -
+/index.php 9 -
+/url(data:image/png 1 http://www.tributetea.com/herbs_luohanguo.asp
+/admin/spaw2/spacer.gif 1 -
+/teaware.html 32 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1424
+67.152.29.130 553 566 7066348 20120531022731
+8.11.2.9 335 364 5051354 20120531020401
+8.11.2.10 273 282 3608683 20120530092024
+208.115.111.70 270 270 5912119 20120531004430
+208.115.113.86 264 264 3060872 20120531214713
+81.144.138.34 259 259 3937666 20120526142015
+23.20.23.83 184 184 5052368 20120529191558
+107.20.11.235 184 184 5052632 20120528022746
+174.31.136.68 128 1021 87110437 20120530093028
+206.83.86.2 73 83 852670 20120503194424
+220.255.1.99 0 1 7394 
+119.147.75.137 3 3 36387 20120530005800
+208.66.198.182 1 7 60030 20120508152215
+98.188.38.23 2 48 131545 20120529201359
+69.235.204.190 35 248 1623047 20120531202902
+175.136.237.117 1 9 42387 20120509090310
+92.139.126.20 1 25 808855 20120524142609
+110.169.208.205 1 10 47830 20120505123807
+122.177.153.153 1 1 12595 20120512105008
+63.227.44.171 0 1 11051 
+74.202.28.8 1 1 12595 20120523043131
+125.89.75.187 2 2 23480 20120510155412
+203.110.235.129 1 7 29029 20120522063935
+192.193.216.147 1 9 42285 20120510033048
+14.139.57.163 1 7 60049 20120514080815
+111.94.146.103 1 1 12619 20120503065722
+220.255.1.61 10 16 144698 20120528031154
+93.182.134.16 2 2 53888 20120510154834
+93.182.188.43 1 1 18725 20120504002444
+93.38.213.191 2 10 73492 20120510183134
+70.176.2.199 1 18 225769 20120519025334
+75.166.130.96 1 7 60043 20120521002230
+99.8.112.183 0 3 8724 
+220.255.2.231 0 2 8872 
+61.247.180.46 4 13 99045 20120531112204
+115.162.28.233 2 8 43479 20120512124203
+176.212.89.38 2 2 37444 20120528223933
+94.23.149.223 2 2 25228 20120531083953
+219.87.173.24 1 4 11712 20120520111221
+65.52.111.219 1 2 41850 20120510055214
+74.125.158.83 1 1 9558 20120506154613
+75.140.43.242 22 186 906576 20120523001349
+76.194.214.65 3 19 128437 20120521062425
+124.168.120.211 2 10 73195 20120519002629
+118.70.13.63 1 17 34661 20120531094931
+98.247.107.68 1 10 61644 20120519030846
+24.131.209.4 1 9 44901 20120531132605
+98.238.115.252 0 1 11051 
+81.111.110.55 1 4 11712 20120529051713
+77.108.122.245 1 1 8862 20120515113436
+182.118.20.221 1 1 10886 20120520042132
+49.176.68.110 1 30 817565 20120528040515
+176.195.49.202 0 1 3301 
+209.239.119.246 1 1 12595 20120505065559
+88.119.155.210 0 9 32354 
+61.55.186.43 2 2 25228 20120529105458
+96.253.211.253 1 9 62038 20120503040114
+65.52.111.126 1 1 11599 20120510005339
+121.54.38.98 0 1 11051 
+180.131.235.17 1 4 52682 20120520061511
+188.153.59.222 0 1 11555 
+208.83.154.17 0 1 31733 
+71.197.61.13 1 7 60040 20120523113618
+61.90.69.184 1 7 45815 20120516000421
+213.114.139.186 1 9 47440 20120516062009
+93.182.132.144 1 1 26945 20120517185543
+46.254.165.116 0 1 30001 
+204.155.149.27 8 8 100728 20120518074550
+98.139.242.229 0 1 12073 
+202.156.10.254 1 2 12805 20120501122354
+68.203.231.146 3 15 61782 20120504034105
+218.186.15.225 1 2 12515 20120528072542
+157.55.17.87 1 1 11976 20120510021224
+2.33.149.96 0 11 48890 
+207.46.199.11 1 1 12526 20120509223430
+65.49.2.22 0 1 50158 
+209.131.39.60 0 1 12766 
+120.61.165.210 1 7 60021 20120529072620
+74.125.17.226 0 1 12414 
+220.255.2.224 0 2 1333 
+69.171.224.0 0 2 70157 
+82.240.49.153 1 1 12610 20120531044426
+208.120.221.163 7 56 305682 20120530234313
+74.6.13.91 1 9 74109 20120502144755
+65.52.111.234 1 1 17238 20120509195731
+110.4.27.75 1 7 40379 20120501150550
+87.4.122.22 0 1 11555 
+68.202.107.25 0 1 20203 
+62.24.181.134 2 2 41856 20120529204908
+178.137.128.167 4 4 49752 20120504120338
+208.54.87.179 1 7 36497 20120523161929
+65.91.117.74 0 1 2161 
+71.110.52.66 1 9 42000 20120527214201
+220.255.1.208 0 4 5861 
+88.97.19.95 10 31 208825 20120517151613
+68.12.76.67 5 5 1535 20120506030203
+199.30.80.103 1 1 11434 20120507225955
+166.147.88.17 5 13 88597 20120501152619
+184.144.142.170 5 56 217903 20120501195756
+183.167.246.195 1 10 62467 20120521030155
+50.131.60.65 1 8 40016 20120531041407
+74.6.18.232 1 1 10624 20120507085940
+119.97.222.34 1 1 18725 20120503161735
+184.106.106.86 1 1 12610 20120524040919
+91.228.39.43 2 2 37448 20120513073001
+71.203.141.70 6 81 457357 20120522232054
+78.72.163.4 1 9 62458 20120520090342
+220.255.1.228 0 1 292 
+220.255.2.183 0 2 7972 
+117.211.90.34 1 6 30470 20120514101228
+220.255.2.204 0 1 825 
+123.30.175.78 8 8 100896 20120521153458
+72.14.202.93 0 1 830 
+188.123.252.87 0 1 3301 
+99.42.249.123 1 7 14289 20120531031822
+69.91.168.114 1 39 85660 20120530193015
+117.204.30.155 1 7 60040 20120514133235
+213.235.41.218 1 5 20594 20120522152542
+220.255.1.232 0 1 891 
+75.172.3.73 5 88 370645 20120518044910
+199.30.80.99 1 1 13329 20120502232553
+38.122.126.146 2 26 272661 20120515162634
+119.235.50.142 1 1 64484 20120527125624
+99.245.162.241 0 1 11051 
+193.106.136.56 6 6 74478 20120514142654
+220.255.1.92 1 1 12174 20120521101311
+24.126.49.141 1 10 64477 20120505142928
+203.82.95.193 2 9 89166 20120531061935
+108.210.0.182 3 62 157109 20120501172458
+68.35.133.239 2 22 114218 20120506040844
+72.27.113.234 0 1 11051 
+74.82.68.35 1 7 36492 20120503010832
+211.99.227.130 1 1 12595 20120516192346
+111.13.8.18 12 12 151009 20120528161515
+72.213.58.128 1 4 11712 20120501181606
+220.255.2.67 0 1 2382 
+195.59.45.126 1 7 40378 20120530095217
+84.228.182.170 0 1 30001 
+24.154.220.121 0 1 7124 
+76.102.172.238 1 11 52599 20120511061029
+199.15.234.218 1 1 12614 20120502204235
+91.207.4.74 1 1 12619 20120512124547
+50.57.190.50 1 1 12619 20120521162658
+182.55.237.11 3 14 128493 20120522091726
+65.37.19.80 4 71 230872 20120520121954
+74.66.90.154 1 16 61961 20120502232936
+184.22.182.90 2 2 13486 20120524100254
+74.6.17.177 1 12 61327 20120521080439
+93.182.158.17 1 1 26944 20120507004227
+220.255.1.248 0 1 4320 
+146.127.253.44 0 17 75300 
+199.233.178.254 6 23 149648 20120511013747
+69.245.234.19 1 12 59820 20120528212224
+12.238.8.30 1 9 42257 20120529215510
+155.41.193.31 1 10 100229 20120531170501
+121.237.59.133 3 49 142071 20120510155200
+74.6.22.165 1 29 77607 20120516003455
+80.86.38.236 1 7 60042 20120529130723
+89.103.51.86 2 10 73567 20120514221220
+173.27.35.104 1 10 52657 20120506155838
+220.255.2.83 0 1 1705 
+93.66.24.172 0 1 11555 
+220.255.1.240 0 3 4538 
+174.229.138.54 2 17 136808 20120529003519
+157.55.17.93 1 1 11574 20120518183130
+96.49.123.143 7 81 411472 20120522092306
+118.68.14.151 0 1 50134 
+193.106.136.40 2 2 24726 20120525043549
+207.46.199.16 1 1 15328 20120522132705
+74.6.22.95 1 29 77607 20120504213739
+199.87.252.95 7 7 77991 20120531194043
+59.121.32.186 1 8 62517 20120521124130
+46.17.101.107 1 1 18725 20120507202128
+220.255.2.63 3 4 36908 20120505092415
+168.171.213.238 0 1 11051 
+84.209.70.188 1 8 39301 20120510140743
+70.15.185.149 5 75 384434 20120520232848
+41.154.2.8 3 6 37485 20120511112320
+184.168.193.65 1 1 307 20120527231102
+178.194.70.86 1 1 18725 20120524200836
+66.212.200.215 4 70 550599 20120522124217
+74.198.9.221 1 4 14889 20120514130108
+126.210.66.70 2 9 54326 20120519061750
+157.55.17.80 3 5 70446 20120528180715
+62.255.143.118 1 5 20594 20120510121945
+107.20.53.63 0 1 11555 
+69.171.224.4 0 1 11403 
+180.252.70.215 1 11 52804 20120507115327
+174.61.236.110 38 288 2093316 20120531015803
+93.172.33.128 5 13 99799 20120519223637
+71.9.32.14 1 7 60000 20120504175032
+77.30.160.18 1 2 29029 20120508224837
+78.97.238.100 1 1 8076 20120515081608
+65.52.111.67 1 1 10186 20120509174818
+220.255.1.222 0 2 6481 
+220.181.125.147 1 1 12610 20120505132134
+64.136.26.228 1 8 62392 20120509002204
+69.58.178.58 10 10 117175 20120509002351
+220.255.1.44 3 3 37253 20120528032912
+217.69.135.91 0 9 270180 
+184.70.10.178 1 10 64514 20120517163129
+108.14.192.220 5 15 127123 20120513012948
+220.255.2.222 0 4 13441 
+58.9.86.218 0 1 10448 
+213.167.60.19 0 1 12515 
+68.109.21.194 1 18 225947 20120510153949
+193.69.156.178 2 9 23315 20120503122724
+114.79.17.177 1 27 74751 20120519060527
+211.28.131.183 0 1 12414 
+74.192.106.110 11 78 644583 20120531173431
+174.119.124.74 3 10 62778 20120531201701
+93.182.174.54 1 1 26944 20120510012257
+80.84.51.194 1 1 18724 20120514205700
+207.216.63.44 7 93 1321670 20120506204300
+210.48.219.9 7 54 240835 20120514071609
+218.111.21.49 1 21 66637 20120529132917
+207.46.204.222 1 1 11806 20120509231938
+65.52.111.74 1 3 23931 20120510121151
+70.245.77.124 1 11 52579 20120521023140
+205.188.116.143 0 1 891 
+78.140.185.32 1 1 12591 20120515110345
+220.255.2.200 1 2 16237 20120508124054
+192.101.136.224 1 7 32493 20120511170150
+86.43.73.200 1 1 27189 20120503185245
+166.137.137.182 1 5 20594 20120529150745
+74.125.78.100 0 1 6740 
+98.139.241.245 1 2 24997 20120524025024
+92.100.138.222 0 1 3301 
+74.125.18.23 1 1 26877 20120531133314
+72.21.217.2 0 2 1559 
+74.125.17.212 0 1 891 
+220.255.1.38 1 1 12174 20120521101311
+166.250.71.103 1 9 42018 20120509180624
+207.102.130.77 1 10 44201 20120515153627
+182.23.158.233 1 9 42046 20120519021043
+220.255.1.205 0 5 7995 
+68.100.69.174 1 39 85660 20120515185053
+91.121.169.195 1 1 12614 20120501142922
+50.98.203.9 20 178 937872 20120512050902
+208.43.159.202 4 4 46165 20120507115026
+72.67.151.131 1 1 12610 20120530000426
+94.153.65.56 4 4 49752 20120502142249
+188.132.190.23 1 1 14893 20120516021059
+199.19.249.196 2 2 19392 20120521140758
+116.89.121.10 1 1 12167 20120524070551
+65.52.111.242 1 2 22641 20120520120254
+93.37.87.111 0 1 11555 
+118.26.56.169 1 1 12591 20120506024353
+190.144.13.66 1 1 13449 20120512033128
+64.65.145.12 1 7 58534 20120518170739
+108.46.11.73 3 12 94234 20120529234245
+62.108.23.97 1 5 20594 20120524165109
+202.46.51.66 1 1 12899 20120510012110
+113.124.22.53 1 1 5930 20120515135208
+69.171.228.250 0 1 1205 
+123.30.187.156 1 1 12610 20120523023822
+208.83.154.18 0 2 24351 
+67.174.83.82 1 30 817565 20120515234523
+24.143.224.32 1 9 38694 20120524020407
+206.188.88.68 6 39 196496 20120511212330
+220.255.2.229 0 3 2229 
+87.114.49.138 1 12 62879 20120521143659
+180.22.74.101 1 8 43123 20120519122504
+77.76.64.151 1 7 60012 20120529132844
+193.106.136.38 2 2 24876 20120528070149
+182.18.0.197 1 7 37918 20120521010949
+85.25.246.10 2 2 25186 20120525092702
+220.255.2.88 0 2 12991 
+220.255.2.189 0 1 668 
+220.255.2.180 0 2 14134 
+71.212.54.107 1 10 60631 20120518020434
+74.125.78.88 0 1 3876 
+118.172.96.244 1 7 40407 20120508035956
+146.127.253.12 0 3 2222 
+24.189.110.138 1 8 48563 20120520191052
+213.133.123.53 1 1 12591 20120527195701
+155.52.20.194 3 52 157139 20120523180458
+125.18.119.68 1 3 33803 20120530144243
+217.117.112.148 0 1 1670 
+75.84.61.229 3 3 37842 20120506054616
+220.255.2.194 0 4 10094 
+37.220.8.82 2 2 37446 20120526080203
+77.34.232.206 0 1 12515 
+157.55.112.235 1 1 11553 20120526100204
+46.105.117.190 2 2 12894 20120511075258
+50.74.74.231 2 29 297104 20120522123117
+220.255.1.158 1 2 14073 20120501161737
+146.113.146.96 1 7 60027 20120530142926
+66.220.149.244 0 1 1205 
+97.113.27.154 1 7 42246 20120529023345
+207.46.204.215 2 2 16173 20120502024835
+207.38.43.29 1 1 10528 20120505031256
+199.255.199.1 1 1 12595 20120523085003
+121.202.0.222 2 13 114973 20120507093656
+184.173.250.156 0 1 10476 
+121.45.106.112 2 10 71882 20120512153514
+166.249.192.109 2 10 54166 20120521040041
+71.137.109.169 1 12 61635 20120515161836
+99.232.39.187 0 1 11051 
+220.255.2.91 0 1 3800 
+65.52.111.211 1 1 12215 20120509143520
+68.38.33.60 12 126 641805 20120525160318
+41.134.38.49 1 8 51404 20120531102006
+220.255.2.230 0 6 5669 
+114.171.33.81 1 1 12595 20120520131949
+98.139.241.243 2 2 25190 20120528061802
+199.15.234.9 2 2 25169 20120530135230
+74.104.164.23 2 28 111416 20120527020817
+64.88.164.100 2 2 25190 20120505073852
+87.211.102.38 0 1 11051 
+74.202.28.6 5 5 62975 20120524043642
+103.246.38.196 1 1 12595 20120521123552
+37.220.1.114 5 5 93620 20120528093138
+1.33.101.99 46 257 1661162 20120524025259
+50.77.33.137 1 7 60016 20120504131756
+91.121.70.86 1 1 307 20120501202911
+74.202.28.3 4 4 50380 20120530044007
+24.91.200.90 37 247 3850764 20120501225644
+95.144.224.33 2 35 273725 20120524211815
+70.62.194.234 1 12 59629 20120504011217
+112.201.193.138 1 11 52651 20120527042053
+90.182.25.114 1 8 58782 20120522123034
+75.185.75.46 0 1 11555 
+115.70.33.63 3 32 327709 20120512061755
+124.180.224.54 1 7 60037 20120522075839
+88.3.50.240 0 1 17026 
+66.58.204.57 1 12 59800 20120517031507
+97.106.225.81 2 14 93404 20120507031419
+66.97.119.153 1 18 37459 20120531183321
+68.185.251.183 1 9 62076 20120501183929
+99.141.86.66 1 5 20594 20120510024356
+220.255.1.230 0 1 7124 
+68.197.145.19 0 1 11555 
+220.255.1.188 0 1 1496 
+75.80.60.175 4 13 112486 20120522080358
+157.55.18.46 1 1 9337 20120510081854
+74.125.158.92 0 1 1612 
+71.232.22.211 14 92 390525 20120505062445
+110.168.242.84 2 51 184655 20120506162141
+188.94.23.23 1 1 12591 20120512192920
+69.64.155.246 2 2 673 20120521174448
+205.188.117.12 0 1 18090 
+74.86.236.52 1 1 11344 20120524221757
+74.125.178.88 0 1 8086 
+174.49.220.66 3 27 286334 20120505074531
+157.55.17.82 1 1 10793 20120509233354
+184.189.248.105 2 19 194337 20120512202548
+24.235.98.154 7 59 220158 20120522140407
+59.177.37.27 1 19 127576 20120514135005
+220.181.51.75 2 2 26910 20120529172745
+131.175.28.158 0 1 11555 
+197.162.38.63 0 1 0 
+176.31.18.156 1 1 8132 20120518162553
+61.92.49.230 1 9 42005 20120515080339
+71.231.26.232 3 40 5773350 20120524091017
+69.84.207.147 24 24 320073 20120526102455
+72.21.217.1 1 1 11407 20120519013606
+74.125.178.80 0 1 17026 
+207.99.172.117 1 7 60004 20120511162134
+202.29.240.82 0 1 10467 
+64.91.52.254 2 54 8740584 20120511161031
+173.228.88.145 0 1 7187 
+72.30.132.166 1 8 43597 20120511151219
+220.255.2.86 0 5 35280 
+74.125.16.86 0 1 1186 
+93.182.137.8 1 1 26943 20120515150120
+70.89.14.237 1 7 60020 20120509181838
+209.234.73.72 0 1 11051 
+157.55.112.213 1 1 10727 20120509224133
+193.184.60.2 0 1 10470 
+62.24.252.133 1 1 26944 20120504091030
+74.125.158.89 0 1 6740 
+68.175.46.157 1 10 34474 20120513054551
+220.255.2.52 1 1 12151 20120506083342
+148.197.98.24 1 6 14289 20120504083753
+220.255.1.237 0 1 891 
+77.99.2.110 2 19 78836 20120504131800
+74.231.121.75 1 5 8200 20120528115040
+74.125.18.156 0 1 4320 
+94.153.64.36 8 8 99504 20120530215523
+66.68.87.149 1 7 32473 20120517051734
+97.113.207.157 1 7 60026 20120523030951
+146.127.253.14 0 14 17240 
+220.255.1.245 0 1 985 
+50.58.125.130 21 21 258363 20120513033833
+115.198.57.127 20 20 245784 20120528042524
+82.193.137.82 2 2 25182 20120503053433
+220.255.2.215 0 1 668 
+220.255.2.199 0 1 2412 
+97.85.161.11 1 5 15386 20120530180914
+220.255.2.217 0 1 1085 
+46.4.121.230 1 1 12591 20120502061123
+113.28.40.173 1 9 41730 20120524045348
+124.160.188.139 1 1 12591 20120505043206
+220.255.2.19 2 2 24332 20120505091330
+24.79.41.51 1 9 62049 20120513050146
+110.164.107.187 0 1 0 
+23.19.207.240 1 1 12256 20120506183239
+173.160.148.69 9 99 1170564 20120527190529
+116.71.182.194 1 4 48098 20120524210614
+74.125.17.220 0 1 668 
+220.255.1.217 0 7 14818 
+220.255.1.210 0 1 891 
+95.121.245.147 1 7 40376 20120527184546
+151.74.17.16 0 1 11555 
+207.46.195.202 1 1 11975 20120510022413
+166.147.72.29 2 26 274372 20120519044319
+74.66.81.8 0 1 11491 
+220.255.1.229 0 2 7780 
+72.30.132.231 1 8 37171 20120521074659
+220.255.2.22 1 3 23242 20120505090532
+50.13.105.99 12 132 935106 20120512022052
+62.233.194.97 1 1 12619 20120515090321
+68.40.233.253 16 146 2255698 20120507014214
+98.230.186.83 2 48 125816 20120527221935
+96.38.128.252 0 1 3301 
+93.32.181.149 1 1 12663 20120518050337
+71.248.230.80 10 44 451421 20120502220147
+83.243.48.2 3 21 113340 20120528153859
+207.46.199.13 2 5 46838 20120524153518
+220.255.2.201 0 5 4423 
+66.28.241.17 3 24 135931 20120508184816
+188.94.23.6 1 1 12591 20120508104750
+71.6.51.181 1 1 18723 20120505093306
+64.124.140.174 3 3 36551 20120530195404
+24.41.40.140 1 27 4370292 20120511163657
+86.45.64.108 2 10 71905 20120505081028
+98.211.122.109 5 59 376369 20120527025906
+193.201.212.157 0 1 13208 
+24.22.10.20 7 85 354849 20120527053123
+195.160.212.154 1 7 60027 20120503150832
+98.125.130.87 2 11 62684 20120521010838
+72.79.161.166 1 9 45026 20120505043222
+176.212.60.50 1 1 18725 20120518071722
+71.163.233.80 1 9 62016 20120502233250
+175.144.202.119 0 1 50134 
+93.103.141.113 1 7 31828 20120522124701
+220.255.2.61 1 2 23097 20120505092244
+98.194.50.240 5 99 262805 20120527104112
+85.114.42.194 38 38 233735 20120508001706
+72.182.44.188 1 9 44811 20120519052532
+49.145.82.29 0 1 11051 
+202.156.11.228 1 3 23732 20120501170806
+50.125.88.144 1 9 46654 20120522234011
+89.67.156.131 1 1 12614 20120515231112
+74.125.189.20 2 2 24372 20120522122954
+174.253.193.222 60 282 1921398 20120504041036
+76.176.166.145 7 73 248541 20120505200016
+96.234.158.32 1 8 43212 20120522165310
+220.255.2.235 0 1 6740 
+184.167.185.130 1 5 20594 20120506150031
+65.91.117.76 0 1 6740 
+178.137.128.69 2 2 24876 20120517153136
+67.84.22.70 10 86 309711 20120531023230
+50.57.90.38 1 1 1633 20120526034420
+110.159.251.140 3 50 136824 20120513071115
+80.243.191.178 1 1 18726 20120518162444
+119.152.4.116 0 1 4320 
+77.235.118.70 3 3 36075 20120507082110
+92.20.252.170 1 7 60063 20120504090957
+65.52.111.140 1 1 11759 20120510164240
+50.77.14.50 1 9 42011 20120511202018
+72.14.202.92 1 3 19608 20120528162456
+206.195.188.253 1 12 99276 20120526185506
+220.255.1.224 0 4 4875 
+107.2.206.237 3 22 106733 20120528161723
+178.120.39.252 1 9 45045 20120510041955
+157.55.112.236 1 2 23860 20120510053316
+157.201.70.43 1 30 817565 20120514181802
+208.80.194.36 4 4 46245 20120515151258
+65.52.111.207 1 1 11372 20120528084536
+220.255.2.192 0 2 1909 
+67.202.26.137 0 2 17616 
+94.190.30.135 9 9 168525 20120504050356
+82.35.113.253 1 2 200 20120502124721
+209.131.39.61 1 1 12595 20120510204005
+216.24.206.78 2 2 37443 20120530013622
+171.240.226.92 0 1 38912 
+220.255.2.133 1 1 0 20120517130736
+65.52.111.78 2 2 23727 20120524220809
+68.193.144.188 4 47 221250 20120530040006
+157.55.112.228 1 2 23713 20120521230813
+195.224.59.226 1 9 45034 20120511090438
+49.244.18.250 1 5 20594 20120510113219
+89.212.176.224 1 1 18726 20120518205524
+180.242.20.191 1 10 44472 20120517063007
+205.188.116.132 0 1 2161 
+58.137.2.2 0 1 10448 
+199.187.122.98 16 16 178692 20120514025645
+49.48.236.154 0 1 10448 
+86.122.100.101 2 13 113914 20120508154619
+174.21.83.197 1 7 42246 20120501025146
+220.255.1.95 0 10 51822 
+220.255.2.208 0 1 6740 
+201.208.148.110 0 1 17026 
+207.46.195.215 1 1 12555 20120509195352
+220.255.1.83 0 8 44503 
+184.90.161.93 1 9 42014 20120508034354
+74.125.16.94 1 1 10556 20120528090410
+148.197.98.5 1 5 13919 20120502185342
+82.188.53.210 0 1 11579 
+176.34.72.45 1 1 10447 20120531184609
+96.246.171.73 1 9 42063 20120514022546
+193.106.136.34 2 2 24876 20120521145344
+67.3.83.209 25 126 1067329 20120506213153
+24.23.237.147 57 349 1857791 20120522162513
+74.125.16.80 0 2 16262 
+71.77.224.194 0 1 12891 
+58.22.132.118 1 1 18725 20120516100011
+74.125.64.89 0 1 1989 
+93.191.102.64 0 1 30001 
+74.125.179.31 1 1 10666 20120514011037
+49.176.3.214 1 9 42157 20120522015720
+212.235.24.166 3 23 152124 20120522055226
+74.125.17.217 0 1 1496 
+70.36.185.79 12 101 1645762 20120531032358
+76.122.76.28 1 1 12595 20120530021248
+72.81.233.122 4 35 360304 20120522190533
+142.22.16.52 2 30 297060 20120531232639
+176.212.61.14 1 1 18725 20120512164141
+209.174.248.146 1 7 60009 20120524182734
+108.226.51.102 27 169 1397250 20120520235616
+93.182.148.132 1 1 26945 20120511203308
+65.52.111.250 1 1 14893 20120510103315
+74.125.64.84 0 1 1496 
+74.125.189.17 1 1 12054 20120517104126
+76.65.198.101 1 39 85660 20120516201822
+74.69.115.151 2 47 125816 20120516021954
+202.46.53.68 1 1 10106 20120510012110
+207.46.204.158 3 3 34420 20120509202700
+161.152.28.135 1 9 42272 20120516024753
+67.124.29.161 0 1 11051 
+162.40.175.150 6 54 411037 20120504051151
+213.119.19.85 1 2 27077 20120504192620
+194.168.32.33 1 1 307 20120503075052
+220.255.2.41 10 14 165221 20120505092515
+74.125.78.97 0 1 30001 
+220.255.1.233 0 3 6707 
+65.60.190.78 0 1 11555 
+91.201.64.4 12 12 136387 20120521152859
+209.23.239.126 1 6 22253 20120521192611
+89.148.21.142 0 1 11051 
+67.239.46.180 3 18 87686 20120525021923
+37.152.197.39 1 7 60053 20120519150828
+157.55.112.216 1 1 14532 20120510060358
+212.96.22.98 1 8 43785 20120502082641
+220.255.1.40 1 23 216206 20120528030803
+203.206.185.13 1 8 43124 20120515223734
+109.230.245.193 1 1 18727 20120505073302
+152.14.241.7 1 6 673392 20120503133118
+199.87.252.30 5 5 53864 20120517132555
+216.82.243.87 3 3 35610 20120510005324
+220.255.1.151 0 1 2091 
+174.30.103.148 17 83 594602 20120521005147
+66.43.51.147 1 1 307 20120504012239
+173.12.141.254 1 8 36441 20120528193022
+1.36.42.11 4 12 77431 20120524043950
+86.131.117.17 1 9 62795 20120529161742
+41.248.76.65 0 1 17026 
+195.195.20.199 1 7 60196 20120516085306
+174.141.208.105 1 2 27782 20120515161152
+115.132.84.131 1 9 41988 20120521015654
+157.55.112.231 1 1 11397 20120509201858
+220.255.2.213 0 2 1388 
+74.82.68.33 0 1 4320 
+103.4.54.214 2 9 61398 20120508042627
+173.234.235.139 1 1 12591 20120520060140
+173.11.56.34 7 49 228762 20120530215451
+65.52.111.237 1 1 14893 20120502175051
+176.212.80.182 1 1 18726 20120512083556
+68.192.196.68 4 12 95763 20120528000321
+199.30.80.112 1 1 12336 20120505203305
+208.80.194.34 4 4 50342 20120504113416
+67.252.37.3 6 86 358095 20120525140733
+213.157.23.34 2 21 97098 20120509161904
+65.52.111.22 1 1 13343 20120509210045
+24.151.85.55 1 8 36433 20120512174648
+60.241.181.181 0 1 4038 
+115.87.202.55 0 1 7124 
+198.53.210.80 9 175 889793 20120502235458
+68.174.61.54 1 8 48528 20120505033404
+76.108.156.48 1 1 12614 20120528203855
+86.202.68.51 1 5 20594 20120514072634
+70.26.110.251 5 80 283481 20120508054232
+91.207.61.66 1 1 26901 20120508064649
+199.87.252.158 46 46 473744 20120509102153
+66.104.207.162 1 18 225950 20120508194603
+74.125.158.81 0 1 891 
+74.125.78.101 0 1 17026 
+171.98.69.62 2 10 71989 20120509171011
+65.52.111.71 1 1 4440 20120510140730
+74.87.95.106 1 1 307 20120530135634
+75.154.246.245 1 18 225952 20120505021947
+220.241.150.2 9 128 498579 20120516074417
+72.14.202.89 0 1 668 
+59.90.6.151 2 51 129630 20120504113106
+220.255.1.181 0 3 3465 
+80.243.191.115 2 2 29110 20120531001305
+92.161.223.15 4 49 216945 20120507181532
+38.100.21.15 10 10 107339 20120509155200
+220.255.2.48 1 3 44083 20120505092527
+193.105.210.113 1 1 16048 20120515014159
+8.28.16.254 2 2 39230 20120530142926
+109.65.141.135 1 1 12595 20120505071348
+109.65.141.128 1 1 12591 20120510044312
+67.161.45.213 0 1 12891 
+182.55.241.11 2 11 54247 20120509162820
+123.89.181.69 0 1 11051 
+68.12.64.34 6 6 1842 20120531070452
+202.156.13.10 0 8 29884 
+220.255.1.195 0 3 5700 
+91.228.39.153 5 5 93625 20120522150353
+207.46.195.217 2 3 37201 20120510103349
+91.187.90.54 1 1 12595 20120501231553
+178.238.232.57 30 30 370319 20120527134238
+189.44.226.66 1 1 11044 20120515010243
+79.36.29.211 0 1 11555 
+157.55.112.240 1 2 21749 20120509194320
+90.214.52.245 3 13 84238 20120528191700
+74.202.28.7 6 6 75570 20120531043207
+166.250.47.166 2 11 560358 20120501224112
+199.87.252.81 3 3 34760 20120508072433
+178.250.47.123 1 1 12614 20120519063915
+173.160.136.81 1 10 49933 20120530043627
+14.139.224.82 1 9 80275 20120516113546
+58.165.177.19 0 1 50134 
+122.150.235.215 1 4 11712 20120520225215
+71.163.168.162 7 80 254032 20120527230723
+186.91.94.225 0 2 34052 
+74.125.179.80 0 1 668 
+220.255.1.184 0 1 1496 
+81.159.231.180 1 2 22946 20120517081112
+69.180.180.36 0 1 11051 
+194.84.21.33 0 1 60297 
+220.255.2.241 0 2 1814 
+41.140.11.87 0 1 17026 
+188.217.209.136 0 1 11555 
+65.52.111.38 1 1 3164 20120510152721
+74.6.22.187 1 9 47157 20120502162012
+112.101.64.45 1 1 18725 20120523134821
+65.241.47.138 0 1 11051 
+128.100.212.22 2 28 287841 20120510173343
+167.232.252.15 1 10 47798 20120508150539
+59.97.137.133 1 7 60019 20120530120158
+175.157.233.55 2 8 87212 20120509094312
+220.255.1.135 1 2 19530 20120514002335
+121.204.230.116 6 77 278717 20120514024835
+209.85.224.92 0 1 10448 
+110.32.8.207 0 1 11051 
+209.113.171.115 2 2 25182 20120518132730
+124.74.75.114 1 30 817565 20120524083525
+85.68.21.231 1 7 59747 20120510200827
+74.125.16.92 0 1 668 
+50.93.101.63 3 27 137276 20120521220435
+74.210.154.120 1 11 52780 20120524001106
+61.191.188.177 2 2 37452 20120506100132
+62.183.85.243 0 1 30001 
+211.104.184.195 1 1 18727 20120507094441
+202.46.60.164 1 1 12900 20120510012113
+68.101.235.176 10 39 274613 20120528055341
+157.55.112.238 1 1 11928 20120518041457
+208.168.255.17 1 9 62032 20120513185857
+70.68.99.165 2 10 73635 20120509193433
+220.255.1.25 1 2 23677 20120528033859
+208.92.4.6 2 48 130277 20120509163822
+76.112.118.198 3 32 846574 20120524150213
+208.114.112.83 1 5 20594 20120527205117
+220.255.2.37 0 2 63000 
+220.181.51.78 2 2 27161 20120529172746
+193.106.136.60 2 2 24876 20120504131813
+69.204.242.147 1 3 18204 20120528215944
+208.80.69.122 1 9 42031 20120515160519
+199.87.252.131 3 3 31208 20120515013936
+49.133.228.123 1 27 4370292 20120518005303
+76.161.26.117 1 6 22253 20120509152950
+88.114.113.103 0 3 31410 
+184.82.131.106 1 1 12595 20120504200459
+157.55.112.211 1 1 11902 20120507025636
+72.94.249.37 1 1 12595 20120512211132
+117.228.192.61 1 7 60052 20120503045414
+99.237.228.178 0 1 11051 
+220.255.1.75 0 2 8375 
+125.229.1.226 2 39 85561 20120504141407
+74.125.179.94 0 1 6740 
+66.177.171.110 1 9 62052 20120530014215
+50.97.96.117 0 1 10476 
+107.10.155.254 0 1 11555 
+59.57.14.123 3 3 56172 20120519150104
+176.9.140.5 1 1 12591 20120525035810
+74.82.68.160 1 4 25627 20120530172357
+72.14.202.86 0 2 4931 
+67.160.208.148 3 61 196832 20120531114745
+220.255.2.182 0 1 668 
+93.182.130.30 1 1 26944 20120531033047
+72.14.202.94 1 1 26877 20120523101624
+194.80.21.10 0 1 1670 
+68.191.33.65 5 81 364966 20120507191556
+217.69.133.30 1 1 12614 20120528182321
+121.8.214.130 0 6 32870 
+74.125.179.84 0 1 4320 
+140.142.138.47 1 7 45715 20120511120527
+220.255.1.81 1 2 17924 20120520105555
+184.39.12.142 0 1 12891 
+72.128.222.92 3 28 336956 20120525161512
+89.46.232.44 1 11 52785 20120525154703
+207.46.195.207 1 1 11334 20120509170129
+76.99.29.18 1 9 42039 20120528194640
+220.255.2.68 1 3 49154 20120505090632
+37.220.1.109 1 1 18724 20120527221825
+208.80.194.32 4 4 43626 20120513140503
+220.255.1.178 0 1 1496 
+66.77.136.153 10 10 123005 20120522164620
+125.133.212.146 0 1 11555 
+220.255.2.195 0 6 13136 
+115.250.217.218 1 9 42410 20120508172149
+69.171.224.1 0 1 11403 
+199.87.253.44 1 1 18673 20120510231756
+65.52.111.143 1 1 13330 20120529033705
+207.46.195.201 1 1 14559 20120531220846
+178.250.47.122 3 3 37842 20120529011018
+92.40.253.220 1 7 59904 20120527203506
+184.74.191.254 1 9 62403 20120509143236
+173.12.75.25 1 9 62384 20120522172552
+220.255.2.56 0 1 16545 
+204.188.241.226 3 3 56181 20120522063913
+209.66.200.45 3 14 129446 20120504210037
+192.162.100.209 1 1 10957 20120508203106
+75.187.45.156 0 1 11555 
+74.82.64.144 0 4 28684 
+79.112.215.79 0 2 17026 
+174.253.87.76 1 12 99151 20120529224750
+218.186.15.10 0 7 29216 
+88.64.179.159 1 9 42388 20120505192709
+94.153.64.207 4 4 49752 20120506102457
+71.54.59.178 1 11 49513 20120529104503
+220.135.202.142 1 1 12625 20120526074528
+178.198.224.252 1 13 62060 20120518184340
+74.125.16.91 0 1 914 
+188.143.232.202 11 11 141805 20120501203426
+41.69.97.19 0 6 32870 
+200.137.131.148 1 1 11501 20120507012130
+98.137.72.247 1 39 85660 20120521072941
+101.119.14.103 2 17 103600 20120531021105
+68.51.49.191 0 1 11051 
+220.255.1.24 1 1 14352 20120520032619
+82.33.229.236 2 11 74753 20120516143523
+89.236.248.142 0 1 30025 
+173.234.148.125 1 1 7237 20120507011817
+166.250.226.152 1 18 225998 20120520212129
+117.20.122.213 1 27 4370292 20120519052320
+74.6.22.164 1 10 47521 20120519150352
+84.255.234.33 0 1 13208 
+213.189.171.234 1 10 44468 20120529093305
+220.255.2.25 2 5 37657 20120505091933
+65.52.111.68 1 2 41850 20120528174735
+99.253.183.178 16 121 914302 20120515044104
+174.119.226.9 2 11 59718 20120512194337
+193.106.136.41 2 2 24876 20120517181406
+88.165.61.113 1 5 20594 20120507230033
+91.177.219.206 1 39 85660 20120502192013
+99.157.3.193 1 8 40011 20120527170348
+77.99.242.247 1 9 45045 20120525102440
+93.172.250.121 1 1 8862 20120508042332
+220.255.2.205 0 1 1146 
+65.52.111.81 1 1 14893 20120508120200
+203.202.251.189 1 1 12736 20120527085213
+64.184.125.5 1 9 42523 20120517195331
+183.76.168.177 1 1 12595 20120527155112
+41.154.2.7 1 3 11252 20120508112157
+220.255.1.231 0 4 3004 
+93.65.86.34 0 1 11555 
+79.212.8.61 1 7 11432 20120517185534
+109.169.68.130 4 4 49549 20120507194404
+174.61.180.129 1 17 34661 20120501152543
+50.133.223.65 5 16 139084 20120520132049
+202.156.11.12 1 7 49886 20120501170814
+99.19.89.75 1 7 31289 20120514045624
+8.18.145.128 0 5 37856 
+109.200.2.42 6 6 82470 20120526074851
+85.178.127.82 3 27 428485 20120530141951
+95.150.155.98 0 1 11491 
+78.137.135.227 1 10 47805 20120505101620
+220.181.51.74 3 3 36834 20120529172746
+166.147.123.20 1 11 52611 20120506124705
+66.58.224.69 23 118 1045440 20120531162714
+207.46.193.53 1 1 26878 20120516071302
+24.98.27.62 8 92 508350 20120513140333
+24.228.40.106 0 1 11555 
+178.137.5.149 8 8 99204 20120527051119
+216.87.191.179 1 39 85660 20120513214346
+220.255.1.45 1 1 14352 20120520032614
+166.250.105.122 1 9 61844 20120514213105
+62.193.165.144 2 47 129633 20120528132605
+99.123.21.12 1 5 20594 20120525212151
+74.6.8.110 1 10 58061 20120518191453
+121.205.90.97 9 9 168525 20120529094021
+74.125.78.80 0 1 11555 
+157.55.112.200 1 1 8843 20120528115539
+207.46.204.161 2 2 23292 20120521233706
+46.118.127.75 1 1 18725 20120519090545
+205.235.52.27 0 1 11051 
+174.235.68.40 1 10 25582 20120531171818
+71.198.217.13 3 68 219500 20120523134819
+76.126.175.191 1 7 32524 20120527071438
+62.219.132.115 1 1 12595 20120501001600
+82.240.62.12 1 7 60011 20120524143701
+125.71.232.77 1 9 42267 20120504031240
+74.125.64.88 0 1 13149 
+178.119.113.62 1 9 62644 20120521151104
+220.255.1.206 0 4 7323 
+24.239.145.122 1 10 52623 20120510024932
+207.46.195.211 2 2 24875 20120510075126
+124.115.10.64 1 1 12591 20120507101257
+74.202.28.10 7 7 88165 20120521043705
+99.73.93.204 5 37 371855 20120507044923
+157.55.17.84 1 2 22322 20120507151059
+67.175.22.14 1 1 307 20120529233421
+98.139.241.249 1 1 12595 20120523200049
+157.55.112.230 1 1 11576 20120509143754
+184.73.224.148 1 1 12591 20120502194522
+50.62.12.189 2 2 614 20120524030308
+72.172.220.17 4 77 370322 20120514213028
+94.12.154.194 0 1 11051 
+137.36.51.20 1 7 59995 20120509050014
+85.115.54.180 1 6 53265 20120516134816
+220.255.2.174 0 1 1688 
+218.213.90.37 1 1 17262 20120503230552
+174.56.117.6 1 17 61961 20120522195005
+74.125.158.86 0 1 10978 
+74.125.18.152 1 1 10569 20120524193348
+119.56.122.35 1 9 61868 20120502105235
+220.255.1.187 0 1 666 
+65.184.63.4 2 26 272689 20120512152128
+98.139.241.250 2 2 25190 20120523161737
+174.28.130.242 4 35 294230 20120528192013
+116.12.210.201 1 7 60052 20120521104649
+188.40.115.199 2 2 25190 20120521130844
+204.155.149.26 1 1 12591 20120513214129
+184.22.157.11 1 1 14582 20120502234422
+24.101.166.200 8 58 408116 20120502195818
+67.161.152.231 1 10 52107 20120502190546
+184.72.0.22 0 1 11555 
+49.156.57.254 1 8 47267 20120509142943
+213.110.133.221 56 56 595906 20120530222314
+120.28.59.90 1 42 93569 20120515053649
+220.237.70.211 1 5 20594 20120514131034
+108.199.204.185 1 40 86308 20120529231438
+24.23.28.253 1 9 41998 20120526070842
+201.254.108.74 1 1 12591 20120529061748
+188.94.23.12 1 1 12591 20120508104759
+220.255.1.182 0 2 6527 
+213.195.208.253 0 1 11555 
+87.38.91.86 1 4 11712 20120501090809
+182.118.20.234 2 2 21772 20120526005831
+220.255.2.173 2 3 38951 20120527065418
+24.2.62.87 1 8 44601 20120504150256
+85.107.181.33 7 27 229651 20120529144310
+169.252.4.21 2 10 54409 20120514061243
+99.101.234.26 4 71 196757 20120525023527
+88.214.193.166 13 13 144342 20120530054039
+61.19.201.7 1 7 40428 20120522012734
+128.83.86.64 0 1 11051 
+50.97.104.119 0 1 10438 
+118.99.125.193 0 1 7394 
+188.143.232.198 11 11 141805 20120514135818
+101.63.58.193 1 5 20594 20120510030557
+70.73.130.87 1 8 39596 20120518174831
+220.255.2.210 0 5 8114 
+220.255.1.180 0 1 1496 
+94.153.64.227 2 2 24726 20120523035511
+78.150.157.170 1 7 60014 20120529204839
+71.63.97.49 2 12 88738 20120509133022
+208.80.194.37 3 3 33221 20120515221148
+63.201.107.2 3 19 112487 20120509160228
+202.156.11.241 1 1 12155 20120520035819
+71.223.190.62 1 5 20594 20120509195457
+220.255.2.64 0 1 2091 
+184.22.157.2 1 1 12279 20120502155746
+208.80.194.30 33 33 399027 20120517215207
+71.190.186.102 2 9 52058 20120502164905
+80.200.242.95 9 114 566474 20120503111923
+98.14.88.201 1 30 817502 20120518054128
+176.9.111.204 2 2 25186 20120513042902
+110.55.90.142 1 5 20594 20120508135516
+85.250.17.175 1 1 307 20120507104912
+74.125.179.93 0 1 11491 
+109.200.11.253 1 1 18726 20120531190952
+99.100.208.184 4 76 228198 20120529224744
+117.27.138.68 2 2 37450 20120529200819
+96.41.68.13 1 5 20594 20120505174225
+206.45.22.171 1 7 59940 20120509012134
+112.86.136.233 1 1 18726 20120520055736
+76.1.77.8 4 11 71038 20120523154843
+61.10.202.44 0 1 15556 
+72.213.49.215 3 31 272848 20120527182332
+117.200.89.139 1 7 60031 20120524165249
+99.180.206.41 1 4 12008 20120503104528
+65.52.111.75 2 3 33891 20120522155849
+202.64.160.58 1 6 42033 20120516034923
+75.126.248.207 1 1 10586 20120517163340
+65.91.116.33 0 1 891 
+184.72.58.234 2 2 25190 20120516154810
+182.68.245.72 2 2 23480 20120508112908
+207.126.224.241 5 5 63070 20120531113547
+193.107.16.252 1 1 18726 20120502083201
+188.165.230.147 2 2 25190 20120520232807
+1.55.62.156 0 1 50134 
+24.77.250.112 1 9 42035 20120510200518
+77.58.195.12 5 80 278400 20120509163527
+107.6.15.215 1 7 40383 20120514135913
+84.13.99.36 1 5 20594 20120519214250
+115.162.60.236 0 2 20972 
+174.62.95.223 1 8 36448 20120508052653
+66.43.63.240 1 1 307 20120514012316
+123.236.96.67 1 19 61936 20120502160601
+8.21.4.254 8 8 99750 20120529215510
+74.125.17.215 0 1 5561 
+183.89.64.63 0 1 10448 
+65.52.111.222 1 1 7766 20120510143922
+220.255.1.71 0 1 2091 
+77.58.149.193 0 1 11555 
+82.192.66.251 2 2 12894 20120512103122
+38.229.70.44 1 1 12614 20120512174652
+91.207.210.46 2 48 132023 20120519170434
+83.19.136.190 1 1 11888 20120516061709
+109.174.115.188 2 2 19042 20120525050116
+207.46.195.214 1 1 11171 20120510103656
+99.9.138.99 1 5 42482 20120515013831
+114.79.60.31 1 1 11595 20120530144933
+65.52.104.117 1 1 26878 20120530042631
+41.220.141.5 0 1 17050 
+78.86.245.235 1 5 20594 20120531204051
+107.24.121.80 5 77 230956 20120524163233
+66.183.210.94 7 44 409220 20120524162431
+188.227.173.221 2 2 37454 20120531125100
+146.127.253.13 5 74 210952 20120521123619
+74.82.68.32 0 2 7631 
+2.50.14.70 1 7 60007 20120522061443
+74.33.111.233 1 1 8262 20120530011501
+157.55.112.233 1 1 12337 20120509190024
+108.193.27.60 1 12 55238 20120506012245
+174.127.132.10 1 1 12595 20120515163024
+96.26.215.137 1 7 60057 20120512165659
+74.125.189.23 1 1 12154 20120508193222
+220.255.1.247 0 3 3987 
+67.180.161.244 2 20 86891 20120501015415
+206.125.70.93 1 9 42022 20120509222235
+67.18.3.42 0 1 10476 
+74.202.28.5 3 3 37785 20120525045016
+220.181.51.76 1 1 11865 20120529172741
+134.0.204.118 1 7 59748 20120501061823
+198.228.209.146 1 7 59882 20120505044252
+92.80.44.91 1 7 60020 20120514102504
+99.104.91.136 1 12 61329 20120531004745
+112.111.190.192 1 1 18727 20120511001547
+112.118.170.101 2 14 78926 20120502165425
+124.44.207.81 1 1 12595 20120518160158
+128.112.209.42 1 1 10886 20120507141515
+209.131.38.91 0 1 12766 
+75.187.52.182 0 1 11555 
+41.78.26.74 1 1 11407 20120525084332
+115.87.91.253 0 1 6110 
+24.130.40.83 1 7 31475 20120522214526
+206.130.129.152 1 5 20594 20120506084931
+174.141.208.98 0 1 4320 
+85.132.61.57 2 18 97273 20120520001631
+65.52.111.218 2 2 24400 20120520020344
+91.217.178.133 3 3 56178 20120529035755
+200.2.170.202 0 1 11051 
+123.19.33.136 0 1 50134 
+220.255.1.62 0 1 7394 
+108.54.30.77 5 32 332319 20120507013213
+223.206.18.148 1 1 40910 20120511081510
+157.55.112.212 1 1 11807 20120510114155
+91.226.212.44 18 18 172533 20120531104824
+157.55.17.79 1 1 12255 20120521041326
+187.112.138.75 0 1 12414 
+173.215.244.22 1 9 62046 20120518024424
+71.42.52.28 0 2 11051 
+65.19.75.72 0 10 236223 
+168.16.143.9 1 7 60040 20120502143230
+202.156.11.10 0 8 29884 
+69.135.161.13 1 11 89476 20120514174746
+194.154.210.142 4 7 54629 20120521140921
+207.46.199.15 1 1 11781 20120509194502
+91.225.199.1 0 1 16253 
+24.4.217.180 0 1 21101 
+173.194.99.20 1 1 5640 20120528193602
+74.125.179.87 0 1 668 
+140.241.0.20 6 18 109862 20120507172816
+95.30.6.57 1 1 18722 20120519200849
+124.161.83.11 0 1 15650 
+64.124.148.182 0 1 57755 
+157.55.48.124 2 4 44646 20120531022111
+85.70.32.54 3 69 248910 20120511173940
+65.52.108.22 3 4 77465 20120518215954
+220.255.2.33 1 3 47108 20120505092355
+67.170.67.252 1 12 63309 20120520195710
+50.65.44.181 1 9 43427 20120524174505
+108.54.181.101 5 25 120421 20120523134305
+208.83.154.19 0 2 10424 
+208.80.194.28 7 7 84773 20120515233147
+74.125.17.213 0 1 4320 
+91.207.8.26 4 4 54068 20120526184117
+220.255.2.178 0 2 7408 
+71.172.43.24 2 11 74802 20120524025249
+84.223.100.146 0 1 11555 
+75.157.74.94 3 43 113023 20120508201936
+220.255.2.54 0 3 48632 
+90.221.252.214 1 9 42414 20120513112315
+220.255.2.23 0 2 9966 
+67.184.112.191 1 39 85660 20120506151159
+68.178.72.172 4 54 160720 20120501173729
+2.223.251.74 1 8 42847 20120521194020
+173.45.251.245 1 1 12610 20120504011630
+220.255.1.215 0 4 6557 
+67.205.20.69 1 1 12591 20120510012256
+220.255.2.42 1 1 11635 20120505090738
+109.200.6.234 1 1 18725 20120503111616
+176.201.120.134 0 1 11555 
+41.154.2.6 0 2 6740 
+99.89.46.116 2 2 26140 20120505134940
+118.192.35.172 15 15 187378 20120530034629
+93.182.158.41 2 2 53888 20120528222516
+116.89.121.11 1 1 11640 20120524070914
+31.19.153.50 1 9 47792 20120508154733
+148.197.169.204 1 6 14289 20120502134912
+74.6.22.170 1 7 36346 20120507085947
+72.182.4.68 9 153 722582 20120506122635
+74.198.151.98 26 180 1689764 20120513032820
+194.80.113.3 2 5 20555 20120523140707
+220.255.1.18 1 1 15184 20120520032550
+24.78.200.29 0 1 10491 
+202.42.165.98 1 8 62480 20120518030850
+168.9.85.254 1 7 60089 20120504160015
+122.18.127.95 1 14 126193 20120516094248
+90.60.205.182 1 5 20594 20120516120918
+207.46.199.18 1 1 12128 20120510041152
+118.120.176.248 1 1 12595 20120511053311
+220.255.1.37 1 2 22328 20120528031358
+188.222.106.54 1 5 20594 20120507153322
+187.11.51.155 0 2 8688 
+220.255.1.251 0 1 1078 
+193.106.136.37 2 2 24726 20120501012740
+66.31.31.114 5 67 252651 20120510052249
+157.55.112.223 1 2 19599 20120509212249
+220.255.1.93 1 1 12472 20120520105551
+67.142.165.21 0 1 11070 
+92.244.126.136 0 1 3301 
+119.105.170.143 1 8 43125 20120520113707
+65.52.111.235 1 1 7656 20120509223702
+173.234.49.59 1 1 26940 20120511213409
+65.52.111.252 3 3 34541 20120517110329
+65.52.111.125 1 1 11372 20120509180443
+197.162.59.187 0 1 0 
+106.198.62.235 0 1 6151 
+70.241.87.209 1 10 51160 20120512031024
+210.6.170.235 0 1 15650 
+203.110.235.130 1 5 25211 20120522064029
+220.255.2.188 0 5 39396 
+220.255.1.223 0 1 891 
+58.62.68.213 1 4 11386 20120502124923
+93.186.22.245 0 1 11051 
+98.251.78.5 1 9 61827 20120501062004
+58.22.132.140 1 1 18725 20120528011554
+118.136.174.53 0 1 11051 
+70.123.134.3 5 94 552217 20120522073002
+157.55.109.244 1 1 12595 20120508003530
+27.16.212.62 1 1 12595 20120518100348
+207.228.182.51 4 63 203046 20120527222825
+220.255.2.234 0 2 7639 
+220.255.2.220 0 1 1437 
+96.252.13.236 1 5 20594 20120502184148
+198.228.233.31 12 107 489050 20120506195332
+205.188.116.145 0 1 4320 
+83.133.125.202 4 4 50456 20120530161114
+116.92.11.84 0 3 3003 
+124.115.1.8 2 2 25186 20120520085602
+98.237.188.2 0 1 11555 
+157.55.17.78 1 1 12176 20120510032610
+74.125.158.80 0 1 6740 
+220.255.2.150 2 3 40448 20120506081905
+97.91.104.78 4 33 189761 20120529030610
+92.98.161.96 0 1 7394 
+209.131.38.131 1 1 12595 20120531020845
+76.199.105.201 0 1 10491 
+217.172.178.47 2 2 24876 20120530221448
+74.125.64.82 0 1 4320 
+91.199.52.54 6 92 317691 20120508092544
+23.20.77.214 1 1 402 20120507172758
+124.185.178.128 1 5 20594 20120521070544
+220.255.1.199 0 5 6036 
+119.56.115.147 1 9 42034 20120529110835
+189.142.73.175 1 7 60013 20120518051617
+74.110.97.223 0 1 17026 
+157.55.17.73 1 2 23410 20120520111336
+95.29.47.130 0 1 30001 
+77.127.13.21 0 1 11051 
+207.46.199.14 1 1 11717 20120524202810
+65.52.111.77 1 2 22794 20120510035717
+65.52.111.233 1 1 11977 20120516040728
+12.234.36.130 1 2 105789 20120525212846
+86.151.58.232 0 1 11051 
+220.255.2.218 0 1 675 
+213.87.128.81 0 1 30001 
+194.33.14.214 3 74 257029 20120515054452
+74.202.28.4 4 4 50380 20120529043542
+207.46.199.31 1 1 11252 20120501084850
+174.52.134.211 1 10 47649 20120516175208
+220.255.1.19 0 10 84062 
+67.189.246.146 1 18 225982 20120519233615
+218.6.8.19 2 2 37444 20120530001857
+98.137.72.252 1 12 59522 20120506030003
+220.255.2.252 0 1 1127 
+220.255.2.193 0 1 668 
+188.72.220.152 18 18 223884 20120529141518
+220.255.1.82 1 1 0 20120520032519
+206.116.217.6 4 18 173671 20120514181744
+117.7.98.195 0 1 50134 
+62.244.71.130 1 30 818285 20120510082705
+74.202.28.9 1 1 12595 20120522042839
+182.118.25.180 1 1 12595 20120525204437
+72.14.202.87 0 2 24103 
+220.255.2.207 0 1 370 
+212.240.170.198 1 7 60050 20120508122242
+66.220.149.247 0 1 1205 
+74.125.189.16 1 1 12160 20120508193151
+69.153.228.110 1 9 62029 20120501190031
+86.6.234.140 2 26 272570 20120518101412
+207.46.195.216 1 1 11734 20120510131554
+74.125.16.81 0 1 4320 
+67.182.3.44 1 18 225962 20120529154956
+50.16.33.3 1 1 12595 20120518091445
+178.43.106.11 1 1 12619 20120516063533
+166.248.107.45 1 9 62177 20120506060658
+189.174.199.156 1 1 12619 20120518052204
+62.149.1.75 1 1 12610 20120521201615
+203.110.235.131 0 2 13480 
+76.181.237.15 0 1 11555 
+68.174.39.151 1 7 60127 20120516234745
+74.125.17.211 1 3 47943 20120505121331
+97.127.26.229 6 30 123564 20120517125556
+89.221.172.162 0 1 11051 
+99.240.193.47 1 9 74406 20120513232202
+74.82.68.34 0 2 11256 
+203.110.235.133 0 4 16065 
+193.106.136.45 2 2 24876 20120530223746
+210.6.12.89 1 1 11307 20120528022629
+111.223.134.131 1 7 60035 20120506180713
+82.19.23.142 1 13 64119 20120502111027
+213.174.139.200 1 1 307 20120518174603
+220.255.2.72 1 5 27020 20120505091108
+188.227.181.211 2 2 37454 20120506232759
+65.52.111.251 1 1 10622 20120510043829
+178.137.129.166 8 8 99504 20120521233046
+157.55.112.206 1 1 5029 20120511214006
+109.200.6.237 1 1 18725 20120519034337
+108.16.87.66 2 10 73653 20120517000554
+99.248.126.81 1 1 12393 20120518215331
+220.255.1.236 0 1 985 
+216.165.95.74 0 5 32202 
+72.230.176.208 10 139 716505 20120519203739
+208.83.154.22 0 1 5212 
+109.200.12.34 3 3 56175 20120526165753
+117.205.167.28 1 2 27844 20120523145957
+98.240.142.82 1 1 40910 20120503002519
+218.93.127.118 4 4 49684 20120531200801
+89.240.41.43 0 1 11051 
+108.172.13.224 1 9 142632 20120505215552
+220.255.1.137 0 1 6284 
+205.188.116.133 0 1 668 
+119.152.44.219 0 1 891 
+176.196.210.180 0 1 30001 
+99.172.73.84 1 11 52799 20120502171554
+220.255.1.74 0 1 11555 
+220.255.1.192 0 3 14094 
+65.52.111.70 1 1 8843 20120509210151
+71.46.214.98 11 157 747943 20120510142445
+24.210.38.255 0 1 11555 
+23.16.115.22 1 2 35140 20120501050039
+186.66.124.112 0 1 11051 
+64.121.56.246 2 2 614 20120523223254
+74.125.184.84 1 1 11345 20120527030255
+173.84.194.142 8 142 462069 20120513153829
+157.55.112.217 2 2 22461 20120510110336
+75.27.54.99 1 10 59255 20120511023938
+69.134.21.217 1 15 4222786 20120510014620
+126.11.122.171 0 1 11051 
+195.58.236.66 1 1 12614 20120510110613
+202.89.61.76 1 9 42018 20120507234112
+207.46.195.198 1 1 12488 20120509190917
+24.5.89.145 26 165 1392530 20120523003759
+118.192.35.175 4 4 50440 20120513191032
+207.46.204.165 1 1 14893 20120531091909
+64.124.148.184 0 1 11384 
+110.138.14.37 0 1 7394 
+199.191.107.2 1 7 60191 20120524142305
+145.53.118.46 0 1 11051 
+201.164.165.151 1 1 11669 20120503060741
+89.77.41.111 1 1 12619 20120518071115
+120.141.98.243 4 15 142832 20120518080028
+98.95.181.84 2 26 272670 20120520223259
+110.136.111.217 1 11 53138 20120527090040
+220.255.2.43 1 1 12497 20120501155217
+37.1.62.59 0 1 12515 
+122.179.52.184 2 8 47299 20120507053822
+76.11.65.147 8 29 197285 20120509162234
+220.255.1.216 0 4 7109 
+1.2.215.103 0 1 10448 
+220.255.1.183 0 1 1496 
+220.255.2.66 0 1 4249 
+207.46.204.210 1 1 8244 20120511063039
+94.153.64.194 18 18 223734 20120516141501
+93.182.169.170 1 1 26945 20120520214453
+69.171.229.250 0 2 11743 
+75.57.182.131 0 17 445035 
+86.38.204.224 1 9 42423 20120513095940
+74.125.17.209 0 1 3907 
+178.121.207.120 0 1 3907 
+210.80.129.127 0 1 11555 
+109.150.209.132 1 8 62515 20120512173452
+149.135.145.88 1 7 60126 20120511193825
+71.137.241.44 16 108 867285 20120503195912
+160.94.65.250 1 39 85503 20120514135055
+213.236.208.22 2 98 196675 20120528064907
+84.154.234.73 0 1 3301 
+220.255.2.89 3 8 54740 20120505091139
+66.43.62.148 1 1 307 20120524013926
+213.5.135.245 0 1 17026 
+65.52.111.210 1 2 18845 20120510032524
+93.154.187.98 1 1 12663 20120518051301
+79.9.95.121 0 1 11555 
+140.125.150.53 4 15 101266 20120509165742
+180.246.185.121 2 12 65135 20120502084541
+203.88.158.194 1 39 85439 20120525081559
+220.255.1.128 0 1 6284 
+189.139.121.120 1 9 50807 20120530031341
+69.199.226.13 3 25 123475 20120518154551
+83.244.229.222 1 20 230904 20120516115147
+202.46.50.130 1 1 11800 20120510012110
+188.32.190.107 1 1 12614 20120512053946
+199.30.80.111 1 1 12487 20120503183951
+41.154.2.4 1 3 15596 20120511113608
+220.255.2.191 0 3 2752 
+128.95.235.110 1 27 4329359 20120509183325
+175.157.41.208 1 9 62517 20120506060138
+70.231.232.189 1 1 12595 20120507113748
+70.113.1.102 0 1 11555 
+74.125.179.88 0 1 4320 
+65.111.177.59 2 2 25190 20120501231557
+219.147.192.154 3 58 185840 20120514013107
+94.50.0.42 0 1 3301 
+74.125.179.81 0 1 1684 
+199.87.253.86 4 4 42362 20120524010745
+66.108.21.184 2 59 112510 20120530021923
+110.49.242.244 0 1 12548 
+220.255.2.186 0 1 2091 
+200.86.198.45 2 15 65534 20120527040421
+131.107.174.8 1 9 61738 20120504212419
+108.215.0.110 0 1 11051 
+98.240.60.166 8 92 460778 20120507194621
+66.243.240.240 14 97 757604 20120520195911
+97.113.17.28 1 1 10884 20120505170416
+182.142.168.38 19 19 230122 20120512115858
+207.46.193.52 1 1 26878 20120502051445
+68.236.127.160 0 4 22102 
+74.6.22.182 1 7 59746 20120521185533
+205.188.116.66 1 1 27003 20120508151722
+68.173.34.79 1 9 45032 20120515235717
+207.46.195.210 1 1 18655 20120510075124
+98.139.141.79 0 1 5962 
+220.255.2.242 0 1 668 
+96.42.47.56 7 28 231359 20120510013109
+74.125.16.90 0 1 6740 
+24.229.247.77 4 22 117376 20120527163435
+175.44.7.127 1 1 12595 20120528200749
+76.181.69.98 0 1 11555 
+71.160.8.187 1 9 62016 20120529161834
+74.125.16.93 0 1 1557 
+220.255.2.51 1 4 35725 20120505091116
+115.198.48.201 20 20 245784 20120523092300
+74.125.179.82 0 1 891 
+82.25.171.205 1 9 42060 20120522200123
+91.201.64.24 2 2 25922 20120526160551
+157.55.112.224 1 1 13313 20120505101135
+216.165.95.72 1 2 27847 20120506212420
+141.0.10.2 1 5 20594 20120517094626
+78.52.169.160 0 1 30001 
+94.132.27.57 1 1 12384 20120529215446
+95.78.6.144 1 1 18723 20120508015022
+50.137.100.38 1 7 59748 20120510142517
+173.58.186.170 4 64 183701 20120510205623
+68.187.234.25 1 9 62371 20120524110313
+46.242.105.239 2 2 37400 20120529165936
+202.156.10.10 0 8 31686 
+174.127.133.21 25 26 306576 20120515205003
+120.61.155.0 2 41 99055 20120530065106
+146.127.253.45 0 1 2045 
+149.3.87.224 1 1 18724 20120503054400
+220.255.1.26 0 1 20172 
+173.3.172.187 1 7 30502 20120523140921
+220.255.2.70 1 3 17640 20120505092226
+220.255.2.39 0 1 14485 
+129.7.255.123 1 10 47795 20120507161937
+67.173.169.190 0 1 11555 
+209.131.39.62 0 1 12766 
+74.125.18.155 0 2 16461 
+173.171.60.28 1 10 48306 20120510105429
+202.46.54.127 1 1 10107 20120510012110
+108.13.72.210 2 11 82129 20120525185826
+79.113.207.51 1 9 62391 20120501210755
+220.255.2.36 0 2 45571 
+65.55.67.202 0 1 11405 
+174.141.208.107 0 1 18090 
+83.198.228.62 1 8 51942 20120519115558
+98.139.241.247 0 1 12402 
+220.255.1.88 1 1 12174 20120521101312
+74.125.64.80 0 1 12891 
+65.52.111.149 1 1 10005 20120510021140
+114.43.46.51 2 9 54612 20120521162126
+96.45.190.12 1 1 11043 20120525012932
+223.206.137.184 0 1 10448 
+119.152.7.162 0 1 6740 
+193.198.212.70 1 9 42554 20120502173917
+123.30.175.69 5 5 63058 20120525091917
+216.109.159.225 0 1 13149 
+220.255.2.77 1 6 65489 20120505090856
+31.214.201.251 1 1 18726 20120516184015
+124.115.11.187 2 2 25190 20120514211513
+82.132.214.147 1 8 48432 20120529150417
+197.135.81.212 2 45 98533 20120516115613
+174.17.0.110 1 9 42016 20120521032829
+174.94.65.158 1 7 60008 20120518001605
+31.11.220.30 20 20 245752 20120529035433
+220.255.2.49 0 7 38219 
+188.94.23.11 1 1 12591 20120508104747
+115.67.224.42 0 1 10448 
+86.111.223.180 0 1 6740 
+72.14.202.81 0 2 5211 
+220.255.1.34 0 1 12965 
+220.71.76.237 5 97 232349 20120531142456
+98.219.95.191 1 9 42006 20120519175739
+74.199.127.170 0 1 12891 
+112.112.120.236 0 4 24828 
+216.86.124.164 3 28 67759 20120515184112
+220.255.1.214 0 2 1505 
+24.118.236.111 7 89 225945 20120527163819
+174.99.55.201 1 8 43408 20120526012035
+98.139.241.240 2 2 25190 20120530184300
+207.46.195.204 1 1 6724 20120531134837
+216.113.168.139 7 90 353591 20120522162606
+12.198.245.99 1 7 60045 20120514033728
+82.193.137.83 2 2 25182 20120503062709
+91.117.49.136 1 9 42423 20120523083114
+71.194.230.188 7 77 292802 20120510040434
+66.0.47.12 1 7 60004 20120512200058
+41.249.45.218 1 5 20594 20120518105020
+74.125.18.145 0 1 668 
+74.125.16.82 0 1 891 
+213.27.29.6 0 1 30001 
+173.175.177.193 6 93 432608 20120514230629
+109.160.8.25 2 8 44259 20120509132445
+99.185.134.176 19 147 1185113 20120514080626
+98.163.94.71 5 63 481950 20120514005055
+202.59.80.175 0 7 36206 
+123.30.175.68 6 6 75684 20120521153525
+99.169.170.13 1 7 60047 20120501015617
+93.182.159.11 1 1 26944 20120521180219
+117.3.82.216 0 1 50134 
+182.142.172.64 1 1 12595 20120503130000
+72.14.202.95 0 1 4173 
+203.189.3.229 0 1 11051 
+91.121.156.224 2 2 37452 20120509081003
+76.184.74.206 2 26 272504 20120502043709
+188.79.61.104 5 35 283465 20120521155203
+24.7.87.219 5 25 289248 20120516185024
+220.255.1.234 0 3 3189 
+74.125.178.83 0 1 891 
+195.200.90.18 2 2 25201 20120530175106
+50.92.90.239 2 9 65105 20120501010610
+220.255.1.80 9 9 103292 20120528031652
+24.109.50.222 1 18 225843 20120524105904
+98.67.244.141 1 7 60039 20120515224118
+134.174.21.2 1 5 20594 20120525172637
+220.255.2.214 0 4 5576 
+80.29.5.38 1 10 52607 20120502082550
+207.46.199.17 1 1 4245 20120510052516
+217.69.133.31 52 55 1031593 20120527015839
+205.188.116.142 0 1 6740 
+49.145.53.177 0 1 11051 
+65.110.174.68 2 18 90064 20120531210838
+96.25.53.0 0 1 11051 
+93.182.154.41 1 1 26944 20120502223609
+27.0.70.79 1 4 14889 20120506083540
+208.77.235.58 1 9 47444 20120530004753
+176.9.138.23 3 3 37785 20120526215902
+220.255.2.58 0 1 12965 
+66.140.34.232 4 15 142913 20120506002947
+204.80.222.20 3 3 36671 20120520224914
+80.181.181.16 3 23 101650 20120529151545
+220.255.2.27 1 2 17638 20120505090532
+124.115.4.215 1 1 12595 20120516233722
+95.25.162.144 2 9 57996 20120518085914
+208.80.194.35 3 3 33022 20120513151054
+80.1.193.210 4 29 160002 20120531093417
+76.64.30.75 3 14 85247 20120506084215
+176.212.89.93 2 2 37444 20120529092349
+220.255.2.69 0 1 3350 
+195.217.50.236 0 3 11951 
+220.255.1.244 0 4 3021 
+108.211.56.137 1 9 62602 20120508050147
+50.18.118.182 1 1 12595 20120520064436
+65.52.111.72 1 2 8235 20120510081117
+65.52.111.139 1 2 23546 20120510144058
+188.94.23.18 1 1 12591 20120508104816
+50.44.75.101 4 30 167308 20120531220242
+161.152.28.136 0 2 0 
+71.237.142.137 7 46 261970 20120510040643
+61.115.83.49 2 2 25190 20120511165106
+69.133.125.157 0 1 11555 
+220.255.1.238 0 3 24556 
+93.144.248.172 0 8 29884 
+65.52.111.236 1 1 13811 20120525062852
+202.46.59.151 1 1 11800 20120510012113
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20120501 148 675 6834464 60
+20120502 138 628 4271882 71
+20120503 159 442 5134913 50
+20120504 135 627 3992297 50
+20120505 176 739 5238738 64
+20120506 140 816 5923267 56
+20120507 121 683 5585179 55
+20120508 299 666 5021391 76
+20120509 335 1004 26022000 91
+20120510 232 998 19934223 97
+20120511 132 538 17319442 51
+20120512 158 624 9261886 49
+20120513 125 675 4454472 41
+20120514 184 988 39911659 63
+20120515 138 637 6846516 56
+20120516 90 553 3671009 60
+20120517 78 307 9231532 43
+20120518 81 397 12028342 59
+20120519 81 441 7444381 49
+20120520 111 540 3896482 50
+20120521 184 954 6120020 73
+20120522 204 1161 11570328 60
+20120523 135 550 3890839 45
+20120524 173 579 12074667 59
+20120525 75 482 2786703 42
+20120526 528 580 8846836 44
+20120527 217 878 5614650 54
+20120528 384 760 11087743 59
+20120529 317 707 8791710 60
+20120530 145 501 4124790 65
+20120531 187 1256 9234135 56
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 46
+2mn-5mn 49
+15mn-30mn 12
+30s-2mn 111
+0s-30s 1559
+30mn-1h 25
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 403
+/index.htm 489 5795535 400 287
+/ 168 2076541 63 62
+/faq.asp 147 3937388 99 102
+/teapots.asp 128 1541795 59 33
+/teaware.asp 114 1177880 6 16
+/comments.asp 107 1983660 96 95
+/contact.asp 98 1045694 15 29
+/herbs_luohanguo.asp 93 1106272 73 69
+/accessories_sifter.asp 89 959544 39 39
+/teas.asp 85 1062724 5 10
+/language/index.htm 24 44169 12 14
+/tea_school/incense2.html 9 94096 0 2
+/can_scp_ca.asp 1 10434 0 0
+/japan/slideshow_38.htm 1 1820 0 0
+/utah/index.htm 1 566 1 0
+/tray_lg.htm 1 727 0 0
+/japan/slideshow_16.htm 1 1870 0 0
+/white_tea.asp 25 261866 2 5
+/yixing_teapots_3.asp 2 16222 0 0
+/japan/slideshow_39.htm 1 1827 0 0
+/black_tea_lapsang.asp 18 206536 3 3
+/teacups.asp 23 220055 0 2
+/books_music/SMCD-string-1.mpga 3 329728 0 1
+/yixing_collection_11.asp 4 31312 0 0
+/herbs_lemon_grass.asp 16 193361 4 4
+/japan/slideshow_13.htm 1 1824 0 0
+/san_antonio/index.htm 1 3882 0 0
+/tea_school/incense5.html 10 113479 2 1
+/green_tea_mint.asp 18 211325 4 2
+/tea_news/circulation.htm 8 44147 3 3
+/japan/slideshow_46.htm 1 1798 0 0
+/timothy/bio.htm 1 3856 0 0
+/teapot_my1.asp 20 230663 2 5
+/teatour/index.htm 39 551238 15 12
+/black_tea_yunnan_sup.asp 20 231014 5 5
+/teachest.asp 15 173081 1 3
+/tea_news/caffeine.htm 6 46441 0 2
+/tea_school/tea_history1.html 14 129645 0 2
+/yixing_teapots_11.asp 3 22446 1 0
+/black_tea_yunnan_gold.asp 19 224503 2 5
+/yixing_collection_13.asp 4 31289 0 0
+/accessories_vase.asp 4 25859 0 0
+/black_tea_kv_dj.asp 6 70824 4 3
+/book_chinese_medicine.asp 1 15378 1 1
+/green_tea_ceremony.asp 49 699678 16 17
+/teaware/yixing/8_lg.htm 1 1314 0 0
+/stamp/index.htm 1 568 0 1
+/teacups_chawan.asp 22 250272 6 5
+/japan/slideshow_50.htm 1 1807 0 0
+/teaschool.asp 50 692740 8 8
+/teacups_taste_set.asp 31 356059 11 8
+/tea_school/tea_prep2.html 12 118375 2 0
+/japan/slideshow_41.htm 1 1799 0 0
+/japan/slideshow_8.htm 1 1813 0 0
+/japan/slideshow_6.htm 1 1859 0 0
+/tea_school/varieties.html 12 127521 1 1
+/teas/oolong/4ss_hm.htm 9 6274 1 3
+/timothy/artwork/swinging_shrine.htm 1 608 0 0
+/yixing_collection_17.asp 5 44685 0 0
+/japan/slideshow_53.htm 1 1813 0 0
+/advancedsearch.asp 9 579749 1 3
+/tea_news/research.htm 11 131227 5 5
+/yixing_collection_9.asp 7 63217 0 0
+/teapot_herb.asp 15 202793 3 2
+/dimsum.html 6 61867 0 2
+/accessories_water_bowl.asp 4 34298 0 0
+/japan/slideshow_7.htm 1 1859 0 0
+/can_sm.asp 16 181428 4 6
+/black_tea.asp 38 469636 6 5
+/tea_school/tea_store1.html 10 92967 1 2
+/olympic/7946.htm 1 679 0 0
+/yixing_collection_5.asp 4 36020 0 0
+/accessories_matcha.asp 22 223873 0 3
+/doctors/index.htm 1 7018 0 0
+/japan/slideshow_34.htm 1 1803 0 0
+/search.asp 27 152337 6 6
+/timothy/artwork/shock_tactic.htm 1 601 0 0
+/yixing_teapots_28.asp 5 30425 0 0
+/teacups_cup.asp 17 185539 3 4
+/teatour/reservations.htm 13 60865 1 4
+/herbs_good_fortune.asp 16 188451 4 2
+/hinoki_spa.asp 1 7656 1 1
+/puerh_mini.asp 12 140840 3 3
+/teas/black/about_black.html 1 2994 0 0
+/snow/index.htm 1 575 0 0
+/japan/slideshow_55.htm 1 1793 0 0
+/tea_news/skin.htm 6 22891 1 1
+/spa_scent_bag.asp 13 104031 6 5
+/japan/slideshow_59.htm 1 1824 0 0
+/ruby/index.htm 1 1218 0 0
+/books_music/SMCD-lotus-1.mpga 1 77824 0 1
+/japan/slideshow_57.htm 1 1816 0 0
+/scented_earl_grey.asp 12 137111 3 3
+/tea_news/vitamin.htm 6 1507 0 2
+/japan/slideshow_48.htm 1 1798 0 0
+/can_med.asp 16 181264 4 5
+/books_music/SMCD-string-3.mpga 3 350208 0 1
+/teapot_med.asp 20 305454 5 7
+/japan/slideshow_4.htm 1 1858 0 0
+/chai.asp 30 341603 3 6
+/puerh_sampler.asp 14 151369 4 2
+/japan/slideshow_37.htm 1 1802 0 0
+/book_book_of_tea.asp 14 158067 3 3
+/olympic/index.htm 1 3842 1 0
+/tea_school/tea_prep1.html 16 159059 1 2
+/teapot_my2.asp 21 244128 3 5
+/japan/slideshow_58.htm 1 1824 0 0
+/sf/index.htm 1 2338 0 0
+/japan/slideshow_5.htm 1 1859 0 0
+/SG/index.htm 1 1761 1 1
+/PSKiss/index.htm 1 991 1 1
+/white_tea_white_peony.asp 9 95729 1 2
+/green_tea_gyokuro.asp 19 251248 5 3
+/japan/slideshow_49.htm 1 1799 0 0
+/green_tea_yun_wu.asp 23 296715 11 8
+/accessories_coaster.asp 17 191074 5 3
+/can_scp_bb.asp 1 10480 0 0
+/green_tea.asp 51 656282 8 8
+/rabbit/index.htm 2 2182 1 0
+/teacups_tea_cup.asp 17 198002 4 5
+/cd_cha_tao.asp 4 47340 0 0
+/aranya/index.htm 1 20871 0 0
+/japan/slideshow_60.htm 3 5861 1 1
+/timothy/index.htm 4 17221 3 2
+/yixing_collection_19.asp 4 31728 0 0
+/reservation.pdf 2 307900 0 0
+/yixing_collection_4.asp 4 35760 0 0
+/accessories_incense.asp 5 42277 1 1
+/bi_hinoki.asp 18 202901 1 1
+/teapot_retro.asp 3 39510 3 3
+/teas/oolong/slx_hm.htm 8 5523 1 1
+/black_tea_ceylon_silver.asp 26 308719 12 13
+/tea_school/tea_health.html 10 31678 2 1
+/church/index.htm 1 1680 0 0
+/buzz/index.htm 1 1194 0 0
+/timothy/contact.htm 1 3895 0 0
+/accessories_whisk.asp 13 130800 1 5
+/oolong_tea_phoenix.asp 20 232824 2 4
+/escalante/index.htm 1 4823 0 0
+/timothy/artwork.htm 1 9297 0 0
+/sg/index.htm 5 5209 1 2
+/spa_soap.asp 16 130911 8 9
+/cd_full_moon.asp 4 46504 0 0
+/scented_jas_pearls.asp 17 195479 7 3
+/cd_tea_with_flower.asp 4 48320 0 2
+/yixing_teapots_23.asp 5 30632 0 0
+/yixing_collection_16.asp 5 44805 0 0
+/post/index.htm 1 677 0 0
+/tea_school/tea_history2.html 14 163637 5 5
+/fileman/fileman.cgi 46 3653310 2 0
+/japan/slideshow_47.htm 1 1798 0 0
+/herbs.asp 61 714018 6 8
+/write/index.htm 2 8652 2 0
+/tea_school/tea2.html 10 100269 3 3
+/venus/index.htm 1 602 0 0
+/spa_incense.asp 16 190409 3 4
+/bi_green_tea.asp 17 205401 5 5
+/accessories_tray.asp 13 141605 2 0
+/spa_jasmine.asp 30 289555 14 14
+/yo/index.htm 1 16186 0 0
+/search_results.asp 2 11126 0 0
+/black_tea_darjeeling.asp 33 387068 11 10
+/timothy/exhibits.htm 1 4456 0 0
+/tea_school/tea_prep3.html 10 92579 0 1
+/can_scp_ba.asp 1 10405 0 0
+/yixing_teapots_29.asp 5 36390 0 0
+/puerh_aged_lg_leaf.asp 25 293944 2 5
+/timothy/press.htm 1 4434 0 0
+/books_music/SMCD-lotus-2.mpga 2 217088 1 2
+/book_mao_quotations.asp 3 34380 0 1
+/japan/slideshow_10.htm 1 1779 0 0
+/japan/slideshow_18.htm 1 1829 0 0
+/puerh_tea.asp 40 490319 9 8
+/yixing_teapots_18.asp 2 18697 1 1
+/japan/index.htm 10 19084 2 1
+/tea_news/oral_health.htm 8 33979 3 2
+/japan/slideshow_43.htm 1 1799 0 0
+/boulder/index.htm 2 6456 1 1
+/japan/slideshow_31.htm 1 1803 0 1
+/japan/slideshow_21.htm 1 1820 0 0
+/japan/slideshow_9.htm 1 1808 0 0
+/bi_silk_road.asp 18 214088 5 6
+/will/index.htm 1 590 0 0
+/incense/baieido_incense.html 3 10569 0 0
+/tea_school/tea_history4.html 9 88714 0 4
+/yixing_teapots_27.asp 5 32786 1 0
+/zo/index.htm 1 1340 0 0
+/yixing_collection_7.asp 6 54750 0 0
+/presentation/index.htm 1 700 0 0
+/black_tea_afternoon.asp 33 373923 4 7
+/japan/slideshow_24.htm 1 1807 0 0
+/puerh_sup_gold_bud.asp 23 243837 11 13
+/yixing_teapots_16.asp 4 29964 0 0
+/teas/white/about_white.html 1 3305 0 0
+/olympic/photos.htm 1 14244 0 0
+/tea_school/incense3.html 11 119776 2 2
+/japan/slideshow_40.htm 1 1813 0 0
+/teapot_sm.asp 41 562376 12 25
+/tea_news/iced_tea.htm 2 10058 2 2
+/green_tea_hoji.asp 15 176025 0 2
+/japan/slideshow_3.htm 1 1859 0 0
+/addproduct.asp 4 4796 0 0
+/herbs_hibiscus.asp 30 368416 15 17
+/yixing_collection_18.asp 6 55836 0 0
+/ocom/index.htm 1 2984 0 0
+/oolong_sampler.asp 14 147866 2 1
+/sale.asp 51 857185 6 3
+/beehouse_colors.htm 1 1490 1 1
+/bi_good_fortune.asp 12 132647 5 1
+/scented_grn_apple.asp 21 237287 4 7
+/japan/slideshow_15.htm 1 1824 0 0
+/japan/slideshow_30.htm 1 1803 0 0
+/teas/puerh/about_puerh.html 2 6268 0 0
+/japan/slideshow_12.htm 1 1818 0 0
+/tomozo/index.htm 1 1835 0 0
+/yixing_teapots_17.asp 3 19866 0 0
+/japan/slideshow_28.htm 1 1816 0 0
+/tea_school/incense1.html 17 177637 6 8
+/oolong_tea_taiwan_samp.asp 17 181666 3 2
+/tea_school/incense4.html 10 102269 3 2
+/yixing_teapots_21.asp 4 24613 0 0
+/cast/index.htm 1 1148 0 0
+/herbs_long_life.asp 15 174539 6 6
+/teapot_kyoto.asp 22 281005 8 4
+/samplers.asp 2 12300 0 0
+/teatour/kotoin.htm 11 18001 3 3
+/book_incense.asp 1 11159 0 0
+/teabooks.asp 1 9134 0 0
+/teatour/terms.htm 15 139913 3 2
+/teapot_sq.asp 9 117258 2 4
+/scented_o_s.asp 19 214243 3 2
+/filosofia/index.htm 1 28526 0 0
+/tea_school/tea_history3.html 10 98699 1 2
+/green_tea_extract.asp 31 381767 15 19
+/books.asp 27 235163 3 3
+/tea_news/symposium.htm 9 144299 3 3
+/japan/slideshow_17.htm 1 1829 0 0
+/oolong_tea_bai_hao.asp 19 236046 4 5
+/affiliate.asp 1 7237 1 1
+/teas/oolong/about_oolong.html 3 8859 0 1
+/herbs_rose_petal.asp 18 211594 2 5
+/black_tea_keemun.asp 19 222668 4 9
+/yixing_teapots_25.asp 4 24340 0 0
+/yixing_teapots_26.asp 6 45030 0 1
+/yixing_teapots_6.asp 5 37665 2 0
+/teacups_bh_bowl.asp 8 96081 0 4
+/teapot_oval.asp 16 206470 4 3
+/accessories.asp 36 354659 3 5
+/japan/slideshow_33.htm 1 1803 0 0
+/japan/slideshow_35.htm 1 1803 0 0
+/japan/slideshow_14.htm 1 1823 0 0
+/white_tea_silver_needle.asp 19 238788 4 4
+/japan/slideshow_56.htm 1 1965 0 0
+/oolong_tea_dong_ding.asp 24 272140 4 8
+/tea_news/white.htm 8 56121 1 2
+/food/index.htm 1 1179 0 0
+/book_tea_culture.asp 31 355713 19 16
+/japan/slideshow_44.htm 1 1798 0 0
+/yixing_collection_10.asp 4 35378 1 0
+/green_tea_chanoyu.asp 17 216463 6 7
+/accessories_pitcher.asp 14 156103 3 2
+/teas/oolong/bh.htm 7 4702 0 1
+/teatour/kotoin_xl.htm 1 1432 0 0
+/kids/index.htm 1 5332 1 1
+/japan/slideshow_45.htm 1 1799 0 0
+/oolong_tea_yan_cha.asp 16 173311 3 3
+/teapot_jumbo.asp 15 186367 2 4
+/photo/index.htm 1 7718 0 0
+/books_music/SMCD-string-2.mpga 2 215040 1 1
+/japan/slideshow_51.htm 1 1801 0 0
+/japan/slideshow_29.htm 1 1804 0 0
+/bi_aloe_sandal.asp 30 396850 4 5
+/yixing_teapots_19.asp 4 24416 0 0
+/teaware/yixing/handmade.htm 1 4031 0 0
+/photos/index.htm 1 5453 0 0
+/japan/slideshow_19.htm 1 1829 0 0
+/yixing_collection_6.asp 5 45347 1 0
+/japan/slideshow_20.htm 1 1820 0 0
+/japan/slideshow_32.htm 1 1801 0 0
+/baieido.asp 19 253110 10 6
+/accessories_holder.asp 19 209357 3 5
+/posters/index.htm 1 969 0 0
+/books_music/SMCD-rem-2.mpga 10 4928504 3 4
+/japan/slideshow_25.htm 1 1800 0 0
+/teacups_beehouse.asp 28 348727 5 7
+/japan/slideshow_54.htm 1 1801 0 0
+/scented_chai.asp 16 182385 0 3
+/silver_needle.html 2 1624 0 0
+/tea_news/germs.htm 6 40112 2 0
+/oolong_tea.asp 32 342571 3 3
+/mc/index.htm 2 1200 1 2
+/baieido_tribute.html 4 9388 0 1
+/japan/slideshow_52.htm 1 1798 0 0
+/teamusic.asp 1 6729 0 0
+/japan/slideshow_23.htm 1 1811 0 0
+/sitemap.xml 14 572968 8 8
+/privacy_security.asp 29 207154 4 4
+/incense.asp 48 629923 12 10
+/yixing_collection_15.asp 4 36904 0 0
+/herbs_daily_tonic.asp 14 171719 4 4
+/puerh_aged_sm_leaf.asp 13 151104 4 4
+/about.asp 69 682473 9 13
+/news.asp 42 434854 16 6
+/yixing.asp 2 15532 2 2
+/teaware/yixing/9_lg.htm 1 1301 0 0
+/booksmusic.asp 1 8260 0 0
+/japan/slideshow_42.htm 1 1799 0 0
+/bi_phoenix_dragon.asp 17 198894 7 6
+/tea_school/tea1.html 12 109394 2 1
+/cd_lotus.asp 2 25528 0 0
+/green_tea_sencha.asp 21 262860 4 3
+/accessories_filter.asp 5 49178 1 1
+/teacups_taste_glass.asp 16 189192 2 4
+/teas/green/about_green.html 1 2780 0 0
+/can_xlg.asp 22 249722 6 7
+/green_tea_long_jing.asp 18 222680 8 6
+/oolong_tea_high_mt.asp 21 279905 4 5
+/can_scp_ar.asp 1 10738 0 0
+/tea_news/switch.htm 48 714902 43 43
+/green_tea_matcha_reg.asp 31 378298 17 8
+/olympic/8041.htm 1 679 0 0
+/yixing_teapots_24.asp 5 30425 0 0
+/tea_school/tea3.html 7 65378 1 1
+/teacups_mug.asp 10 124187 7 6
+/green_tea_genmaicha.asp 21 269220 7 8
+/bi_rising_scent.asp 16 182324 5 2
+/nk_bamboo.asp 11 124286 4 3
+/yixing_collection.asp 9 77241 0 0
+/teaware/yixing/about_collection.htm 1 2858 0 0
+/1996/index.htm 1 844 0 0
+/books_music/SMCD-rem-3.mpga 6 2820604 0 1
+/spa_bath_block.asp 5 40316 0 0
+/teapot_lg.asp 26 386438 3 8
+/ac/index.htm 1 33067 0 0
+/tea_news/heart_attack.htm 9 41518 0 3
+/write/CV.doc 1 34564 0 1
+/nwtf/index.htm 1 560 0 0
+/oolong_tea_fall_tgy.asp 17 192268 1 3
+/yixing_teapots_22.asp 4 29456 0 0
+/yixing_teapots_12.asp 5 40070 0 0
+/tea_school/tea_store2.html 7 71510 1 0
+/cd_reminiscence.asp 12 156089 2 1
+/teaware/yixing/paper.htm 1 1550 0 0
+/can_lg.asp 15 169804 4 4
+/green_tea_matcha.asp 40 419498 12 17
+/green_tea_kuki.asp 23 286805 4 6
+/hinoki.asp 10 96709 2 3
+/scented_jas_oolong.asp 14 154585 1 2
+/teas/oolong/hm.htm 7 4807 0 1
+/book_tea_in_china.asp 16 180601 0 1
+/timothy/artwork/qingxi_county.htm 1 597 0 0
+/herbs_well_being.asp 19 240039 3 5
+/teapot_gk1.asp 28 321227 6 14
+/cd_string.asp 4 52848 0 0
+/teas/white/lpi_white_tea.html 1 5640 1 1
+/retreat/index.htm 1 585 0 0
+/teacups_gaiwan.asp 43 512827 21 21
+/books_music/SMCD-rem-1.mpga 10 4959224 1 2
+/yixing_teapots_14.asp 4 26199 0 2
+/n6th/index.htm 1 675 0 0
+/wholesale.asp 56 449244 8 15
+/olympic/8066.htm 1 679 0 1
+/canisters.asp 24 233375 6 7
+/herbs_chamomile.asp 63 712015 38 40
+/yixing_collection_3.asp 4 31360 0 0
+/accessories_c_s.asp 23 247041 6 7
+/japan/slideshow_2.htm 3 5540 1 0
+/book_chado.asp 17 201690 7 9
+/teapot_iced.asp 1 12732 1 1
+/can_scp_wt.asp 25 266119 7 8
+/yixing_teapots_10.asp 6 47526 0 1
+/teapot_zen.asp 29 384793 9 13
+/river/index.htm 1 2677 0 0
+/timothy/artwork/hot_pink.htm 1 624 0 1
+/scented_creme.asp 14 157123 0 1
+/tea_school/tree_pluck.html 2 1366 0 0
+/japan/slideshow_11.htm 1 1777 0 0
+/japan/slideshow_22.htm 1 1810 0 0
+/yixing_collection_14.asp 4 30644 0 0
+/yixing_teapots_20.asp 6 42498 0 1
+/teatour/itinerary.htm 14 174240 5 2
+/herbs_chrysanthemum.asp 23 270354 9 13
+/number/index.htm 1 556 0 0
+/tea_news/arthritis.htm 6 26659 3 3
+/yixing_teapots.asp 6 51462 0 0
+/lund/index.htm 1 606 0 0
+/teagifts.asp 31 362925 3 4
+/yixing_collection_8.asp 3 26781 0 0
+/olympic/7947.htm 1 679 0 0
+/teatour/contact.htm 14 97968 1 4
+/tea_news/cholesterol.htm 12 80745 6 5
+/spa_bath_tea.asp 41 461127 17 16
+/japan/slideshow_36.htm 1 1803 0 0
+/japan/slideshow_26.htm 1 1800 0 0
+/cd_tea_drops.asp 4 48786 0 0
+/scented_tea.asp 32 348873 6 5
+/teapot_sat.asp 20 286647 1 5
+/tea_news/popularity.htm 24 203716 17 16
+/spa_soapdish.asp 9 69155 1 4
+/teatour/koto_xl.htm 1 1433 0 0
+/green_tea_bancha.asp 19 220201 4 2
+/japan/slideshow_27.htm 1 1816 0 0
+/teaware/teacups/ 1 200 1 1
+END_SIDER

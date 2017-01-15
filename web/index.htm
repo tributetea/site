@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Tribute Web | Web Design &amp; e-Commerce Solutions</title>
+
+<style>
+<!--
+
+a   {text-decoration:none}
+A:hover {text-decoration: underline} 
+
+-->
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#999999" onLoad="MM_preloadImages('homes/window_wt.gif','navi/buttons/black.gif','navi/buttons/home1.gif','navi/buttons/home2.gif','navi/buttons/about1.gif','navi/buttons/about2.gif','navi/buttons/team1.gif','navi/buttons/team2.gif','navi/buttons/port1.gif','navi/buttons/port2.gif','navi/buttons/contact1.gif','navi/buttons/contact2.gif','navi/buttons/home_b.gif','navi/buttons/about_b.gif','navi/buttons/team_b.gif','navi/buttons/port_b.gif','navi/buttons/contact_b.gif','homes/window_inv.gif')" link="#999999" vlink="#999999" alink="#999999">
+<div align="center">
+  <p>&nbsp;</p>
+  <table width="830" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td width="106" height="81" valign="top"><img src="navi/buttons/blank.gif" width="106" height="81" name="home" onMouseOver="MM_swapImage('home1','','navi/buttons/home_b.gif',1)" border="0"></td>
+      <td width="8" rowspan="9" valign="top">&nbsp;</td>
+      <td valign="top" width="106"><a href="#" onClick="MM_nbGroup('down','group1','home1','navi/buttons/home1.gif',1)" onMouseOver="MM_nbGroup('over','home1','navi/buttons/home2.gif','','home','navi/buttons/black.gif','','window','homes/window_inv.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="home1" src="navi/buttons/home1.gif" border="0" onLoad="" width="106" height="81"></a></td>
+      <td width="10" valign="top" rowspan="9">&nbsp;</td>
+      <td valign="top" width="600" rowspan="9"><a href="http://www.tributetea.com/web/portfolio/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('window','','homes/window_wt.gif',1)"><img name="window" border="0" src="homes/window.gif" width="600" height="445"></a></td>
+    </tr>
+    <tr> 
+      <td height="10"></td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td valign="top" height="81"><a href="http://www.tributetea.com/web/about"><img src="navi/buttons/blank.gif" width="106" height="81" name="about" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about1','','navi/buttons/about_b.gif',1)" border="0"></a></td>
+      <td valign="top"><a href="http://www.tributetea.com/web/about" onClick="MM_nbGroup('down','group1','about1','navi/buttons/about1.gif',1)" onMouseOver="MM_nbGroup('over','about1','navi/buttons/about2.gif','','about','navi/buttons/black.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="about1" src="navi/buttons/about1.gif" border="0" onLoad=""></a></td>
+    </tr>
+    <tr> 
+      <td height="10"></td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td valign="top" height="81"><a href="http://www.tributetea.com/web/team"><img src="navi/buttons/blank.gif" width="106" height="81" name="team" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('team1','','navi/buttons/team_b.gif',1)" border="0"></a></td>
+      <td valign="top"><a href="http://www.tributetea.com/web/team" onClick="MM_nbGroup('down','group1','team1','navi/buttons/team1.gif',1)" onMouseOver="MM_nbGroup('over','team1','navi/buttons/team2.gif','','team','navi/buttons/black.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="team1" src="navi/buttons/team1.gif" border="0" onLoad=""></a></td>
+    </tr>
+    <tr> 
+      <td height="10"></td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td valign="top" height="81"><a href="http://www.tributetea.com/web/portfolio"><img src="navi/buttons/blank.gif" width="106" height="81" name="port" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('port1','','navi/buttons/port_b.gif',1)" border="0"></a></td>
+      <td valign="top"><a href="http://www.tributetea.com/web/portfolio" onClick="MM_nbGroup('down','group1','port1','navi/buttons/port1.gif',1)" onMouseOver="MM_nbGroup('over','port1','navi/buttons/port2.gif','','port','navi/buttons/black.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="port1" src="navi/buttons/port1.gif" border="0" onLoad=""></a></td>
+    </tr>
+    <tr> 
+      <td height="10"></td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td valign="top" height="81"><a href="http://www.tributetea.com/web/contact"><img src="navi/buttons/blank.gif" width="106" height="81" name="cont" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact1','','navi/buttons/contact_b.gif',1)" border="0"></a></td>
+      <td valign="top"><a href="http://www.tributetea.com/web/contact" onClick="MM_nbGroup('down','group1','contact1','navi/buttons/contact1.gif',1)" onMouseOver="MM_nbGroup('over','contact1','navi/buttons/contact2.gif','','cont','navi/buttons/black.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="contact1" src="navi/buttons/contact1.gif" border="0" onLoad=""></a></td>
+    </tr>
+    <tr> 
+      <td height="53" colspan="4" valign="top">&nbsp;</td>
+      <td valign="top"> 
+        <div align="center"> 
+          <div align="center"> <font face="Arial, Helvetica, sans-serif" size="2"><br>
+            <font color="#000000">H O M E</font>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.tributetea.com/web/about">A 
+            B O U T</a> &nbsp; |&nbsp;&nbsp;<a href="http://www.tributetea.com/web/team">T 
+            E A M</a>&nbsp;&nbsp;|&nbsp;<a href="http://www.tributetea.com/web/portfolio"> 
+            P O R T F O L I O</a>&nbsp;&nbsp;|&nbsp; <a href="http://www.tributetea.com/web/contact">C 
+            O N T A C T</a></font><font face="Arial, Helvetica, sans-serif" size="1"><br>
+            <br>
+            </font><font color="#CC0000" size="1" face="Arial, Helvetica, sans-serif"><b>&copy; 
+            2008 TW. All rights reserved.</b></font></div>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td height="0"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

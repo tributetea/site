@@ -1,0 +1,465 @@
+Below is a detailed information about this program. For a quick start:
+1. Copy counter.exe and gifs directory into your CGI-BIN directory.
+2. Just add <img src=/cgi-bin/counter.exe?index.html align="right">
+to your html file.
+
+It is just that easy!
+
+
+
+
+        Counter 2.7.0
+
+       by Kevin Athey
+
+Behold! Software (c)1995-1996
+
+
+The Most Recent Version
+-----------------------
+Always get the most recent version from:
+URL:    http://www.he.net/~bbsbs/behold/counter.html
+FTP:    ftp://ftp.tdl.com/pub/kathey/behold/cntr???.zip
+        Server:    ftp.tdl.com
+        Directory: /pub/kathey/behold
+        File:      cntr???.zip
+
+
+What Is It?
+-----------
+This application can be used in HTML to count and display the number
+of times a page has been accessed.  This is a Windows NT (32-bit) Console
+Application.
+
+
+Installation
+------------
+The easiest way is to unzip this archive in your cgi-bin using the "-d"
+command.  This will put everything where it belongs.
+
+1. Place the executable (counter.exe) and the Counter-Counter-Terrorism GIF
+    (cct.gif) in your cgi-bin directory.
+2. Copy all the counter GIFs (0default.gif, 1default.gif, ...) into a
+    subdirectory of your cgi-bin named "cntrgifs".  Place any additional
+    GIF digits here as well.
+
+
+Instructions
+------------
+Always start with a very simple counter and then build it up to what you
+want.  Your first HTML piece should look something like this:
+
+<img src=/cgi-bin/counter.exe?home.html>
+
+If this doesn't work, you will have to look carefully at how you have things
+setup.
+
+
+Usage
+-----
+Usage: counter [-f<fg clr>] [-b<bg clr> | -t<t idx>] [-s<style>]
+               [-n] [-d<GIF dir>] [-w<#>] [-r] < -c<#> | <item> >
+        -f<fg clr>   - color to render foreground in.
+        -b<bg clr>   - color to render background in.
+        -t<t idx>    - index to color which should be transparent.
+        -s<style>    - name of number style  (#style.gif).
+        -n           - no increment, just build GIF.
+        -d<GIF dir>  - directory where digits are located.
+                       relative to the location of this program.
+        -w<#>        - width of counter in # of digits.
+        -r           - raw, no HTTP prefix. not useful in HTML,
+                       only on the command line.
+        -h           - hidden, builds a transparent one by one GIF.
+
+   -c<#> and <item> are exclusive.
+        -c<#>        - specify the number which you want to build.
+                       ignores <item> and log.
+        <item>       - unique identifier for counting.
+                       usually name of page.
+
+
+You can get this same information by running the program at the command
+line without any arguments.
+
+
+Some More Advanced And Complicated Examples
+-------------------------------------------
+
+HTML Example: <img src=counter.exe?-f0000FF+-bFF0000+home.html>
+
+This will put the graphic in your page.  The last argument I use in a log
+which is created in the directory where the program resides.  This allows you
+to have the count be updated.  You can also have many counts using only one
+program, by just passing different names.  This will create BLUE numbers on
+a RED background using the default digits.
+
+
+Another HTML Example: <img src=counter.exe?-t0+-f00FF00+home.html>
+
+This will create GREEN numbers on a TRANSPARENT background using the
+default digits.
+
+
+Yet Another HTML Example: <img src=counter.exe?-scb+home.html>
+
+This creates numbers using the "cb" style.  It will look for the GIF files
+in the "cntrgifs" directory, with the following names: 0cb.gif, 1cb.gif,
+2cb.gif, ...
+
+
+Ultimate Example: See my web page.
+    http://cervantes.learningco.com/kevin/
+Then view the source.
+
+Then look at these two pages.
+    http://cervantes.learningco.com/kevin/buftom/
+    http://cervantes.learningco.com/kevin/amini/
+View their sources as well.  You will see that I am using the same program
+to count many different pages.
+
+
+Separating Parameters
+---------------------
+On some servers, it is necessary to use a "&" instead of "+" to separate
+parameters to the counter.
+
+
+Specifying Colors
+-----------------
+When you are specifying colors you must use the following format.
+RRGGBB, where each pair represents a hexadecimal number.  You must include
+all necessary zeros.
+
+Example: FF0000 - Bright Red
+Example: 00FF00 - Bright Green
+Example: 0000FF - Bright Blue
+
+
+Specifying Digit Directory
+--------------------------
+The default is "cntrgifs" and is relative to the location of the program.
+When specifying a different directory, remember to make it relative to
+where the program resides.
+
+Example: <img src=counter.exe?-dmydigits+-smine+home.html>
+
+Counter will produce its GIF using the following GIF files:
+mydigits/0mine.gif, mydigits/1mine.gif, mydigits/2mine.gif, ...
+
+
+Counter-Counter-Terrorism
+-------------------------
+Create a file named "counter.cct" which resides in the same directory
+as the executable.  In this text file enter the various names of the machines
+on which you will have pages which use the counter.  Any page which refers to
+this counter which doesn't have it's address in the "counter.cct" file will
+be refused a counter and will get the "cct.gif" file in response.
+Just try it.  It really works.
+
+Many people have asked what a "counter.cct" file looks like.  Here is
+an example:
+
+---begin counter.cct---
+cervantes.learningco.com
+melville.learningco.com
+--- end  counter.cct---
+
+There is no longer any limit to the number of machines you can specify.
+
+
+Don't Count Me
+--------------
+Create a file named "counter.nct" which resides in the same directory as the
+executable.  In this text file enter the various IP addresses of machines which
+you don't want the counter to count.  The counter will still display the
+current count but it won't increment the count if the IP which is accessing
+the page is present in this file.
+
+---begin counter.nct---
+192.215.244.60
+192.215.244.58
+192.215.244.*
+--- end  counter.nct---
+
+You may use wild cards.  This will allow you to prevent an entire domain from
+being counted.  In my example above, the final entry makes the two previous
+entries redundant.
+
+
+Adding Your Own Digits
+----------------------
+You can create your own digits.  They must be GIFs and they must all be
+the same height in one group.  The naming convention is the digit
+followed by the style name.
+
+Furthermore, if you do create your own digits, please write me and tell me
+about them or even send them to me.  I will want to add them to my digit
+page (http://cervantes.learningco.com/kevin/digits/).
+
+
+Raw Output
+----------
+This parameter (-r) allows you to use the counter from the command line to
+generate a GIF using the digits for a number.  I just added this feature to
+make it easier than assembling the digits in some paint program.
+
+
+Registry Entries
+----------------
+This section will grow in future releases.
+
+You can specify the location of three files that the counter uses via the
+registry.  Here is the list of the files and where the entry is in the
+registry which controls their location and how they function in the program.
+All these entries default to the same location as the "counter.exe" and using
+the name specified in this list.  Each entry follows this pattern:
+
+<default value>
+    <Key and Value in Registry>
+    <Explanation>
+
+counter.log
+    \HKEY_LOCAL_MACHINE\SOFTWARE\Behold! Software\Counter\Defaults\LogFile
+    This is where all the counts are stored.
+counter.tmp
+    \HKEY_LOCAL_MACHINE\SOFTWARE\Behold! Software\Counter\Defaults\TempFile
+    Where the counts are first written before being copied into "counter.log".
+counter.err
+    \HKEY_LOCAL_MACHINE\SOFTWARE\Behold! Software\Counter\Defaults\ErrorFile
+    All error messages are written to this file.  This eases debugging.
+
+I have included a utility and script for adding these entries to your registry.
+You may wish to use a text editor to modify "reg.scr".  Simply change the
+strings at the end of each line to values which are appropriate to your system.
+After having done so, you should be able to run it from the command line
+like this:
+
+modreg reg.scr
+
+You should now see the correct entries in your registry.
+
+
+How do I know I can get it to work?
+-----------------------------------
+This counter has been proven to work on the following HTTP servers:
+    -SAIC-HTTP
+    -EMWAC HTTPS
+    -Purveyor
+    -Website
+    -Netscape
+    -Alibaba
+    -Microsoft Internet Information Server (IIS)
+
+
+Special Notes About Certain Servers
+-----------------------------------
+Website:   1. Be sure to put the counter and its support files in "cgi-shl",
+              not "cgi-bin" or "cgi-win".
+
+Netscape:  1. Be sure to enable CGI.
+
+IIS:       1. Be sure to use the Registry Entries to set the location for
+(Microsoft)   error files and temp files to be somewhere other than the default
+              location (cgi-bin or scripts).
+
+QUESTIONS
+---------
+If you have any questions, write me: kathey@pobox.com
+
+When writing, please answer these questions first, then tell me about your
+problem.  If you don't answer these questions in your first piece of mail,
+I will probably just copy these lines to the clipboard and into my reply,
+and ask you to answer them again.
+
+1. Where is your site?
+2. Where is an example of your counter?
+3. What is the exact HTML you are using to call the counter?
+4. What server software are you using?
+5. What are the contents of the "counter.err" file?
+6. By examining the "counter.log" file, can you tell if it is incrementing?
+
+
+Cost
+----
+This product is donation ware.
+
+If you want to send me $5.00 or more, I will cash your check.
+This is totally voluntary.  I am simply asking for the money to
+keep my private site up and keep good software coming your way.
+
+Make it payable to Kevin Athey.
+Mail it to:
+    Behold! Software
+    P.O.Box 8192
+    Fremont, CA  94537
+
+
+History
+-------
+   DATE       VERSION   COMMENT
+-----------   -------   -------
+27 Mar 1996   2.7.0     -Specify location of log, temp and error file in
+                         registry.
+                        -Temp file is now copied and then deleted, instead of
+                         just being deleted.  This slightly reduces the chances
+                         of losing all counts.
+                        -If no log file is present and a temp file is found,
+                         then the temp file is copied back to the log file.
+                         This is an attempt at smooth recovery from bad crash
+                         which leaves only a surviving temp file.
+
+08 Nov 1995   2.6.0     -CCT file separated into two separate files.  One,
+                         "counter.cct" serves the Counter Counter Terrorism and
+                         two, "counter.nct" which is used to name machines
+                         which shouldn't be counted.
+                        -If wait time is exceeded on mutex then gracefully
+                         exit without producing graphic, but generate error
+                         to log.
+
+02 Nov 1995   2.5.1     -Now uses Mutex instead of semaphore.  This is the
+                         correct solution to multiple instances problem.
+
+01 Nov 1995   2.5.0     -Added "-h" option which creates a one by one
+                         transparent GIF, essentially hidden.
+
+01 Nov 1995   2.4.1     -Fixed bug in command line parsing.
+
+13 Oct 1995   2.4.0     -Added error messages for inability to delete old log
+                         and rename new log to correct name.
+                        -Added "-w" option to allow setting the width of the
+                         output.
+                        -Added "-c" option which gives you the ability to
+                         build any number you like, it ignores the log.
+                        -Added "-r" option which doesn't output HTTP header.
+                         This allows you to redirect output to a file and
+                         generate a GIF.  This is not useful within HTML.
+
+03 Oct 1995   2.3.1     -Added a few more error messages to indicate an
+                         inability to allocate memory.
+
+28 Sep 1995   2.3.0     -Added "-d" option which allows you to set the
+                         location of the digit GIFs.
+                        -Replaced dumb file semaphore with real Windows
+                         semaphore, which allows for queueing.
+                        -Wait for semaphore clear increased from one minute
+                         to two minutes.
+
+19 Sep 1995   2.2.0     -Added "-n" option which allows you to show a count
+                         without incrementing it.
+                        -Digits in a set no longer have to be the same width.
+                         Allows me to use all the digits on the digit page.
+
+06 Sep 1995   2.1.0     -Implemented Counter-Counter-Terrorism.
+                        -The above feature also prevents you from counting
+                         hits from your own machine.
+
+22 Aug 1995   2.0.0     -Complete re-write.
+                        -Now uses GD library for GIF manipulation.
+                        -Support for transparency.
+                        -Uses many different digit GIFs.
+                        -If digit is Black background and White foreground,
+                         Then you can set the colors of the digits.
+                        -Disabled buffering for stdout, decreasing chances of
+                         connection reset failure.
+
+10 Aug 1995   1.2.0     -Now has a semaphore to allow multiple instances
+                         gracefully. Implemented via a file.
+                        -Switches stdout to binary mode for the GIF.  Results
+                         in more reliable output.
+                        -Generates an error log, when there is a failure.
+                         Error Log is "counter.err".  There are only 3 possible
+                         errors that are detected and logged currently.
+
+03 Aug 1995   1.1.1     -Slight bug fixes
+                        -Attempted 16-bit version. (A complete failure.)
+
+01 Aug 1995   1.0.0     -Initial release.
+
+
+
+CREDITS
+-------
+This product uses "gd 1.2" for the GIF manipulation.
+You can acquire this library at the following location:
+http://www.boutell.com/gd/
+
+Here are all the copyrights required by it:
+
+gd 1.2 is copyright 1994, 1995, Quest Protein Database Center, Cold Spring
+Harbor Labs. Permission granted to copy and distribute this work provided that
+this notice remains intact. Credit for the library must be given to the Quest
+Protein Database Center, Cold Spring Harbor Labs, in all derived works. This
+does not affect your ownership of the derived work itself, and the intent is
+to assure proper credit for Quest, not to interfere with your use of gd. If
+you have questions, ask. ("Derived works" includes all programs that utilize
+the library. Credit must be given in user-visible documentation.) 
+
+The Quest Protein Database Center is funded under Grant P41-RR02188 by the
+National Institutes of Health. 
+
+Written by Thomas Boutell (boutell@boutell.com), 2/94 - 7/95. 
+
+The GIF compression code is based on that found in the pbmplus utilities,
+which in turn is based on GIFENCOD by David Rowley. See the notice below: 
+
+/*
+** Based on GIFENCOD by David Rowley .A
+** Lempel-Zim compression based on "compress".
+**
+** Modified by Marcel Wijkstra 
+**
+** Copyright (C) 1989 by Jef Poskanzer.
+**
+** Permission to use, copy, modify, and distribute this software and its
+** documentation for any purpose and without fee is hereby granted, provided
+** that the above copyright notice appear in all copies and that both that
+** copyright notice and this permission notice appear in supporting
+** documentation.  This software is provided "as is" without express or
+** implied warranty.
+**
+** The Graphics Interchange Format(c) is the Copyright property of
+** CompuServe Incorporated.  GIF(sm) is a Service Mark property of
+** CompuServe Incorporated.
+*/
+
+The GIF decompression is based on that found in the pbmplus utilities, which
+in turn is based on GIFDECOD by David Koblas. See the notice below: 
+
+/* +-------------------------------------------------------------------+ */
+/* | Copyright 1990, 1991, 1993, David Koblas.  (koblas@netcom.com)    | */
+/* |   Permission to use, copy, modify, and distribute this software   | */
+/* |   and its documentation for any purpose and without fee is hereby | */
+/* |   granted, provided that the above copyright notice appear in all | */
+/* |   copies and that both that copyright notice and this permission  | */
+/* |   notice appear in supporting documentation.  This software is    | */
+/* |   provided "as is" without express or implied warranty.           | */
+/* +-------------------------------------------------------------------+ */
+
+
+Warranty and Liability
+----------------------
+I have done my best to provide bug free code, but there is no possible way
+for an imperfect human to create the perfect program.  Hence, I must say that
+I can't possible be held accountable in any way, shape or form (especially
+financially) for any damage to your system or software which might result
+from using this program.  But I can give you the unconditional guarantee that
+I have done nothing malicious and that I have made every possible effort to
+make this the best possible program I can.
+
+
+Distribution
+------------
+You may freely redistribute this archive to all your friends at no cost to
+them unless you charge them for the media on which they receive it.
+The cost may not reasonably exceed the cost of the media on which this
+archive resides.  You may never distribute this archive in pieces.  You must
+distribute the archive from which you extracted this file (readme.txt).
+
+
+*            -kevin-            *| ep |*    BirdBrain Systems     *
+* sick with the good infection  *| ip |*    Makers of DisKing     *
+*       kathey@pobox.com        *| ha |*                          *
+* http://www.pobox.com/~kathey  *| ny |* http://www.he.net/~bbsbs *
+*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+*       Behold! Software    http://www.he.net/~bbsbs/behold       *
+*           - free Windows NT and Windows 95 software -           *
