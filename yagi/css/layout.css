@@ -1,0 +1,191 @@
+body {
+	color: #000;
+	font-family: Century Gothic, sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 0.6em;
+	background: #fff;
+}
+
+a:link {
+color: #333;
+text-decoration: none;
+}
+
+a:visited {
+color: #999;
+text-decoration: none;
+}
+
+a:active {
+color: #000;
+text-decoration: none;
+}
+
+a:hover {
+color: #555;
+text-decoration: none;
+}
+
+h1
+{
+	color: #000;
+	font-size: 25px;
+	font-weight: normal;
+	display: inline;
+}
+
+h1 sup
+{
+	color: #000;
+}
+
+h1 a
+{
+	color: #000;
+	text-decoration: none;
+	margin-top: -12px;
+}
+
+h1 .company, h1 a .company
+{
+	color: #000;
+}
+
+h2
+{
+	color: #000;
+	font-size: 2.5em;
+}
+
+h3
+{
+	color: #000;
+	font-size: 1.5em;
+}
+
+h4
+{
+	font-size: 1.3em;
+}
+
+/* .content
+{
+	margin: 0 20px;
+} */
+
+.content a
+{
+	color: #000;
+}
+
+
+.content p.linkage
+{
+	margin-top: 2em;
+	text-align: right;
+	font-size: 1.7em;
+	color: #000;
+}
+
+.content p.linkage a { color: #fff; }
+
+/*.content p.linkage a
+{
+	color: #fff;
+	background: url('/web/20160217120818/http://tomozoyagi.com/images/bg/biglink_off.gif') center right no-repeat;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.content p.linkage a:hover
+{
+	background: url('/web/20160217120818/http://tomozoyagi.com/images/bg/biglink_on.gif') center right no-repeat;
+	font-style: italic;
+}*/
+
+#myGallery
+{
+	text-align: left;
+	margin: 0 auto;
+	width: 900px !important;
+	height: 600px !important;
+}
+
+#header 
+{
+width: 900px;
+height: 70px;
+margin: 0 auto;
+}
+
+/* ul#nav {
+margin: 10px 0 10px -40px;
+}
+
+ ul#nav li
+{
+display: inline;
+text-transform: uppercase;
+font-size: 12px;
+color: #999;
+padding-right: 120px;
+} */
+
+ul#topnav {
+	margin: 0; padding: 0;
+	float: left;
+	width: 900px;
+	list-style: none;
+	position: relative; /*--Set relative positioning on the unordered list itself - not on the list item--*/
+	font-size: 13px;
+	background: url(/web/20160217120818/http://tomozoyagi.com/css/topnav_stretch.gif) repeat-x;
+}
+ul#topnav li {
+	float: left;
+	margin: 0; padding: 10px 0 0 0;
+	/* border-right: 1px solid #555; --Divider for each parent level links--*/
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #333;
+}
+ul#topnav li a {
+	padding: 10px 15px;
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+ul#topnav li:hover { background: #F8F8F8 url(/web/20160217120818/http://tomozoyagi.com/css/topnav_active.gif) repeat-x; }
+/*--Notice the hover color is on the list item itself, not on the link. This is so it can stay highlighted even when hovering over the subnav--*/
+
+ul#topnav li span {
+	float: left;
+	padding: 15px 0;
+	position: absolute;
+	left: 0; top:35px;
+	display: none; /*--Hide by default--*/
+	width: 900px;
+	background: #F8F8F8;
+	color: #333;
+	font-size: 10px;
+	/*--Bottom right rounded corner--*/
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	/*--Bottom left rounded corner--*/
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+ul#topnav li:hover span { display: block; } /*--Show subnav on hover--*/
+ul#topnav li span a { display: inline; } /*--Since we declared a link style on the parent list link, we will correct it back to its original state--*/
+ul#topnav li span a:hover {text-decoration: underline; font-weight: bold;}
+
+
+#footer {
+width: 900px;
+font-size: 12px;
+color: #999;
+margin: 0 auto;
+padding-top: 10px;
+}
